@@ -56,3 +56,4 @@ artifacts:
   type: zip
   files:
     - packaged.yml
+    - template-configuration.json
