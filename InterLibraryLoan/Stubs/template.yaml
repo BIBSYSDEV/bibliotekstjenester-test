@@ -17,10 +17,6 @@ Parameters:
     Type: AWS::SSM::Parameter::Value<String>
     Default: 'environment'
     Description: dev/test/prod
-  BaseBibliotekServiceEndpoint:
-    Type: String
-    Description: Url Endpoint to the BaseBibliotek server
-    Default: 'nb.no'
 
 Conditions:
   HasDomainName: !Not [!Equals [!Ref CustomDomain, '']]
