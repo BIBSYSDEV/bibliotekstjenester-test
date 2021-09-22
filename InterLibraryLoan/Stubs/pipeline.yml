@@ -344,7 +344,7 @@ Resources:
       Source:
         Type: GITHUB
         Location: https://github.com/BIBSYSDEV/bibliotekstjenester-test.git
-        BuildSpec: 'Stubs/buildspec.yml'
+        BuildSpec: 'InterLibraryLoan/Stubs/buildspec.yml'
       Triggers:
         Webhook: true
       TimeoutInMinutes: 30
