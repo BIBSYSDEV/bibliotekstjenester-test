@@ -57,3 +57,4 @@ artifacts:
   files:
     - packaged.yml
     - template-configuration.json
+    - resources/*.
