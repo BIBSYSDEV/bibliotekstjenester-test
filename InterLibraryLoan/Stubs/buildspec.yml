@@ -12,6 +12,7 @@ phases:
     commands:
       - pip3 install --upgrade cfn-lint
       # Upgrade AWS CLI to the latest version
+      - pip3 install --upgrade awscli
       # Install aws-sam-cli
       - pip3 install aws-sam-cli
       # Install cfn_nag

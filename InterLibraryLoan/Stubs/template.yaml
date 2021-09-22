@@ -216,7 +216,7 @@ Resources:
           ALLOWED_ORIGIN: '*'
           STAGE: !Ref Stage
       Handler: "Stubs/stub_api/pnxHandler.handler_pnx_sender"
-      Runtime: python3.9
+      Runtime: python3.8
       MemorySize: 1024
       Events:
         GetInterLibraryLoanMetadataRecordEvent:
@@ -234,7 +234,7 @@ Resources:
         Variables:
           ALLOWED_ORIGIN:  '*'
       Handler: "Stubs/stub_api/baseBibliotekHandler.handler_basebibliotek_sender"
-      Runtime: python3.9
+      Runtime: python3.0
       MemorySize: 1024
       Events:
         PutEvent:
