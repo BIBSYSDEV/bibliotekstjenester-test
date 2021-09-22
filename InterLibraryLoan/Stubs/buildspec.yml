@@ -43,6 +43,7 @@ phases:
 
       # Lint after 'package'
       - cfn-lint packaged.yml
+      - ls -a
 
     post_build:
       commands:
