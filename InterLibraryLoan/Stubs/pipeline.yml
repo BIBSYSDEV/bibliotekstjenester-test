@@ -422,7 +422,7 @@ Resources:
                 RoleArn: !GetAtt 'CloudFormationRole.Arn'
                 StackName: !Ref 'AWS::StackName'
                 Capabilities: CAPABILITY_IAM
-                TemplatePath: 'InterLibraryLoan/Stubs/pipeline.yml'
+                TemplatePath: 'SourceArtifacts::InterLibraryLoan/Stubs/pipeline.yml'
                 ParameterOverrides: !Sub |
                   {
                     "GitRepo": "${GitRepo}",
