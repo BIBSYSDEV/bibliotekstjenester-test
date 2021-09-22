@@ -72,11 +72,11 @@ Parameters:
     Default: BIBSYSDEV
   GitRepo:
     Type: String
-    Default: InterLibraryLoanMetadata-api
+    Default: bibliotekstjenester-test
     Description: Git repository name
   GitBranch:
     Type: String
-    Default: develop
+    Default: master
     Description: Git repository branch
   PipelineApprovalAction:
     Description: Do you want to add a manual approval action to the Release stage of this Pipeline?
