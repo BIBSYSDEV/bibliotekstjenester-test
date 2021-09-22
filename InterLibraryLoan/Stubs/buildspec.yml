@@ -8,6 +8,7 @@ phases:
   install:
     runtime-versions:
       python: 3.9
+      ruby: 2.6
     commands:
       - pip3 install --upgrade cfn-lint
       # Upgrade AWS CLI to the latest version

@@ -103,6 +103,12 @@ Conditions:
   HasAlertTopic: !Not [!Equals [!Ref AlertTopicArn, '']]
 
 Resources:
+  CodeBuildSourceCredentials:
+    Type: AWS::CodeBuild::SourceCredential
+    Properties:
+      AuthType: PERSONAL_ACCESS_TOKEN
+      ServerType: GITHUB
+      Token: !Ref GitHubOAuthToken
   ArtifactsBucket:
     Type: 'AWS::S3::Bucket'
     Metadata:
@@ -342,6 +348,9 @@ Resources:
       Name: !Sub '${AWS::StackName}-build'
       ServiceRole: !GetAtt 'CodeBuildRole.Arn'
       Source:
+        Auth:
+          Resource: !Ref CodeBuildSourceCredentials
+          Type: OAUTH
         Type: GITHUB
         Location: https://github.com/BIBSYSDEV/bibliotekstjenester-test.git
         BuildSpec: 'InterLibraryLoan/Stubs/buildspec.yml'
@@ -426,7 +435,7 @@ Resources:
                     "AlertTopicArn": "${AlertTopicArn}"
                   }
               InputArtifacts:
-                - Name: BuildArtifacts
+                - Name: SourceArtifacts
               RunOrder: 1
         - Name: Release
           Actions:
