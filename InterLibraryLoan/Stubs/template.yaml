@@ -1,0 +1,265 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Sets up lambda, api and base path mapping to fetch most recent publication for an author
+Parameters:
+  CustomDomain:
+    Type: AWS::SSM::Parameter::Value<String>
+    Default: '/api/domainName'
+    Description: (Optional) Custom domain name for the API endpoint
+  CustomDomainBasePath:
+    Type: String
+    Default: 'stubbing'
+    Description: (Optional) Base path mapping in CustomDomain
+    AllowedPattern: "^[a-zA-Z0-9$\\-_.+!*'(),]*$"
+    ConstraintDescription: "May contain only letters, numbers and one of $-_.+!*'(),"
+  Stage:
+    Type: AWS::SSM::Parameter::Value<String>
+    Default: 'environment'
+    Description: dev/test/prod
+  BaseBibliotekServiceEndpoint:
+    Type: String
+    Description: Url Endpoint to the BaseBibliotek server
+    Default: 'nb.no'
+
+Conditions:
+  HasDomainName: !Not [!Equals [!Ref CustomDomain, '']]
+  HasCustomDomainBasePath: !Not [!Equals [!Ref CustomDomainBasePath, '']]
+
+Globals:
+  Function:
+    Timeout: 20
+  Api:
+    Cors:
+      AllowHeaders: '''Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'''
+      AllowMethods: '''OPTIONS, GET'''
+      AllowOrigin: '''*'''
+    EndpointConfiguration: REGIONAL
+
+Resources:
+  InterLibraryLoanMetadataExternalStubbApi:
+    Type: AWS::Serverless::Api
+    Metadata:
+      cfn_nag:
+        rules_to_suppress:
+          - id: W64
+            reason: "Skip access logging for artifacts bucket"
+          - id: W68
+            reason: "Skip encryption for artifacts bucket"
+          - id: W69
+            reason: "Skip bucket policy for artifacts bucket"
+          - id: W89
+            reason: "Lambda functions should be deployed inside a VPC"
+          - id: W92
+            reason: "Lambda functions should define ReservedConcurrentExecutions to reserve simultaneous executions"
+    Properties:
+      Name: !Sub "${AWS::StackName}"
+      StageName: v1
+      EndpointConfiguration:
+        Type: REGIONAL
+      DefinitionBody:
+        openapi: 3.0.3
+        info:
+          title: Inter library loan external api stubbs
+          version: '1.0'
+        paths:
+          /primo/v1/search:
+            get:
+              summary: Get pnx stubbing data
+              description: Gets pnx record stub
+              consumes:
+                - application/json
+              produces:
+                - text/xml
+              parameters:
+                - in: query
+                  name: vid
+                  required: true
+                  type: string
+                  description: The view ID, example BIBSYS
+                - in: query
+                  name: tab
+                  required: true
+                  type: string
+                  description: The name of the tab. Ex. default_tab
+                - in: query
+                  name: scope
+                  required: true
+                  type: string
+                  description: The scope name. Ex. default_scope
+                - in: query
+                  name: q
+                  required: true
+                  type: string
+                  description: The query string. q=field,precision,value
+                - in: query
+                  name: lang
+                  type: string
+                  required: false
+                  description: The language.
+                - in: query
+                  name: apikey
+                  type: string
+                  required: true
+                  description: The api key used for accessing primo
+              x-amazon-apigateway-integration:
+                uri:
+                  Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${GetPrimoPnxStubbFunction.Arn}/invocations
+                responses: {}
+                httpMethod: POST
+                type: AWS_PROXY
+              responses:
+                '200':
+                  description: primo pnx service mock
+                  content:
+                    text/xml:
+                      schema:
+                        $ref: '#/components/schemas/getInterLibraryLoanRecordResponseBody'
+                '400':
+                  description: Bad request.
+                  content:
+                    application/json:
+                      schema:
+                        title: 400 Bad request
+                        type: object
+                        properties:
+                          error:
+                            type: string
+                            description: error message
+                '500':
+                  description: Internal server error.
+                  content:
+                    application/json:
+                      schema:
+                        title: 500 internal server error
+                        type: object
+                        properties:
+                          error:
+                            type: string
+                            description: error message
+          /basebibliotek/rest/bibnr/{identifier}:
+            get:
+              summary: Get basebibliotek stubbing data
+              description: Sends basebibliotek stubbing data
+              consumes:
+                - application/json
+              produces:
+                - text/xml
+              x-amazon-apigateway-integration:
+                uri:
+                  Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${GetBaseBibliotekStubbDataFunction.Arn}/invocations
+                responses: {}
+                httpMethod: POST
+                type: AWS_PROXY
+              responses:
+                '200':
+                  description: Basebibliotek stubbing data
+                  content:
+                    text/xml:
+                      schema:
+                        $ref: '#/components/schemas/putInterLibraryLoanNcipResponseBody'
+                '400':
+                  description: Bad request.
+                  content:
+                    application/json:
+                      schema:
+                        title: 400 Bad request
+                        type: object
+                        properties:
+                          error:
+                            type: string
+                            description: error message
+                '500':
+                  description: Internal server error.
+                  content:
+                    application/json:
+                      schema:
+                        title: 500 internal server error
+                        type: object
+                        properties:
+                          error:
+                            type: string
+                            description: error message
+
+        components:
+          schemas:
+            getInterLibraryLoanRecordResponseBody:
+              title: inter library loan metadata record
+              type: object
+              properties:
+                title:
+                  type: string
+                  description: bibliographic record containing metadata
+            postInterLibraryLoanNcipResponseBody:
+              title: inter library loan ncip response
+              type: object
+              properties:
+                title:
+                  type: string
+                  description: response message from ncip-server
+            getInterLibraryLoanLibcheckResponseBody:
+              title: Inter library loan library check
+              type: object
+              properties:
+                isAlmaLibrary:
+                  type: boolean
+                  description: Library is Alma library
+                isNcipLibrary:
+                  type: boolean
+                  description: Library has NCIP server
+
+  GetPrimoPnxStubbFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      Environment:
+        Variables:
+          ALLOWED_ORIGIN: '*'
+          STAGE: !Ref Stage
+      Handler: "Stubs/stub_api/pnxHandler.handler_pnx_sender"
+      Runtime: python3.9
+      MemorySize: 1024
+      Events:
+        GetInterLibraryLoanMetadataRecordEvent:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+            Method: get
+            Path: /primo/v1/search
+      Timeout: 60
+
+  GetBaseBibliotekStubbDataFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      Environment:
+        Variables:
+          ALLOWED_ORIGIN:  '*'
+      Handler: "Stubs/stub_api/baseBibliotekHandler.handler_basebibliotek_sender"
+      Runtime: python3.9
+      MemorySize: 1024
+      Events:
+        PutEvent:
+          Type: Api
+          Properties:
+            RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+            Method: get
+            Path: /basebibliotek/rest/bibnr/{identifier}
+
+  InterLibraryLoanMetadataExternalStubbBasePathMapping:
+    Type: AWS::ApiGateway::BasePathMapping
+    Condition: HasDomainName
+    Properties:
+      BasePath: !If
+        - HasCustomDomainBasePath
+        - !Ref CustomDomainBasePath
+        - !Ref 'AWS::NoValue'
+      DomainName: !Ref CustomDomain
+      RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+      Stage: !Ref InterLibraryLoanMetadataExternalStubbApi.Stage
+
+Outputs:
+  ApiEndpoint:
+    Description: "Endpoint base URL for the API"
+    Value: !If
+      - HasDomainName
+      - !Sub "https://${CustomDomain}/${CustomDomainBasePath}"
+      - !Sub "https://${InterLibraryLoanMetadataExternalStubbApi}.execute-api.${AWS::Region}.amazonaws.com/${InterLibraryLoanMetadataExternalStubbApi.Stage}/"
