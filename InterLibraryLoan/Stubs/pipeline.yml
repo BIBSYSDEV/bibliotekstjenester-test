@@ -51,7 +51,7 @@ Metadata:
 Parameters:
   StackTemplatePath:
     Type: String
-    Default: Stubs/template.yaml
+    Default: InterLibraryLoan/Stubs/template.yaml
     Description: CloudFormation stack template filename in the Git repo
   StackTemplateConfigurationPath:
     Type: String
