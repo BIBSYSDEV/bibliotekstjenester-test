@@ -104,6 +104,9 @@ Resources:
                 responses: {}
                 httpMethod: POST
                 type: AWS_PROXY
+              x-amazon-apigateway-request-validators:
+                all:
+                  - validateRequestParameters: true
               responses:
                 '200':
                   description: primo pnx service mock
