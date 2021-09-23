@@ -58,6 +58,16 @@ Resources:
         info:
           title: Inter library loan external api stubbs
           version: '1.0'
+        x-amazon-apigateway-request-validators:
+          all:
+            validateRequestBody: true
+            validateRequestParameters: true
+          params-only:
+            validateRequestBody: false
+            validateRequestParameters: true
+          body-only:
+            validateRequestBody: true
+            validateRequestParameters: false
         paths:
           /primo/v1/search:
             get:
