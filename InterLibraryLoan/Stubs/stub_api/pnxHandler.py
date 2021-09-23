@@ -1,6 +1,6 @@
 
 def handler_pnx_sender(event, context):
-    f = open("full_pnx_example_1.json", "r")
+    f = open("/var/task/resources/full_pnx_example_1.json", "r")
     pnx_example = f.read()
     return {
         "statusCode": 200, "headers": {
