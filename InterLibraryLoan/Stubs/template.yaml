@@ -69,7 +69,7 @@ Resources:
             validateRequestBody: true
             validateRequestParameters: false
         paths:
-          /ncip:
+          /stub/ncip:
             post:
               summary: Post ncip and receive mock response
               description: NCIP mock endpoint
@@ -112,7 +112,7 @@ Resources:
                           error:
                             type: string
                             description: error message
-          /primo/v1/search:
+          /stub/primo/v1/search:
             get:
               x-amazon-apigateway-request-validator : params-only
               summary: Get pnx stubbing data
@@ -187,7 +187,7 @@ Resources:
                           error:
                             type: string
                             description: error message
-          /basebibliotek/rest/bibnr/{identifier}:
+          /stub/basebibliotek/rest/bibnr/{identifier}:
             get:
               summary: Get basebibliotek stubbing data
               description: Sends basebibliotek stubbing data
@@ -247,7 +247,7 @@ Resources:
           Properties:
             RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
             Method: get
-            Path: /ncip
+            Path: /stub/ncip
       Timeout: 60
 
   GetPrimoPnxStubbFunction:
@@ -266,7 +266,7 @@ Resources:
           Properties:
             RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
             Method: get
-            Path: /primo/v1/search
+            Path: /stub/primo/v1/search
       Timeout: 60
 
   GetBaseBibliotekStubbDataFunction:
@@ -284,7 +284,7 @@ Resources:
           Properties:
             RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
             Method: get
-            Path: /basebibliotek/rest/bibnr/{identifier}
+            Path: /stub/basebibliotek/rest/bibnr/{identifier}
 
   InterLibraryLoanMetadataExternalStubbBasePathMapping:
     Type: AWS::ApiGateway::BasePathMapping
