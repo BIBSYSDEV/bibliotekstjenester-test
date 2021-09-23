@@ -71,7 +71,8 @@ Resources:
         paths:
           /ncip:
             post:
-              summary: Post ncip stub endpoint
+              summary: Post ncip and receive mock response
+              description: NCIP mock endpoint
               consumes:
                 - application/json
               produces:
@@ -79,12 +80,12 @@ Resources:
               x-amazon-apigateway-integration:
                 uri:
                   Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${PostNcipStubbFunction.Arn}/invocations
-                  responses: { }
-                  httpMethod: POST
-                  type: AWS_PROXY
+                responses: { }
+                httpMethod: POST
+                type: AWS_PROXY
               responses:
                 '200':
-                  description: primo pnx service mock
+                  description: NCIP ok status
                   content:
                     text/xml:
                       schema:
