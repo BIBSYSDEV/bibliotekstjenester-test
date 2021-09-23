@@ -66,7 +66,7 @@ Resources:
               consumes:
                 - application/json
               produces:
-                - text/xml
+                - application/json
               parameters:
                 - in: query
                   name: vid
@@ -110,7 +110,7 @@ Resources:
                   content:
                     text/xml:
                       schema:
-                        $ref: '#/components/schemas/getInterLibraryLoanRecordResponseBody'
+                        type: object
                 '400':
                   description: Bad request.
                   content:
@@ -153,7 +153,7 @@ Resources:
                   content:
                     text/xml:
                       schema:
-                        $ref: '#/components/schemas/putInterLibraryLoanNcipResponseBody'
+                        type: object
                 '400':
                   description: Bad request.
                   content:
@@ -177,32 +177,6 @@ Resources:
                             type: string
                             description: error message
 
-        components:
-          schemas:
-            getInterLibraryLoanRecordResponseBody:
-              title: inter library loan metadata record
-              type: object
-              properties:
-                title:
-                  type: string
-                  description: bibliographic record containing metadata
-            postInterLibraryLoanNcipResponseBody:
-              title: inter library loan ncip response
-              type: object
-              properties:
-                title:
-                  type: string
-                  description: response message from ncip-server
-            getInterLibraryLoanLibcheckResponseBody:
-              title: Inter library loan library check
-              type: object
-              properties:
-                isAlmaLibrary:
-                  type: boolean
-                  description: Library is Alma library
-                isNcipLibrary:
-                  type: boolean
-                  description: Library has NCIP server
 
   GetPrimoPnxStubbFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
