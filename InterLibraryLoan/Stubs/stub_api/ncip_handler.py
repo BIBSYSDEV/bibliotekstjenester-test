@@ -1,9 +1,10 @@
 def handler_pnx_sender(event, context):
-    f = open("/var/task/resources/full_pnx_example_1.json", "r")
-    pnx_example = f.read()
+    f = open("/var/task/resources/ItemRequestResponseSuccess.xml", "r")
+    success_item_request_response = f.read()
+    print("NCIP REQUEST: ", event)
     return {
-        "statusCode": 200, "headers": {
+        "statusCode": 202, "headers": {
             "Content-Type": "text/xml"
         },
-        "body": pnx_example
+        "body": {success_item_request_response, event}
     }
