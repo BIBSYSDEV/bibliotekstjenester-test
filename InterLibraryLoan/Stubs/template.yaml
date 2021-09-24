@@ -73,7 +73,6 @@ Resources:
             post:
               summary: Post ncip and receive mock response
               description: NCIP mock endpoint
-              x-amazon-apigateway-request-validator : body-only
               consumes:
                 - application/xml
               produces:
@@ -84,77 +83,11 @@ Resources:
                 responses: { }
                 httpMethod: POST
                 type: AWS_PROXY
-              requestBody:
-                description: correctly formed ncip item request body
-                required: true
-                content:
-                  application/xml:
-                    schema:
-                      type: object
-                      properties:
-                        NCIPMessage:
-                          type: object
-                          required: true
-                          xml:
-                            name: 'ns1:NCIPMessage'
-                          properties:
-                            RequestItem:
-                              type: object
-                              required: true
-                              xml:
-                                name: 'ns1:RequestItem'
-                              properties:
-                                InitiationHeader:
-                                  type: object
-                                  required: true
-                                  xml:
-                                    name: 'ns1:InitiationHeader'
-                                  properties:
-                                    FromSystemId:
-                                      type: string
-                                      required: true
-                                      xml:
-                                        name: 'ns1:FromSystemId'
-                                    FromAgencyId:
-                                      type: string
-                                      required: true
-                                      xml:
-                                        name: 'ns1:FromAgencyId'
-                                    ToAgencyId:
-                                      type: string
-                                      required: true
-                                      xml:
-                                        name: 'ns1:ToAgencyId'
-                                UserId:
-                                  type: object
-                                  required: true
-                                  xml:
-                                    name: 'ns1:UserId'
-                                BibliographicId:
-                                  type: object
-                                  required: true
-                                  xml:
-                                    name: 'ns1:BibliographicId'
-                                RequestId:
-                                  type: object
-                                  required: true
-                                  xml:
-                                    name: 'ns1:RequestId'
-                                RequestType:
-                                  type: string
-                                  required: true
-                                  xml:
-                                    name: 'ns1:RequestType'
-                                ItemOptionalFields:
-                                  type: object
-                                  required: true
-                                  xml:
-                                    name: 'ns1:ItemOptionalFields'
               responses:
                 '200':
                   description: NCIP ok status
                   content:
-                    text/xml:
+                    application/xml:
                       schema:
                         type: object
                 '400':
