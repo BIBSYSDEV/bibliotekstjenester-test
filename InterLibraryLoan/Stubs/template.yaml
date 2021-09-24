@@ -75,9 +75,9 @@ Resources:
               description: NCIP mock endpoint
               x-amazon-apigateway-request-validator : body-only
               consumes:
-                - text/xml
+                - application/xml
               produces:
-                - text/xml
+                - application/xml
               x-amazon-apigateway-integration:
                 uri:
                   Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${PostNcipStubbFunction.Arn}/invocations
@@ -88,7 +88,7 @@ Resources:
                 description: correctly formed ncip item request body
                 required: true
                 content:
-                  text/xml:
+                  application/xml:
                     schema:
                       type: object
                       properties:
