@@ -92,42 +92,64 @@ Resources:
                     schema:
                       type: object
                       properties:
-                        ns1:NCIPMessage:
+                        NCIPMessage:
                           type: object
                           required: true
+                          xml:
+                            name: 'ns1:NCIPMessage'
                           properties:
-                            ns1:RequestItem:
+                            RequestItem:
                               type: object
                               required: true
+                              xml:
+                                name: 'ns1:RequestItem'
                               properties:
-                                ns1:InitiationHeader:
+                                InitiationHeader:
                                   type: object
                                   required: true
+                                  xml:
+                                    name: 'ns1:InitiationHeader'
                                   properties:
-                                    ns1:FromSystemId:
+                                    FromSystemId:
                                       type: string
                                       required: true
-                                    ns1:FromAgencyId:
+                                      xml:
+                                        name: 'ns1:FromSystemId'
+                                    FromAgencyId:
                                       type: string
                                       required: true
-                                    ns1:ToAgencyId:
+                                      xml:
+                                        name: 'ns1:FromAgencyId'
+                                    ToAgencyId:
                                       type: string
                                       required: true
-                                ns1:UserId:
+                                      xml:
+                                        name: 'ns1:ToAgencyId'
+                                UserId:
                                   type: object
                                   required: true
-                                ns1:BibliographicId:
+                                  xml:
+                                    name: 'ns1:UserId'
+                                BibliographicId:
                                   type: object
                                   required: true
-                                ns1:RequestId:
+                                  xml:
+                                    name: 'ns1:BibliographicId'
+                                RequestId:
                                   type: object
                                   required: true
-                                ns1:RequestType:
+                                  xml:
+                                    name: 'ns1:RequestId'
+                                RequestType:
                                   type: string
                                   required: true
-                                ns1:ItemOptionalFields:
+                                  xml:
+                                    name: 'ns1:RequestType'
+                                ItemOptionalFields:
                                   type: object
                                   required: true
+                                  xml:
+                                    name: 'ns1:ItemOptionalFields'
               responses:
                 '200':
                   description: NCIP ok status
