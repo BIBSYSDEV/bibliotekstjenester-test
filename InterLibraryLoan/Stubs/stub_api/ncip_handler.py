@@ -1,5 +1,5 @@
 def handler_pnx_sender(event, context):
-    f = open("/var/task/resources/ItemRequestResponseSuccess.xml", "r")
+    f = open("/var/task/resources/ItemRequestedResponseSuccess.xml", "r")
     success_item_request_response = f.read()
 
     return {
