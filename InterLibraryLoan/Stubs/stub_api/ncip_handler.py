@@ -3,9 +3,8 @@ import xmlschema
 
 def handler_pnx_sender(event, _context):
     print("NCIP HANDLER EVENT: ", event)
-    xsd_file = open("/var/task/resources/ncip_v2_02.xsd", "r")
-    ncip_xsd = xsd_file.read()
-    xsd = xmlschema.XMLSchema(ncip_xsd)
+
+    xsd = xmlschema.XMLSchema("/var/task/resources/ncip_v2_02.xsd")
 
     if event['body'] is None:
         return {
@@ -14,6 +13,10 @@ def handler_pnx_sender(event, _context):
             },
             "body": "bad request"
         }
+    try:
+        xsd.validate(event['body'])
+    except Exception as e:
+        print("NCIP VALIDATION FAILED", e)
 
     if not xsd.is_valid(event['body']):
         failure_xml_response_file = open("/var/task/resources/ncipResponseFailure.xml", "r")
