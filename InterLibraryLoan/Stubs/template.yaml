@@ -73,8 +73,9 @@ Resources:
             post:
               summary: Post ncip and receive mock response
               description: NCIP mock endpoint
+              x-amazon-apigateway-request-validator : body-only
               consumes:
-                - application/json
+                - text/xml
               produces:
                 - text/xml
               x-amazon-apigateway-integration:
@@ -83,6 +84,39 @@ Resources:
                 responses: { }
                 httpMethod: POST
                 type: AWS_PROXY
+              requestBody:
+                description: correctly formed ncip item request body
+                required: true
+                content:
+                  text/xml:
+                    schema:
+                      type: object
+                      properties:
+                        ns1:NCIPMessage:
+                          type: object
+                          properties:
+                            ns1:RequestItem:
+                              type: object
+                              properties:
+                                ns1:InitiationHeader:
+                                  type: object
+                                  properties:
+                                    ns1:FromSystemId:
+                                      type: string
+                                    ns1:FromAgencyId:
+                                      type: string
+                                    ns1:ToAgencyId:
+                                      type: string
+                                ns1:UserId:
+                                  type: object
+                                ns1:BibliographicId:
+                                  type: object
+                                ns1:RequestId:
+                                  type: object
+                                ns1:RequestType:
+                                  type: string
+                                ns1:ItemOptionalFields:
+                                  type: object
               responses:
                 '200':
                   description: NCIP ok status
