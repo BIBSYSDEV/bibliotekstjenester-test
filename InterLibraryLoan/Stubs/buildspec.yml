@@ -17,6 +17,7 @@ phases:
       - pip3 install aws-sam-cli
       # Install cfn_nag
       - gem install cfn-nag
+      - pip3 install --upgrade pip -r InterLibraryLoan/Stubs/requirements.txt
 
   pre_build:
     commands:
