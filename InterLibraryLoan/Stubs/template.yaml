@@ -94,29 +94,40 @@ Resources:
                       properties:
                         ns1:NCIPMessage:
                           type: object
+                          required: true
                           properties:
                             ns1:RequestItem:
                               type: object
+                              required: true
                               properties:
                                 ns1:InitiationHeader:
                                   type: object
+                                  required: true
                                   properties:
                                     ns1:FromSystemId:
                                       type: string
+                                      required: true
                                     ns1:FromAgencyId:
                                       type: string
+                                      required: true
                                     ns1:ToAgencyId:
                                       type: string
+                                      required: true
                                 ns1:UserId:
                                   type: object
+                                  required: true
                                 ns1:BibliographicId:
                                   type: object
+                                  required: true
                                 ns1:RequestId:
                                   type: object
+                                  required: true
                                 ns1:RequestType:
                                   type: string
+                                  required: true
                                 ns1:ItemOptionalFields:
                                   type: object
+                                  required: true
               responses:
                 '200':
                   description: NCIP ok status
