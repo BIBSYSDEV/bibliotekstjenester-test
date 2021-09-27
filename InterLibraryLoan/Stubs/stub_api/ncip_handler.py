@@ -19,13 +19,11 @@ def handler_pnx_sender(event, _context):
         print("NCIP VALIDATION FAILED", e)
 
     if not xsd.is_valid(event['body']):
-        failure_xml_response_file = open("/var/task/resources/ncipResponseFailure.xml", "r")
-        failure_xml_response = failure_xml_response_file.read()
         return {
             "statusCode": 400, "headers": {
                 "Content-Type": "application/xml"
             },
-            "body": failure_xml_response
+            "body": "bad request"
         }
 
     xml_file = open("/var/task/resources/ItemRequestedResponseSuccess.xml", "r")
