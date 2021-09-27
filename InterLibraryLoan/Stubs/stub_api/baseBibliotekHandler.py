@@ -1,5 +1,6 @@
 
 def handler_basebibliotek_sender(event, context):
+    print("BASEBIBLIOTEK EVENT", event)
     f = open("/var/task/resources/baseBibliotekWithLineEndingInInst.xml", "r")
     pnx_example = f.read()
     # The ncip url is changed here programatically for maintenance reasons.
