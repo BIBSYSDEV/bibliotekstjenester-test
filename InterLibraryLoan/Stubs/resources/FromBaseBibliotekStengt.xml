@@ -1,6 +1,6 @@
 <BaseBibliotek>
     <record rid="8838" tstamp="2019-12-30 10:35:33">
-        <bibnr>1040202</bibnr>
+        <bibnr>replace_bibnr_replace</bibnr>
         <bibkode>ANNO/KOM</bibkode>
         <bibltype>MUS</bibltype>
         <aut encrypted="true">6bc27b897c4f3e00e90537453af77f85</aut>
@@ -21,7 +21,7 @@
                 https://bibsys.alma.exlibrisgroup.com/view/sru/47BIBSYS_GLOMDAL?version=1.2
             </SRU>
             <nncip_uri>
-                https://bibsys.alma.exlibrisgroup.com/view/NcipP2PServlet
+                replace_with_mock_ncip_url
             </nncip_uri>
             <z_target>bibsys.alma.exlibrisgroup.com:210/47BIBSYS_GLOMDAL</z_target>
             <z_info>
