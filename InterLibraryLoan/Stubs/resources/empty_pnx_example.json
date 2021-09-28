@@ -1,0 +1,25 @@
+{
+  "highlights": {},
+  "docs": [],
+  "timelog": {
+    "BriefSearchDeltaTime": 708,
+    "DoSearchPrimoResultDeltaTime": 697,
+    "StartBriefSearch": 1632745509855,
+    "retrieveHighLightsDeltaTime": 10,
+    "retrieveDidUMeanDeltaTime": 10,
+    "GetSearchStatusDeltaTime": 698,
+    "StartTranslationTime": 1632745510553,
+    "AddSearchStatusDeltaTime": 0,
+    "FullEndDMDataDeltaTime": 10,
+    "retrieveFacetsDeltaTime": 10
+  },
+  "lang3": "eng",
+  "info": {
+    "total": 0,
+    "last": "0",
+    "maxTotal": 0,
+    "first": "1"
+  },
+  "facets": [],
+  "beaconO22": "733"
+}
