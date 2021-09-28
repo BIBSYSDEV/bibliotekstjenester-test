@@ -9,7 +9,7 @@ Parameters:
     Description: (Optional) Custom domain name for the API endpoint
   CustomDomainBasePath:
     Type: String
-    Default: 'stubbing'
+    Default: ''
     Description: (Optional) Base path mapping in CustomDomain
     AllowedPattern: "^[a-zA-Z0-9$\\-_.+!*'(),]*$"
     ConstraintDescription: "May contain only letters, numbers and one of $-_.+!*'(),"
@@ -69,7 +69,7 @@ Resources:
             validateRequestBody: true
             validateRequestParameters: false
         paths:
-          /stub/ncip:
+          /ncip:
             post:
               summary: Post ncip and receive mock response
               description: NCIP mock endpoint
@@ -112,7 +112,7 @@ Resources:
                           error:
                             type: string
                             description: error message
-          /stub/primo/v1/search:
+          /primo/v1/search:
             get:
               x-amazon-apigateway-request-validator : params-only
               summary: Get pnx stubbing data
@@ -187,7 +187,7 @@ Resources:
                           error:
                             type: string
                             description: error message
-          /stub/basebibliotek/rest/bibnr/{identifier}:
+          /basebibliotek/rest/bibnr/{identifier}:
             get:
               summary: Get basebibliotek stubbing data
               description: Sends basebibliotek stubbing data
