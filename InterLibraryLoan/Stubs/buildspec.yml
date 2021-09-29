@@ -59,3 +59,4 @@ artifacts:
     - packaged.yml
     - template-configuration.json
     - resources/*.
+    - stub_api/*.
