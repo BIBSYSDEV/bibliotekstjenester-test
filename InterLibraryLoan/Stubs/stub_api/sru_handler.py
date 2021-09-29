@@ -3,7 +3,7 @@ from stub_api.constants_ids import FAILURE_LIBRARY, CLOSED_LIBRARY
 
 def sru_handler(event, _context):
     query = event['queryStringParameters']
-    institution = event['institution']
+    institution = query['institution']
     mms_id = query['mms_id']
     library_code = query['libraryCode']
     total_items = 2
