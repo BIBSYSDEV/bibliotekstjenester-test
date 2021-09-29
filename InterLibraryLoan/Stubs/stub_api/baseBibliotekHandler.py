@@ -14,6 +14,7 @@ def handler_basebibliotek_sender(event, context):
         closed_library = closed_library.replace("replace_bibnr_replace", base_bibliotek_identifier)
         closed_library = closed_library.replace("replace_with_mock_ncip_url",
                                                 "https://api.test.bibs.aws.unit.no/ncip?id=" + NCIP_SUCCESS_ID)
+        closed_library = closed_library.replace("replace_sru_url", "https://api.test.bibs.aws.unit.no/view/sru")
         return {
             "statusCode": 200, "headers": {
                 "Content-Type": "application/xml"
@@ -21,70 +22,33 @@ def handler_basebibliotek_sender(event, context):
             "body": closed_library
         }
 
-    f = open("/var/task/resources/sampleLibraryFromBaseBibliotek.xml", "r")
+    f = open("/var/task/resources/alma_library_with_ncip.xml", "r")
     base_bibliotek = f.read()
     base_bibliotek = base_bibliotek.replace("replace_bibnr_replace", base_bibliotek_identifier)
+    base_bibliotek = base_bibliotek.replace("replace_sru_url", "https://api.test.bibs.aws.unit.no/view/sru")
 
     # ALMA AND / OR NCIP LIB CHECK LIBRARIES
+
     if NCIP_ONLY_LIBRARY == base_bibliotek_identifier:
         base_bibliotek = base_bibliotek.replace("replace_with_mock_ncip_url",
                                                 "https://api.test.bibs.aws.unit.no/ncip?id=" + NCIP_SUCCESS_ID)
-        # TODO: replace SRU
-        return {
-            "statusCode": 200, "headers": {
-                "Content-Type": "application/xml"
-            },
-            "body": base_bibliotek
-        }
-    if ALMA_ONLY_LIBRARY == base_bibliotek_identifier:
-        base_bibliotek = base_bibliotek.replace("<nncip_uri>replace_with_mock_ncip_url</nncip_uri>", "")
-        base_bibliotek = base_bibliotek.replace("<katsyst>Mikromarc 3</katsyst>", "<katsyst>Alma</katsyst>")
-        # TODO: replace SRU
-        return {
-            "statusCode": 200, "headers": {
-                "Content-Type": "application/xml"
-            },
-            "body": base_bibliotek
-        }
+        base_bibliotek = base_bibliotek.replace("<katsyst>Alma</katsyst>", "<katsyst>Mikromarc 3</katsyst>")
 
-    if NEITHER_ALMA_NOR_NCIP_LIBRARY == base_bibliotek_identifier:
+    elif ALMA_ONLY_LIBRARY == base_bibliotek_identifier:
         base_bibliotek = base_bibliotek.replace("<nncip_uri>replace_with_mock_ncip_url</nncip_uri>", "")
-        # TODO: replace SRU
-        return {
-            "statusCode": 200, "headers": {
-                "Content-Type": "application/xml"
-            },
-            "body": base_bibliotek
-        }
 
-    if ALMA_AND_NCIP_LIBRARY == base_bibliotek_identifier:
-        base_bibliotek = base_bibliotek.replace("<katsyst>Mikromarc 3</katsyst>", "<katsyst>Alma</katsyst>")
-        base_bibliotek = base_bibliotek.replace("replace_with_mock_ncip_url",
-                                                "https://api.test.bibs.aws.unit.no/ncip?id=" + NCIP_SUCCESS_ID)
-        # TODO: replace SRU
-        return {
-            "statusCode": 200, "headers": {
-                "Content-Type": "application/xml"
-            },
-            "body": base_bibliotek
-        }
+    elif NEITHER_ALMA_NOR_NCIP_LIBRARY == base_bibliotek_identifier:
+        base_bibliotek = base_bibliotek.replace("<nncip_uri>replace_with_mock_ncip_url</nncip_uri>", "")
+        base_bibliotek = base_bibliotek.replace("<katsyst>Alma</katsyst>", "<katsyst>Mikromarc 3</katsyst>")
 
     # FAILURE LIBRARY
-    if FAILURE_LIBRARY == base_bibliotek_identifier:
+    elif FAILURE_LIBRARY == base_bibliotek_identifier:
         base_bibliotek = base_bibliotek.replace("replace_with_mock_ncip_url",
                                                 "https://api.test.bibs.aws.unit.no/ncip?id=" + NCIP_FAILURE_ID)
-        # TODO: replace SRU
-        return {
-            "statusCode": 200, "headers": {
-                "Content-Type": "application/xml"
-            },
-            "body": base_bibliotek
-        }
-
-    # Default library is library with working ncip and sru
-    base_bibliotek = base_bibliotek.replace("replace_with_mock_ncip_url",
+    else:
+        # Default library is library with working ncip and sru
+        base_bibliotek = base_bibliotek.replace("replace_with_mock_ncip_url",
                                             "https://api.test.bibs.aws.unit.no/ncip?id=" + NCIP_SUCCESS_ID)
-    # TODO: replace SRU
 
     return {
         "statusCode": 200, "headers": {
