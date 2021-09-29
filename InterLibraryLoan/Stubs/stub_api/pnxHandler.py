@@ -5,7 +5,7 @@ def handler_pnx_sender(event, _context):
     query = event['queryStringParameters']['q']
 
     if query is None:
-        empty_file = open("/var/task/resources/full_pnx_example_1.json", "r")
+        empty_file = open("/var/task/resources/empty_pnx_example.json", "r")
         empty_response = empty_file.read()
         return {
             "statusCode": 200,
@@ -16,7 +16,7 @@ def handler_pnx_sender(event, _context):
         }
 
     if PNX_EMPTY_OBJECT_ID in query:
-        empty_file = open("/var/task/resources/full_pnx_example_1.json", "r")
+        empty_file = open("/var/task/resources/empty_pnx_example.json", "r")
         empty_response = empty_file.read()
         return {
             "statusCode": 200,
