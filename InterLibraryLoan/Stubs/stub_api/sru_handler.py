@@ -1,4 +1,4 @@
-from InterLibraryLoan.Stubs.stub_api.constants_ids import FAILURE_LIBRARY
+from InterLibraryLoan.Stubs.stub_api.constants_ids import FAILURE_LIBRARY, CLOSED_LIBRARY
 
 
 def sru_handler(event, _context):
@@ -9,7 +9,7 @@ def sru_handler(event, _context):
     total_items = 2
     number_available_for_inter_library_loan = 1
 
-    if FAILURE_LIBRARY == library_code:
+    if FAILURE_LIBRARY == library_code or CLOSED_LIBRARY == library_code:
         number_available_for_inter_library_loan = 0
 
     return {
