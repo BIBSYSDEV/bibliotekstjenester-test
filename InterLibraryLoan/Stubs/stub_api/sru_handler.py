@@ -1,4 +1,5 @@
 from stub_api.constants_ids import FAILURE_LIBRARY, CLOSED_LIBRARY
+import json
 
 
 def sru_handler(event, _context):
@@ -12,17 +13,19 @@ def sru_handler(event, _context):
     if FAILURE_LIBRARY == library_code or CLOSED_LIBRARY == library_code:
         number_available_for_inter_library_loan = 0
 
+    body = {
+        "mmsId": mms_id,
+        "institution": institution,
+        "libraryCode": library_code,
+        "totalNumberOfItems": total_items,
+        "numberAvailForInterLibraryLoan": number_available_for_inter_library_loan,
+        "availableDate": "2021-09-08T00:00Z"
+    }
+
     return {
         "statusCode": 200,
         "headers": {
             "Content-Type": "application/json; charset=utf-8"
         },
-        "body": {
-            "mmsId": mms_id,
-            "institution": institution,
-            "libraryCode": library_code,
-            "totalNumberOfItems": total_items,
-            "numberAvailForInterLibraryLoan": number_available_for_inter_library_loan,
-            "availableDate": "2021-09-08T00:00Z"
-        }
+        "body": json.dumps(body)
     }
