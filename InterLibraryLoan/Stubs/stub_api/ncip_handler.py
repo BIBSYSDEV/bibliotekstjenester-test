@@ -9,6 +9,10 @@ PROBLEM_DETAILS = "Item may not be renewed"
 def handler_pnx_sender(event, _context):
     print("NCIP HANDLER EVENT: ", event)
     body = event['body']
+    id_in_search_params = event['queryStringParameters']['id']
+
+    if id_in_search_params is None:
+        id_in_search_params = ""
 
     xsd = xmlschema.XMLSchema("/var/task/resources/ncip_v2_02.xsd")
 
@@ -37,7 +41,7 @@ def handler_pnx_sender(event, _context):
             "body": failure_xml_response
         }
 
-    if NCIP_FAILURE_ID in body:
+    if NCIP_FAILURE_ID in body or id_in_search_params == NCIP_FAILURE_ID:
         return {
             "statusCode": 400, "headers": {
                 "Content-Type": "application/xml"
