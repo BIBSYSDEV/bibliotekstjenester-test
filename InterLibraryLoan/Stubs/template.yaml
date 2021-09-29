@@ -77,6 +77,7 @@ Resources:
                 - application/json
               produces:
                 - text/xml
+              x-amazon-apigateway-request-validator : params-only
               x-amazon-apigateway-integration:
                 uri:
                   Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${GetBaseBibliotekStubbDataFunction.Arn}/invocations
