@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BaseBibliotek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nb.no/BaseBibliotek https://www.nb.no/baser/bibliotek/eksport/basebibliotek.xsd" xmlns="http://nb.no/BaseBibliotek">
+    <record rid="8838" tstamp="2021-02-25 08:50:12">
+        <bibnr>replace_bibnr_replace</bibnr>
+        <isil>NO-1040202</isil>
+        <bibkode>ANNO/KOM</bibkode>
+        <bibltype>MUS</bibltype>
+        <aut encrypted="true">6bc27b897c4f3e00e90537453af77f85</aut>
+        <katsyst>Alma</katsyst>
+        <stengt>U</stengt>
+        <kommnr>3401</kommnr>
+        <inst>Anno Kongsvinger museum
+            Biblioteket</inst>
+        <vadr>Kongsvinger festning 2</vadr>
+        <vpostnr>2213</vpostnr>
+        <vpoststed>KONGSVINGER</vpoststed>
+        <landkode>NO</landkode>
+        <tlf>12 12 12 12</tlf>
+        <epost_adr>replace_with_epost_adr</epost_adr>
+        <url_hjem>replace_with_url_hjem</url_hjem>
+        <bibleder>Kari nordmann</bibleder>
+        <eressurser>
+            <SRU>replace_sru_url</SRU>
+            <nncip_uri>replace_with_mock_ncip_url</nncip_uri>
+            <z_target>replace_with_z_target_url</z_target>
+            <z_info>replace_with_z_info</z_info>
+        </eressurser>
+    </record>
+</BaseBibliotek>

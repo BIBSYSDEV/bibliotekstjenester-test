@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BaseBibliotek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nb.no/BaseBibliotek https://www.nb.no/baser/bibliotek/eksport/basebibliotek.xsd" xmlns="http://nb.no/BaseBibliotek">
+    <record rid="308" tstamp="2021-07-23 20:30:01">
+        <bibnr>replace_bibnr_replace</bibnr>
+        <isil>NO-1060501</isil>
+        <bibkode>USN/RING</bibkode>
+        <bibltype>UNB</bibltype>
+        <aut encrypted="true">160ba765f8ea87ec794cab3f5e4734b3</aut>
+        <lat_lon>60.153036,10.262770</lat_lon>
+        <katsyst>Alma</katsyst>
+        <samkat>Samper, Biblioteksøk</samkat>
+        <kommnr>3007</kommnr>
+        <inst>Universitetsbiblioteket i Sørøst-Norge
+            Biblioteket - Ringerike</inst>
+        <inst_eng>University of South-Eastern Norway Library
+            Ringerike Library</inst_eng>
+        <inst_kort>USN Ringerike</inst_kort>
+        <padr>Postboks 164 Sentrum</padr>
+        <ppostnr>3502</ppostnr>
+        <ppoststed>HØNEFOSS</ppoststed>
+        <vadr>Bredalsveien 14</vadr>
+        <vpostnr>3511</vpostnr>
+        <vpoststed>HØNEFOSS</vpoststed>
+        <landkode>NO</landkode>
+        <tlf>12 12 12 12 </tlf>
+        <tlf_fj>12 12 12 12 </tlf_fj>
+        <epost_adr>epost@epost.no</epost_adr>
+        <epost_best>epost@epost.no</epost_best>
+        <url_hjem>replace_url_hjem</url_hjem>
+        <url_kat>replace_url_kat</url_kat>
+        <andre_navn>Statens lærerhøgskole i handels- og kontorfag
+            Høgskolen i Buskerud, Hønefoss
+            Høgskolen i Buskerud og Vestfold. Biblioteket - Ringerike
+            Buskerud and Vestfold University College. The Library - Ringerike
+            Høgskolen i Sørøst-Norge. Biblioteket - Ringerike</andre_navn>
+        <avtaler>NORFRI</avtaler>
+        <fakt_ref>Biblioteket</fakt_ref>
+        <fakt_inst>USN, Postboks 235</fakt_inst>
+        <fakt_adr>epost@epost.no</fakt_adr>
+        <fakt_postnr>3606</fakt_postnr>
+        <fakt_poststed>KONGSBERG</fakt_poststed>
+        <bibleder>Kari Nordmann</bibleder>
+        <fj_leder>Kari Nordmann</fj_leder>
+        <andre_koder>
+            <bibkode_gml>5Hbr</bibkode_gml>
+            <bibkode_gml>SLHK</bibkode_gml>
+            <bibsys_bib>ub</bibsys_bib>
+            <bibsys_utl>ring</bibsys_utl>
+            <bibkode_gml>HBV/RING</bibkode_gml>
+            <bibkode_gml>HBU/RING</bibkode_gml>
+            <bibkode_alt>HSN/RING</bibkode_alt>
+            <bibkode_alt>HSN</bibkode_alt>
+            <bibkode_alt>USN</bibkode_alt>
+            <bibkode_gml>HBV/RING</bibkode_gml>
+            <bibsys_avd>RINGERIKE</bibsys_avd>
+        </andre_koder>
+        <eressurser>
+            <SRU>replace_sru_url</SRU>
+            <z_target>replace_with_z_target_url</z_target>
+            <z_info>replace_with_z_info</z_info>
+            <nncip_uri>replace_with_mock_ncip_url</nncip_uri>
+        </eressurser>
+        <wressurser>
+            <link>
+                <url>replace_https://www.facebook.com/USNbiblioteket</url>
+                <tekst lang="no">Facebook</tekst>
+            </link>
+            <link>
+                <url>replace_https://twitter.com/USNbiblioteket</url>
+                <tekst lang="no">Twitter</tekst>
+            </link>
+            <link>
+                <url>replace_https://www.instagram.com/usnbiblioteket</url>
+                <tekst lang="no">Instagram</tekst>
+            </link>
+        </wressurser>
+        <merknader>
+            <klass lang="no">UDK</klass>
+            <fjMrk lang="no">Hastebestillinger, fornyelser og reserveringer aksepteres Ikke spesiallån.</fjMrk>
+            <fjSpes lang="en">28 days, no charges. Serials and AV-media are not for interlending.</fjSpes>
+            <fjSpes lang="no">28 dager, ingen gebyrer, heller ikke for lån på overtid. Tidsskrifter og AV-medier fjernlånes ikke.</fjSpes>
+            <fjGen lang="en">Interlending of books. No copying service</fjGen>
+            <fjGen lang="no">Fjernlån av bøker. Ikke kopieringsservice.</fjGen>
+            <fjMrk lang="en">Rush service, renewals and reservations are accepted. No loans on special conditions.</fjMrk>
+        </merknader>
+    </record>
+</BaseBibliotek>
