@@ -1,4 +1,4 @@
-from constants_ids import FAILURE_LIBRARY, CLOSED_LIBRARY
+from stub_api.constants_ids import FAILURE_LIBRARY, CLOSED_LIBRARY
 
 
 def sru_handler(event, _context):

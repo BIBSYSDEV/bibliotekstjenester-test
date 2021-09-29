@@ -1,4 +1,4 @@
-from constants_ids import PNX_EMPTY_OBJECT_ID
+from stub_api.constants_ids import PNX_EMPTY_OBJECT_ID
 
 
 def handler_pnx_sender(event, _context):

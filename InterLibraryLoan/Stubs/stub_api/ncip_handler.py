@@ -1,6 +1,6 @@
 import xmlschema
 
-from constants_ids import NCIP_FAILURE_ID
+from stub_api.constants_ids import NCIP_FAILURE_ID
 
 PROBLEM_TYPE = "Not Renewable"
 PROBLEM_DETAILS = "Item may not be renewed"
