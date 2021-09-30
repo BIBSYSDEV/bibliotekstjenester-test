@@ -69,14 +69,14 @@ Resources:
             validateRequestBody: true
             validateRequestParameters: false
         paths:
-          /view/sru:
+          /view/sru/{network}:
             get:
               summary: Get SRU stubbing data
               description: Sends SRU stubbing data
               consumes:
                 - application/json
               produces:
-                - text/xml
+                - application/xml
               x-amazon-apigateway-request-validator : params-only
               x-amazon-apigateway-integration:
                 uri:
@@ -86,19 +86,7 @@ Resources:
                 type: AWS_PROXY
               parameters:
                 - in: query
-                  name: mms_id
-                  type: string
-                  required: true
-                - in: query
-                  name: institution
-                  type: string
-                  required: true
-                - in: query
-                  name: libraryCode
-                  type: string
-                  required: true
-                - in: query
-                  name: recordSchema
+                  name: query
                   type: string
                   required: true
               responses:
@@ -307,7 +295,7 @@ Resources:
           Properties:
             RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
             Method: get
-            Path: /view/sru
+            Path: /view/sru/{network}
 
   PostNcipStubbFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
