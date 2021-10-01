@@ -1,11 +1,20 @@
 from stub_api.constants_ids import CLOSED_LIBRARY, NCIP_SUCCESS_ID, FAILURE_LIBRARY, \
-    NCIP_FAILURE_ID, NCIP_ONLY_LIBRARY, ALMA_ONLY_LIBRARY, NEITHER_ALMA_NOR_NCIP_LIBRARY, ALMA_AND_NCIP_LIBRARY
+    NCIP_FAILURE_ID, NCIP_ONLY_LIBRARY, ALMA_ONLY_LIBRARY, NEITHER_ALMA_NOR_NCIP_LIBRARY, ALMA_AND_NCIP_LIBRARY, \
+    SERVER_CRASH_LIBRARY
 
 
 def handler_basebibliotek_sender(event, _context):
     # api gateway already checks if identifier exists in the template.yml file
     # so no need to check if base_bibliotek_identifier is None
     base_bibliotek_identifier = event['pathParameters']['identifier']
+
+    if SERVER_CRASH_LIBRARY == base_bibliotek_identifier:
+        return {
+            "statusCode": 200, "headers": {
+                "Content-Type": "application/xml"
+            },
+            "body": "GURBA!"
+        }
 
     # CLOSED LIBRARY
     if CLOSED_LIBRARY == base_bibliotek_identifier:
