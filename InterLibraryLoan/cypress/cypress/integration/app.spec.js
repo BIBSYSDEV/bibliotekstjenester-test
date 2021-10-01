@@ -2,7 +2,7 @@
 context('End to end testing', () => {
   beforeEach(() => {
     cy.visit('https://ill.test.bibs.aws.unit.no/?patronid=1234571&recordid=123');
-    cy.wait(5000)
+    cy.wait(5000) // waiting is because of slow lambda api, this should be removed once acceptable performance has been achieved
   });
 
 
@@ -33,10 +33,6 @@ context('End to end testing', () => {
     cy.get(`[data-testid="library-label-1234570"]`).contains('1 of 1 available');
   });
 
-  it('library show server error', () => {
-    cy.get(`[data-testid="library-label-${"mockMetadata.libraries[5].library_code"}"]`).contains("TEXT.FETCH_SRU_ERROR");
-  });
-
   it('library show no info', () => {
     cy.get(`[data-testid="library-label-1234571"]`).contains("No holding information. Contact the library");
   });
@@ -46,8 +42,8 @@ context('End to end testing', () => {
   });
 
   it('lib_user-access-api shows servererror', () => {
-    cy.visit(`https://ill.test.bibs.aws.unit.no/?recordid=123&patronid=2321564`);
-    cy.get('[data-testid="alert"]').should('exist').contains('500');
+    cy.visit(`https://ill.test.bibs.aws.unit.no/?recordid=123&patronid=7654321`);
+    cy.get('[data-testid="alert"]').should('exist').contains('400');
   });
 
   it('lib_user does not have access to ill', () => {
@@ -73,6 +69,7 @@ context('End to end testing', () => {
     cy.get(`[data-testid="patron-field"]`).type("userIdentifierForNCIPServerError");
     cy.get(`[data-testid="library-option-1234568"]`).click();
     cy.get(`[data-testid="ncip-request-button"]`).click();
+    cy.wait(5000) // waiting is because of slow lambda api, this should be removed once acceptable performance has been achieved
     cy.get('[data-testid="ncip-error-alert"]').should('exist');
   });
 
