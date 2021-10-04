@@ -1,7 +1,8 @@
+import mockIds from '../../../Stubs/resources/mock_ids.json'
 
 context('End to end testing', () => {
   beforeEach(() => {
-    cy.visit('https://ill.test.bibs.aws.unit.no/?patronid=1234571&recordid=123');
+    cy.visit(`https://ill.test.bibs.aws.unit.no/?patronid=${mockIds.libraries.ncip_only_library}&recordid=123`);
     cy.wait(5000) // waiting is because of slow lambda api, this should be removed once acceptable performance has been achieved
   });
 
@@ -20,34 +21,34 @@ context('End to end testing', () => {
   });
 
   it('shows errormessage when metadata-server responds with error', () => {
-    cy.visit(`https://ill.test.bibs.aws.unit.no/?patronid=1234571&recordid=123?recordid=emptypnx123&patronid=123`);
+    cy.visit(`https://ill.test.bibs.aws.unit.no/?patronid=${mockIds.libraries.ncip_only_library}&recordid=${mockIds.pnx.trigger_empty_pnx_response}`);
     cy.get('[data-testid="alert"]').should('exist').contains('500');
   });
 
   it('shows schema', () => {
     cy.get(`[data-testid="patron-field"]`).type('testuser');
-    cy.get(`[data-testid="library-option-1234568"]`).click();
+    cy.get(`[data-testid="library-option-${mockIds.libraries.library_that_trigger_failure_response_from_ncip}"]`).click();
   });
 
   it('library show holdings', () => {
-    cy.get(`[data-testid="library-label-1234570"]`).contains('1 of 1 available');
+    cy.get(`[data-testid="library-label-${mockIds.combination_parameters_that_must_be_used_togheter.success_libraries.library_codes[0]}"]`).contains('1 of 1 available');
   });
 
   it('library show no info', () => {
-    cy.get(`[data-testid="library-label-1234571"]`).contains("No holding information. Contact the library");
+    cy.get(`[data-testid="library-label-${mockIds.libraries.ncip_only_library}"]`).contains("No holding information. Contact the library");
   });
 
   it('library show closed', () => {
-    cy.get(`[data-testid="library-label-1234567"]`).contains("Closed for interlibrary loan");
+    cy.get(`[data-testid="library-label-${mockIds.libraries.trigger_closed_library_response}"]`).contains("Closed for interlibrary loan");
   });
 
   it('lib_user-access-api shows servererror', () => {
-    cy.visit(`https://ill.test.bibs.aws.unit.no/?recordid=123&patronid=7654321`);
+    cy.visit(`https://ill.test.bibs.aws.unit.no/?recordid=123&patronid=${mockIds.libraries.trigger_garbled_base_bibliotek_response}`);
     cy.get('[data-testid="alert"]').should('exist').contains('400');
   });
 
   it('lib_user does not have access to ill', () => {
-    cy.visit(`https://ill.test.bibs.aws.unit.no/?recordid=123&patronid=1234572`);
+    cy.visit(`https://ill.test.bibs.aws.unit.no/?recordid=123&patronid=${mockIds.libraries.neither_alma_nor_ncip_library}`);
     cy.get('[data-testid="warning"]').should('exist').contains('not available');
   });
 
@@ -57,7 +58,7 @@ context('End to end testing', () => {
   });
 
   it('user needs to fill out form before pressing request-button', () => {
-    cy.get(`[data-testid="library-option-1234569"]`).click();
+    cy.get(`[data-testid="library-option-${mockIds.libraries.alma_and_ncip_library}"]`).click();
     cy.get(`[data-testid="ncip-request-button"]`).click();
     cy.get('input:invalid').should('have.length', 1);
     cy.get(`[data-testid="patron-field"]`).type('someText');
@@ -67,7 +68,7 @@ context('End to end testing', () => {
 
   it('user sends a unsuccessful NCIP-request', () => {
     cy.get(`[data-testid="patron-field"]`).type("userIdentifierForNCIPServerError");
-    cy.get(`[data-testid="library-option-1234568"]`).click();
+    cy.get(`[data-testid="library-option-${mockIds.libraries.library_that_trigger_failure_response_from_ncip}"]`).click();
     cy.get(`[data-testid="ncip-request-button"]`).click();
     cy.wait(5000) // waiting is because of slow lambda api, this should be removed once acceptable performance has been achieved
     cy.get('[data-testid="ncip-error-alert"]').should('exist');
@@ -75,7 +76,7 @@ context('End to end testing', () => {
 
   it('user sends a successful NCIP-request', () => {
     cy.get(`[data-testid="patron-field"]`).type('test user');
-    cy.get(`[data-testid="library-option-1234569"]`).click();
+    cy.get(`[data-testid="library-option-${mockIds.libraries.alma_and_ncip_library}"]`).click();
     cy.get(`[data-testid="ncip-request-button"]`).click();
     cy.url().should('include', 'success');
     cy.get('[data-testid="ncip-success-alert"]').should('exist');

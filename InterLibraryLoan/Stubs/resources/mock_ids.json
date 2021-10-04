@@ -1,0 +1,28 @@
+{
+  "pnx": {
+    "trigger_empty_pnx_response": "emptypnx123"
+  },
+  "libraries": {
+    "trigger_closed_library_response": "1234567",
+    "library_that_trigger_failure_response_from_ncip": "1234568",
+    "trigger_garbled_base_bibliotek_response": "7654321",
+    "alma_and_ncip_library": "1234569",
+    "alma_only_library": "1234570",
+    "ncip_only_library": "1234571",
+    "neither_alma_nor_ncip_library": "1234572"
+  },
+  "institution":{
+    "failure_institution": "HH"
+  },
+  "combination_parameters_that_must_be_used_togheter": {
+    "success_libraries": {
+      "library_codes": ["1234570", "1234571"],
+      "institution": "HIM",
+      "mms_id": "999919791992802263"
+    }
+  },
+  "ncip":{
+    "success": "46545142123",
+    "failure": "1235847985654"
+  }
+}
