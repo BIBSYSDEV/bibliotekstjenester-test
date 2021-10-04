@@ -1,10 +1,14 @@
-from stub_api.constants_ids import FAILURE_LIBRARY, CLOSED_LIBRARY
+import json
 
 
 def sru_handler(event, _context):
+    json_file = open("/var/task/resources/mock_ids.json", "r")
+    mock_ids = json.load(json_file)
+    mms_id_that_trigger_complex_sru_response = mock_ids['mms_ids']['triggers_complex_sru_response']
+
     query = event['queryStringParameters']['query']
 
-    if "999919860233902214" in query:
+    if mms_id_that_trigger_complex_sru_response in query:
         f = open("/var/task/resources/sru_holdings_complex.xml", "r")
         sru_holdings_complex = f.read()
         return {

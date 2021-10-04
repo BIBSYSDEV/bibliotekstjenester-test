@@ -24,5 +24,8 @@
   "ncip":{
     "success": "46545142123",
     "failure": "1235847985654"
+  },
+  "mms_ids": {
+    "triggers_complex_sru_response": "999919860233902214"
   }
 }
