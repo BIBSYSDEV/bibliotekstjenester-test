@@ -16,7 +16,7 @@ context('End to end testing', () => {
     cy.get('[data-testid="metaData"]').contains("978-82-05-50862-0");
     cy.get('[data-testid="metaData"]').contains("BIBSYS_ILS");
     cy.get('[data-testid="metaData"]').contains("Gyldendal akademisk");
-    cy.get('[data-testid="metaData"]').contains("Gunnar Nicolaysen (1940-) (redaktor/forfatter av forord/forfatter)$$QGunnar Nicolaysen (1940-), Per Holck (1942-) (redaktor/redaktor/forfatter)");
+    cy.get('[data-testid="metaData"]').contains("Gunnar Nicolaysen (1940-) (redaktor/forfatter av forord/forfatter)");
     cy.get('[data-testid="alert"]').should('not.exist');
   });
 
