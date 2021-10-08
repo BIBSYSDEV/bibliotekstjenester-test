@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <BaseBibliotek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nb.no/BaseBibliotek https://www.nb.no/baser/bibliotek/eksport/basebibliotek.xsd" xmlns="http://nb.no/BaseBibliotek">
 <record rid="62" tstamp="#ignore">
-<bibnr>1023001</bibnr>
-<isil>NO-1023001</isil>
-<bibkode>AHUS</bibkode>
-<bibltype>FAG</bibltype>
-<aut encrypted="true">beb86883b7fe55ab8fb24780ab8426a6</aut>
-<lat_lon>59.932570,10.996775</lat_lon>
-<katsyst>Alma</katsyst>
-<samkat>Samper, Biblioteksøk</samkat>
-<kommnr>3029</kommnr>
-<inst>Akershus universitetssykehus HF
-Medisinsk bibliotek</inst>
-<inst_alt>Ahus, Medisinsk bibliotek</inst_alt>
-<inst_eng>Akershus University Hospital&#x20;
-Medical Library</inst_eng>
-<inst_kort>Ahus
-Medisinsk bibliotek</inst_kort>
-<padr>Postboks 1000</padr>
-<ppostnr>1478</ppostnr>
-<ppoststed>LØRENSKOG</ppoststed>
-<vadr>Sykehusveien 27</vadr>
-<vpostnr>1474</vpostnr>
-<vpoststed>LØRENSKOG</vpoststed>
-<landkode>NO</landkode>
-<tlf>67 96 85 50</tlf>
-<tlf_fj>67 96 85 50</tlf_fj>
-<epost_adr>biblioteket@ahus.no</epost_adr>
-<epost_best>biblioteket@ahus.no</epost_best>
-<url_hjem>https://www.ahus.no/medisinsk-bibliotek</url_hjem>
-<url_kat>https://ahus.oria.no/</url_kat>
-<andre_navn>Sentralsykehuset i Akershus; Akershus sentralsykehus</andre_navn>
-<fakt_ref>90300</fakt_ref>
-<bibleder>Karin Vassbakk. Fagansvarlig: Åse Marit Hammersbøen</bibleder>
+<bibnr>#notnull</bibnr>
+<isil>#notnull</isil>
+<bibkode>#notnull</bibkode>
+<bibltype>#notnull</bibltype>
+<aut encrypted="#notnull">#notnull</aut>
+<lat_lon>#notnull</lat_lon>
+<katsyst>#notnull</katsyst>
+<samkat>#notnull</samkat>
+<kommnr>#notnull</kommnr>
+<inst>#notnull</inst>
+<inst_alt>#notnull</inst_alt>
+<inst_eng>#notnull</inst_eng>
+<inst_kort>#notnull</inst_kort>
+<padr>#notnull</padr>
+<ppostnr>#notnull</ppostnr>
+<ppoststed>#notnull</ppoststed>
+<vadr>#notnull</vadr>
+<vpostnr>#notnull</vpostnr>
+<vpoststed>#notnull</vpoststed>
+<landkode>#notnull</landkode>
+<tlf>#notnull</tlf>
+<tlf_fj>#notnull</tlf_fj>
+<epost_adr>#notnull</epost_adr>
+<epost_best>#notnull</epost_best>
+<url_hjem>#notnull</url_hjem>
+<url_kat>#notnull</url_kat>
+<andre_navn>#notnull</andre_navn>
+<fakt_ref>#notnull</fakt_ref>
+<bibleder>#notnull</bibleder>
 <andre_koder>
-<bibkode_gml>SiA</bibkode_gml>
-<bibkode_gml>SAKERS</bibkode_gml>
-<bibsys_bib>zr</bibsys_bib>
-<oclc_kode>S6A</oclc_kode>
-<bibsys_utl>ahus</bibsys_utl>
+<bibkode_gml>#notnull</bibkode_gml>
+<bibkode_gml>#notnull</bibkode_gml>
+<bibsys_bib>#notnull</bibsys_bib>
+<oclc_kode>#notnull</oclc_kode>
+<bibsys_utl>#notnull</bibsys_utl>
 <bibsys_avd>AHUS</bibsys_avd>
 <bibsys_avd>AHUS/Adm</bibsys_avd>
 <bibsys_avd>AHUS/Akutt</bibsys_avd>

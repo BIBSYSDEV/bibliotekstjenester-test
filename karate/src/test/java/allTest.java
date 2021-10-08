@@ -6,7 +6,7 @@
 
 import com.intuit.karate.junit5.Karate;
 
-public class SruProxyTest {
+public class allTest {
 
     @Karate.Test
     Karate testAll() {
