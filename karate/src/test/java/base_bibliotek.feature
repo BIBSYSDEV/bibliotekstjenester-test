@@ -12,7 +12,7 @@ Feature: Testing Base-bibliotek
     Then status 200
     And match response/BaseBibliotek == $savedResponse/BaseBibliotek
 
-  Scenario: Lookup by bibnr
+  Scenario: Requesting non-existing resource
     * def bibNrNonExisting = '884284289023489432'
     Given url BasePath + bibNrNonExisting
     When method get
