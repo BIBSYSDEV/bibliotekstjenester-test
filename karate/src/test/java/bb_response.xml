@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BaseBibliotek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nb.no/BaseBibliotek https://www.nb.no/baser/bibliotek/eksport/basebibliotek.xsd" xmlns="http://nb.no/BaseBibliotek">
+<record rid="62" tstamp="#ignore">
+<bibnr>1023001</bibnr>
+<isil>NO-1023001</isil>
+<bibkode>AHUS</bibkode>
+<bibltype>FAG</bibltype>
+<aut encrypted="true">beb86883b7fe55ab8fb24780ab8426a6</aut>
+<lat_lon>59.932570,10.996775</lat_lon>
+<katsyst>Alma</katsyst>
+<samkat>Samper, Biblioteksøk</samkat>
+<kommnr>3029</kommnr>
+<inst>Akershus universitetssykehus HF
+Medisinsk bibliotek</inst>
+<inst_alt>Ahus, Medisinsk bibliotek</inst_alt>
+<inst_eng>#ignore</inst_eng>
+<inst_kort>Ahus
+Medisinsk bibliotek</inst_kort>
+<padr>Postboks 1000</padr>
+<ppostnr>1478</ppostnr>
+<ppoststed>LØRENSKOG</ppoststed>
+<vadr>Sykehusveien 27</vadr>
+<vpostnr>1474</vpostnr>
+<vpoststed>LØRENSKOG</vpoststed>
+<landkode>NO</landkode>
+<tlf>67 96 85 50</tlf>
+<tlf_fj>67 96 85 50</tlf_fj>
+<epost_adr>biblioteket@ahus.no</epost_adr>
+<epost_best>biblioteket@ahus.no</epost_best>
+<url_hjem>https://www.ahus.no/medisinsk-bibliotek</url_hjem>
+<url_kat>https://ahus.oria.no/</url_kat>
+<andre_navn>Sentralsykehuset i Akershus; Akershus sentralsykehus</andre_navn>
+<fakt_ref>90300</fakt_ref>
+<bibleder>Karin Vassbakk. Fagansvarlig: Åse Marit Hammersbøen</bibleder>
+<andre_koder>
+<bibkode_gml>SiA</bibkode_gml>
+<bibkode_gml>SAKERS</bibkode_gml>
+<bibsys_bib>zr</bibsys_bib>
+<oclc_kode>S6A</oclc_kode>
+<bibsys_utl>ahus</bibsys_utl>
+<bibsys_avd>AHUS</bibsys_avd>
+<bibsys_avd>AHUS/Adm</bibsys_avd>
+<bibsys_avd>AHUS/Akutt</bibsys_avd>
+<bibsys_avd>AHUS/Anest</bibsys_avd>
+<bibsys_avd>AHUS/Arkiv</bibsys_avd>
+<bibsys_avd>AHUS/Baavd</bibsys_avd>
+<bibsys_avd>AHUS/Bahab</bibsys_avd>
+<bibsys_avd>AHUS/Bahag</bibsys_avd>
+<bibsys_avd>AHUS/Dial</bibsys_avd>
+<bibsys_avd>AHUS/Drift</bibsys_avd>
+<bibsys_avd>AHUS/Epige</bibsys_avd>
+<bibsys_avd>AHUS/Farma</bibsys_avd>
+<bibsys_avd>AHUS/Fysio</bibsys_avd>
+<bibsys_avd>AHUS/Hefor</bibsys_avd>
+<bibsys_avd>AHUS/HMS</bibsys_avd>
+<bibsys_avd>AHUS/Immun</bibsys_avd>
+<bibsys_avd>AHUS/IT</bibsys_avd>
+<bibsys_avd>AHUS/K.ern</bibsys_avd>
+<bibsys_avd>AHUS/K.kje</bibsys_avd>
+<bibsys_avd>AHUS/Kir</bibsys_avd>
+<bibsys_avd>AHUS/Kjøk</bibsys_avd>
+<bibsys_avd>AHUS/KK</bibsys_avd>
+<bibsys_avd>AHUS/Komp</bibsys_avd>
+<bibsys_avd>AHUS/Lunge</bibsys_avd>
+<bibsys_avd>AHUS/Med</bibsys_avd>
+<bibsys_avd>AHUS/Mikbi</bibsys_avd>
+<bibsys_avd>AHUS/N.fys</bibsys_avd>
+<bibsys_avd>AHUS/N.psy</bibsys_avd>
+<bibsys_avd>AHUS/Nevro</bibsys_avd>
+<bibsys_avd>AHUS/Oper</bibsys_avd>
+<bibsys_avd>AHUS/Oppl</bibsys_avd>
+<bibsys_avd>AHUS/Orto</bibsys_avd>
+<bibsys_avd>AHUS/Patol</bibsys_avd>
+<bibsys_avd>AHUS/Polik</bibsys_avd>
+<bibsys_avd>AHUS/Prest</bibsys_avd>
+<bibsys_avd>AHUS/Psyk</bibsys_avd>
+<bibsys_avd>AHUS/Radio</bibsys_avd>
+<bibsys_avd>AHUS/Regns</bibsys_avd>
+<bibsys_avd>AHUS/Sosio</bibsys_avd>
+<bibsys_avd>AHUS/Tekn</bibsys_avd>
+<bibsys_avd>AHUS/UiO</bibsys_avd>
+<bibsys_avd>AHUS/Verne</bibsys_avd>
+<bibsys_avd>AHUS/Vohab</bibsys_avd>
+<bibsys_avd>AHUS/ØNH</bibsys_avd>
+</andre_koder>
+<eressurser>
+<SRU>https://bibsys.alma.exlibrisgroup.com/view/sru/47BIBSYS_AHUS?version=1.2</SRU>
+<nncip_uri>https://bibsys.alma.exlibrisgroup.com/view/NcipP2PServlet</nncip_uri>
+<z_target>bibsys.alma.exlibrisgroup.com:210/47BIBSYS_AHUS</z_target>
+<z_info>http://www.bibsys.no/wp-content/uploads/2018/11/Bibliografiske_data_via_Z3950.pdf</z_info>
+</eressurser>
+<uregistrerte_filialer>
+<nedlagt>Stensby sykehus</nedlagt>
+<nedlagt>Jessheimklinikken</nedlagt>
+<nedlagt>Lillestrømklinikken</nedlagt>
+<nedlagt>Fagutviklingssenter for helsepersonell</nedlagt>
+<nedlagt>Ambulansetjenesten i Akershus</nedlagt>
+<nedlagt>UiO/Akershus universitetssykehus, Instituttgruppe for klinisk medisin</nedlagt>
+</uregistrerte_filialer>
+<merknader>
+<adgang lang="no">Medisinsk bibliotek betjener ansatte og forskere ved Ahus. Studenter innen medisin og helsefag kan benytte bibliotekets samlinger.</adgang>
+<klassNoter lang="no">NLM supplert med Library of Congress Classification (LCC).</klassNoter>
+<klass lang="no">NLM</klass>
+<indSyst lang="no">MESH</indSyst>
+<adgang lang="en">The library serves hospital employees and researchers. Medical and health sciences students may use the collection.</adgang>
+<kopGeb lang="no">Kopier sendes i posten, koster NOK 60 eller 1 IFLA-kupong.</kopGeb>
+<fjSpes lang="no">Lånetid for bøker: 28 dager. Tidsskrifter er ikke til utlån.</fjSpes>
+<kopGeb lang="en">Copies sendt by mail, NOK 60 or 1 IFLA voucher.</kopGeb>
+<fjSpes lang="en">Loan period for books: 28 days. Serials are not lent.</fjSpes>
+</merknader>
+</record>
+</BaseBibliotek>
