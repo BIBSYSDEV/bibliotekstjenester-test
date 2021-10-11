@@ -1,0 +1,180 @@
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+    <version>1.2</version>
+    <numberOfRecords>1</numberOfRecords>
+    <records>
+        <record>
+            <recordSchema>marcxml</recordSchema>
+            <recordPacking>xml</recordPacking>
+            <recordData>
+                <record xmlns="http://www.loc.gov/MARC21/slim">
+                    <leader>03560cam a2200409 c 4500</leader>
+                    <controlfield tag="001">999921024491202201</controlfield>
+                    <controlfield tag="005">20210605172835.0</controlfield>
+                    <controlfield tag="007">ta</controlfield>
+                    <controlfield tag="008">200224s2020 enka | |||||001|0 eng|c</controlfield>
+                    <datafield ind1=" " ind2=" " tag="020">
+                        <subfield code="a">9780367196721</subfield>
+                        <subfield code="q">innbundet</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="040">
+                        <subfield code="a">NO-TrBIB</subfield>
+                        <subfield code="b">nob</subfield>
+                        <subfield code="e">rda</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="041">
+                        <subfield code="a">eng</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="4" tag="082">
+                        <subfield code="a">658.4083</subfield>
+                        <subfield code="2">23/nor</subfield>
+                        <subfield code="q">NO-ElHIB</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="100">
+                        <subfield code="a">Sitkin, Alan</subfield>
+                        <subfield code="0">(NO-TrBIB)10033295</subfield>
+                        <subfield code="4">aut</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="240">
+                        <subfield code="a">Absolute essentials of green business</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2="0" tag="245">
+                        <subfield code="a">Absolute essentials of green business</subfield>
+                        <subfield code="c">Alan Sitkin</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="1" tag="264">
+                        <subfield code="a">London</subfield>
+                        <subfield code="b">Routledge</subfield>
+                        <subfield code="c">2020</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="4" tag="264">
+                        <subfield code="c">© 2020</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="300">
+                        <subfield code="a">xi, 113 sider</subfield>
+                        <subfield code="b">illustrasjoner</subfield>
+                        <subfield code="c">23 cm</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="336">
+                        <subfield code="a">tekst</subfield>
+                        <subfield code="0">http://rdaregistry.info/termList/RDAContentType/1020</subfield>
+                        <subfield code="2">rdaco</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="336">
+                        <subfield code="a">stillbilde</subfield>
+                        <subfield code="0">http://rdaregistry.info/termList/RDAContentType/1014</subfield>
+                        <subfield code="2">rdaco</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="337">
+                        <subfield code="a">uformidlet</subfield>
+                        <subfield code="0">http://rdaregistry.info/termList/RDAMediaType/1007</subfield>
+                        <subfield code="2">rdamt</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2=" " tag="338">
+                        <subfield code="a">bind</subfield>
+                        <subfield code="0">http://rdaregistry.info/termList/RDACarrierType/1049</subfield>
+                        <subfield code="2">rdact</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="490">
+                        <subfield code="a">Absolute essentials of business and economics</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2=" " tag="505">
+                        <subfield code="a">Introduction to green business -- Resource depletion -- Pollution management
+                            -- Environmental economics and policies -- Going green: managing the process -- Green
+                            operations -- Green marketing -- Green growth sectors -- Clean energy ventures.
+                        </subfield>
+                    </datafield>
+                    <datafield ind1="3" ind2=" " tag="520">
+                        <subfield code="a">"This short textbook provides a core understanding of the intersection
+                            between business and the natural environment. The sector's rapid expansion means that many
+                            university programmes are focusing to a greater extent nowadays on the career opportunities
+                            generated by the ecological imperative - a curriculum increasingly referred to as "green
+                            business". Climate breakdown is a devastating issue facing contemporary society. With six
+                            out of the ten largest multinationals listed in the 2018 Fortune Global 500 being active in
+                            the energy sector, it is no surprise that more and more business schools are offering
+                            modules addressing the management of natural resources. The business world has made some
+                            progress incorporating green principles into their strategies and operations, but progress
+                            needs to accelerate in line with global agreements to prevent catastrophic ecological and
+                            environmental problems. Absolute Essentials of Green Business stands out because of its
+                            singular focus on a subset of this wider curricular area. By covering both the macro
+                            (framework) and micro (business strategy) aspects of the topic, the book's structure is in
+                            line with the way modules of this nature are taught in universities today. Students of
+                            business and environmental studies will benefit from reading this concise textbook in order
+                            to develop their understanding of a fundamental element of the social science curriculum"
+                        </subfield>
+                        <subfield code="c">Forlaget</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Bedriftsledelse</subfield>
+                        <subfield code="0">(NO-TrBIB)HUME07578</subfield>
+                        <subfield code="2">humord</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Samfunnsansvar</subfield>
+                        <subfield code="0">(NO-TrBIB)HUME25719</subfield>
+                        <subfield code="2">humord</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Bærekraftig utvikling</subfield>
+                        <subfield code="0">(NO-TrBIB)HUME20308</subfield>
+                        <subfield code="2">humord</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Markedsføring</subfield>
+                        <subfield code="0">(NO-TrBIB)HUME07755</subfield>
+                        <subfield code="2">humord</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="7" tag="650">
+                        <subfield code="a">Miljøøkonomi</subfield>
+                        <subfield code="0">(NO-TrBIB)HUME24723</subfield>
+                        <subfield code="2">humord</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="653">
+                        <subfield code="a">miljøvern</subfield>
+                        <subfield code="a">miljøøkonomi</subfield>
+                        <subfield code="a">bærekraftig utvikling</subfield>
+                        <subfield code="a">samfunnsansvar</subfield>
+                        <subfield code="a">bedriftsledelse</subfield>
+                        <subfield code="a">bedrifter</subfield>
+                    </datafield>
+                    <datafield ind1="1" ind2=" " tag="700">
+                        <subfield code="a">Sitkin, Alan</subfield>
+                        <subfield code="t">Absolute essentials of green business</subfield>
+                    </datafield>
+                    <datafield ind1=" " ind2="0" tag="830">
+                        <subfield code="a">Absolute essentials of business and economics</subfield>
+                    </datafield>
+                    <datafield ind1="4" ind2="2" tag="856">
+                        <subfield code="3">Omslagsbilde</subfield>
+                        <subfield code="u">https://contents.bibs.aws.unit.no/files/images/large/1/2/9780367196721.jpg
+                        </subfield>
+                        <subfield code="q">image/jpeg</subfield>
+                    </datafield>
+                    <datafield ind1="4" ind2="2" tag="856">
+                        <subfield code="3">Innholdsfortegnelse</subfield>
+                        <subfield code="u">https://contents.bibs.aws.unit.no/content/?isbn=9780367196721</subfield>
+                    </datafield>
+                    <datafield ind1="4" ind2="2" tag="856">
+                        <subfield code="3">Forlagets beskrivelse (lang)</subfield>
+                        <subfield code="u">https://contents.bibs.aws.unit.no/content/?isbn=9780367196721</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="1" tag="852">
+                        <subfield code="a">47BIBSYS_UBA</subfield>
+                        <subfield code="6">999920097613102209</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                    <datafield ind1="0" ind2="1" tag="852">
+                        <subfield code="a">47BIBSYS_HH</subfield>
+                        <subfield code="6">999919952533902214</subfield>
+                        <subfield code="9">P</subfield>
+                    </datafield>
+                </record>
+            </recordData>
+            <recordIdentifier>999921024491202201</recordIdentifier>
+            <recordPosition>1</recordPosition>
+        </record>
+    </records>
+    <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+        <xb:exact>true</xb:exact>
+        <xb:responseDate>2021-10-11T14:49:25+0200</xb:responseDate>
+    </extraResponseData>
+</searchRetrieveResponse>
