@@ -1,12 +1,15 @@
 import xmlschema
-
-from stub_api.constants_ids import NCIP_FAILURE_ID
+import json
 
 PROBLEM_TYPE = "Not Renewable"
 PROBLEM_DETAILS = "Item may not be renewed"
 
 
 def handler_pnx_sender(event, _context):
+    json_file = open("/var/task/resources/mock_ids.json", "r")
+    mock_ids = json.load(json_file)
+    ncip_failure_id = mock_ids['ncip']['failure']
+
     print("NCIP HANDLER EVENT: ", event)
     body = event['body']
     id_in_search_params = event['queryStringParameters']['id']
@@ -41,7 +44,7 @@ def handler_pnx_sender(event, _context):
             "body": failure_xml_response
         }
 
-    if NCIP_FAILURE_ID in body or id_in_search_params == NCIP_FAILURE_ID:
+    if ncip_failure_id in body or id_in_search_params == ncip_failure_id:
         return {
             "statusCode": 400, "headers": {
                 "Content-Type": "application/xml"
