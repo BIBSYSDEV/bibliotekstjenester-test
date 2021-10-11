@@ -6,7 +6,6 @@ Feature: Testing Base-bibliotek
   Scenario: Lookup by bibnr
     * def bibNr = '1023001'
     * def savedResponse = read('bb_response.xml')
-    # Merk at timestamp er satt til ignore og inst_eng har fått en &#x20; i bb_response.xml
     Given url BasePath + bibNr
     When method get
     Then status 200

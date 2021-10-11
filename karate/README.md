@@ -11,4 +11,3 @@ https://github.com/karatelabs/karate
 PNX  (trenger API-key i secret manager)
 SRU  (trenger API-key i secret manager)
 
-CHANGE ALL VALUES TO TYPES IN RESPONSE-FILES
