@@ -18,3 +18,20 @@ Feature: Testing SRU-bibliotek
     And match firstHoldingsPath + statusPath + /availableFor  == '#string'
     And match firstHoldingsPath + statusPath + /availableCount  == '#string'
     And match firstHoldingsPath + statusPath + /earliestDispatchDate  == '#string'
+
+  Scenario: Requesting non-existing resource returns empty
+    * def mmsId = '00000000000000'
+    * def lib = '47BIBSYS_UNIS'
+    Given url SRUBasePath + 'view/sru/' + lib + '?operation=searchRetrieve&recordSchema=isohold&version=1.2&query=alma.mms_id=' + mmsId
+    When method get
+    Then status 200
+    And match response/searchRetrieveResponse/numberOfRecords == '0'
+
+  Scenario: Requesting without parameters returns errormessage
+    * def lib = '47BIBSYS_UNIS'
+    Given url SRUBasePath + 'view/sru/' + lib
+    When method get
+    Then status 200
+    And match response/searchRetrieveResponse/diagnostics/diagnostic/message == '#string'
+
+
