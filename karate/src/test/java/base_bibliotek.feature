@@ -5,7 +5,7 @@ Feature: Testing Base-bibliotek
 
   Scenario: Lookup by bibnr
     * def bibNr = '1023001'
-    * def savedResponse = read('bb_response.xml')
+    * def savedResponse = read('responses/bb_response.xml')
     Given url BasePath + bibNr
     When method get
     Then status 200

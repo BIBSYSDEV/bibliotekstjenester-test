@@ -11,12 +11,11 @@
   "publisher" : "McGraw-Hill ; distributed exclusively by Oxford University Press",
   "display_title" : "The Handbook of social psychology : Vol. 1",
   "libraries" : [ {
-    "institution_code" : "HH",
-    "display_name" : "Høgskolen i Innlandet\nBiblioteket Lillehammer",
-    "mms_id" : "999919819107802214",
-    "library_code" : "1050101",
-    "available_for_loan" : true,
-    "ncip_server_url" : "https://bibsys.alma.exlibrisgroup.com/view/NcipP2PServlet"
+    "institution_code" : "#string",
+    "display_name" : "#string",
+    "mms_id" : "#string",
+    "library_code" : "#string",
+    "available_for_loan" : "#boolean",
   }, {
     "institution_code" : "HIT",
     "display_name" : "Universitetsbiblioteket i Sørøst-Norge\nBiblioteket - Ringerike",

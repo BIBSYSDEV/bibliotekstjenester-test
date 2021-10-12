@@ -21,7 +21,7 @@ Feature: Testing Base-bibliotek
 #    And match response.docs[0].pnx.addata.isbn[0] == '#string'
 #    And match response.docs[0].pnx.addata.cop[0] == '#string'
 #    And match response.docs[0].pnx.addata.btitle[0] == '#string'
-#    #And match response.docs[0].pnx.addata.volume[0] == '#string' #post dosn't have volume
+#    #And match response.docs[0].pnx.addata.volume[0] == '#string' #testpost dosn't have volume
 #    And match response.docs[0].pnx.addata.pages[0] == '#string'
 #    And match response.docs[0].pnx.display.creationdate[0] == '#string'
 #    And match response.docs[0].pnx.display.creator[0] == '#string'

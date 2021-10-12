@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+    <version>1.2</version>
+    <numberOfRecords>1</numberOfRecords>
+    <records>
+        <record>
+            <recordSchema>isohold</recordSchema>
+            <recordPacking>xml</recordPacking>
+            <recordData>
+                <holdings xmlns="http://www.loc.gov/standards/iso20775/">
+                    <holding>
+                        <institutionIdentifier>
+                            <value>NO-1211100</value>
+                            <typeOrSource>
+                                <text>ISIL</text>
+                            </typeOrSource>
+                        </institutionIdentifier>
+                        <physicalLocation>UNIS Library</physicalLocation>
+                        <holdingSimple>
+                            <copiesSummary>
+                                <copiesCount>1</copiesCount>
+                                <status>
+                                    <availableCount>1</availableCount>
+                                    <availableFor>3</availableFor>
+                                    <earliestDispatchDate>2021-10-12T00:00:00.000Z</earliestDispatchDate>
+                                </status>
+                            </copiesSummary>
+                            <copyInformation>
+                                <pieceIdentifier>
+                                    <value>10yb00042</value>
+                                    <typeOrSource>
+                                        <text>ITEM ID</text>
+                                    </typeOrSource>
+                                </pieceIdentifier>
+                                <resourceIdentifier>
+                                    <value>225094260002259</value>
+                                    <typeOrSource>
+                                        <text>HOLDING MMS ID</text>
+                                    </typeOrSource>
+                                </resourceIdentifier>
+                                <sublocation>yb0016</sublocation>
+                                <shelfLocator>Nor</shelfLocator>
+                                <availabilityInformation>
+                                    <status>
+                                        <availabilityStatus>2</availabilityStatus>
+                                        <availableFor>1</availableFor>
+                                        <dateTimeAvailable>2021-10-12T00:00:00.000Z</dateTimeAvailable>
+                                    </status>
+                                    <status>
+                                        <availabilityStatus>2</availabilityStatus>
+                                        <availableFor>2</availableFor>
+                                        <dateTimeAvailable>2021-10-12T00:00:00.000Z</dateTimeAvailable>
+                                    </status>
+                                    <status>
+                                        <availabilityStatus>1</availabilityStatus>
+                                        <availableFor>3</availableFor>
+                                        <dateTimeAvailable>2021-10-12T00:00:00.000Z</dateTimeAvailable>
+                                    </status>
+                                </availabilityInformation>
+                            </copyInformation>
+                        </holdingSimple>
+                    </holding>
+                    <holding>
+                        <institutionIdentifier>
+                            <value>NO-1211100</value>
+                            <typeOrSource>
+                                <text>ISIL</text>
+                            </typeOrSource>
+                        </institutionIdentifier>
+                        <physicalLocation>UNIS Library</physicalLocation>
+                        <holdingStructured>
+                            <set>
+                                <label>all sets</label>
+                                <sublocation>yb0016</sublocation>
+                                <shelfLocator>Nor</shelfLocator>
+                                <completeness>0</completeness>
+                                <enumerationAndChronology>
+                                    <startingEnumAndChronology>
+                                        <text>Nr 1(1981)- . (Ukpl.)</text>
+                                    </startingEnumAndChronology>
+                                </enumerationAndChronology>
+                            </set>
+                        </holdingStructured>
+                    </holding>
+                    <resource>
+                        <resourceIdentifier>
+                            <value>990939573514702259</value>
+                            <typeOrSource>
+                                <text>SUFFICIENT</text>
+                            </typeOrSource>
+                        </resourceIdentifier>
+                    </resource>
+                </holdings>
+            </recordData>
+            <recordIdentifier>990939573514702259</recordIdentifier>
+            <recordPosition>1</recordPosition>
+        </record>
+    </records>
+    <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+        <xb:exact>true</xb:exact>
+        <xb:responseDate>2021-10-12T12:56:53+0200</xb:responseDate>
+    </extraResponseData>
+</searchRetrieveResponse>
