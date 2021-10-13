@@ -10,7 +10,7 @@ def handler_basebibliotek_sender(event, _context):
     closed_library_id = mock_ids['libraries']['trigger_closed_library_response']
     ncip_success_id = mock_ids['ncip']['success']
     failure_library_id = mock_ids['libraries']['library_that_trigger_failure_response_from_ncip']
-    ncip_failure_id_id = mock_ids['ncip']['failure']
+    ncip_failure_id = mock_ids['ncip']['failure']
     ncip_only_library_id = mock_ids['libraries']['ncip_only_library']
     alma_only_library_id = mock_ids['libraries']['alma_only_library']
     neither_alma_nor_ncip_library_id = mock_ids['libraries']['neither_alma_nor_ncip_library']
@@ -61,7 +61,7 @@ def handler_basebibliotek_sender(event, _context):
     # FAILURE LIBRARY
     elif failure_library_id == base_bibliotek_identifier:
         base_bibliotek = base_bibliotek.replace("replace_with_mock_ncip_url",
-                                                "https://api.test.bibs.aws.unit.no/ncip?id=" + ncip_failure_id_id)
+                                                "https://api.test.bibs.aws.unit.no/ncip?id=" + ncip_failure_id)
     else:
         # Default library is library with working ncip and sru
         base_bibliotek = base_bibliotek.replace("replace_with_mock_ncip_url",
