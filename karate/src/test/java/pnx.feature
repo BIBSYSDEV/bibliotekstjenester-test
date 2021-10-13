@@ -6,8 +6,8 @@ Feature: Testing Base-bibliotek
 
 
   Scenario: environment-variable-test
-    Given def apiKey = '123'
-    Then match apiKey == '123'
+    Given def apiKey = karate.properties['apiKey']
+    Then match apiKey.testPrimoApiKey == '123'
 
 
 #  Scenario: Lookup by bibnr
