@@ -2,12 +2,12 @@ Feature: Testing Base-bibliotek
 
   Background:
     * def BasePath = 'https://api-eu.hosted.exlibrisgroup.com/primo/v1/search'
-    * def apiKey = karate.properties['ALMA_APIKEY']
+    * def apiKey = ALMA_APIKEY
 
 
   Scenario: environment-variable-test
-    Given def apiKey = karate.properties['apiKey']
-    Then match apiKey.testPrimoApiKey == '123'
+    Given def pcb = apiKey
+    Then match apiKey == '123'
 
 
 #  Scenario: Lookup by bibnr
