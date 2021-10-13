@@ -1,0 +1,4 @@
+{
+  "baseUrl": "https://ill.test.bibs.aws.unit.no",
+  "defaultCommandTimeout": 30000
+}
