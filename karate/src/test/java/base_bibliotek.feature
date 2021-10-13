@@ -16,7 +16,7 @@ Feature: Testing Base-bibliotek
     Given url BasePath + bibNrNonExisting
     When method get
     Then status 200
-    And match response/error/message == `Not found: bibnr/${bibNrNonExisting}`
+    And match response/error/message == 'Not found: bibnr/' + bibNrNonExisting
 
 
 

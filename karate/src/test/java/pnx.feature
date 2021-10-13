@@ -24,14 +24,14 @@ Feature: Testing Base-bibliotek
     And match response.docs[0].pnx.display.publisher[0] == '#string'
     And match response.docs[0].pnx.facets.library[0] == '#string'
 
-#
-#  Scenario: Requesting non-existing resoure
-#    * def recordId = 'BIBSYS_ILS000000000000000000'
-#    * def params = `?vid=BIBSYS&tab=default_tab&scope=default_scope&q=any,contains,${recordId}&lang=eng&apikey=${apiKey}`
-#    Given url BasePath + params
-#    When method get
-#    Then status 200
-#    And match response.info.total == 0
+
+  Scenario: Requesting non-existing resoure
+    * def recordId = 'BIBSYS_ILS000000000000000000'
+    * def params = '?vid=BIBSYS&tab=default_tab&scope=default_scope&q=any,contains,' + recordId + '&lang=eng&apikey=' + apiKey
+    Given url BasePath + params
+    When method get
+    Then status 200
+    And match response.info.total == 0
 
 
 
