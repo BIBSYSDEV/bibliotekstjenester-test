@@ -1,7 +1,7 @@
 function fn() {
     const apiKey = java.lang.System.getenv("apiKey");
-    karate.log(apiKey.testPrimoApiKey);
+    karate.log(apiKey);
     return {
-        ALMA_APIKEY: apiKey.testPrimoApiKey,
+        ALMA_APIKEY: apiKey,
     };
 }
