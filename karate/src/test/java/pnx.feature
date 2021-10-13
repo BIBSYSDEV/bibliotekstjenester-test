@@ -5,9 +5,9 @@ Feature: Testing Base-bibliotek
     * def apiKey = karate.properties['ALMA_APIKEY']
 
 
-  Scenario: environment-variable-test
-    Given def apiKey = karate.properties['ALMA_APIKEY']
-    Then match apiKey == '123'
+#  Scenario: environment-variable-test
+#    Given def apiKey = karate.properties['ALMA_APIKEY']
+#    Then match apiKey == '123'
 
 
 #  Scenario: Lookup by bibnr
