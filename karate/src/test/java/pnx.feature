@@ -7,7 +7,7 @@ Feature: Testing Base-bibliotek
 
   Scenario: environment-variable-test
     Given def pcb = apiKey
-    Then match apiKey == '/root'
+    Then match apiKey == '123'
 
 
 #  Scenario: Lookup by bibnr
