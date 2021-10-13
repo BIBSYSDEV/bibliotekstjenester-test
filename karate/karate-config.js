@@ -1,5 +1,5 @@
 function fn() {
-    const apiKey = java.lang.System.getenv("apiKey");
+    let apiKey = java.lang.System.getenv("HOME");
     karate.log(apiKey);
     return {
         ALMA_APIKEY: apiKey,
