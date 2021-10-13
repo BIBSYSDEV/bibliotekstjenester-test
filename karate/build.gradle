@@ -2,8 +2,11 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group 'no.unit'
 version '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_11  // source-code version and must be <= targetCompatibility
+targetCompatibility = JavaVersion.VERSION_11 // bytecode target version
 
 repositories {
     mavenCentral()
