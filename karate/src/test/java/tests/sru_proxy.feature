@@ -10,7 +10,7 @@ Feature: Testing SRU-PROXY
     When method get
     Then status 200
     And match response.mmsId == mmsId
-    And match response.institution == 'PCB'
+    And match response.institution == '#string'
     And match response.libraryCode == libCode
     And match response.totalNumberOfItems == '#number'
     And match response.numberAvailForInterLibraryLoan == '#number'
