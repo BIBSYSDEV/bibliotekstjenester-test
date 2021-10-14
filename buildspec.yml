@@ -44,7 +44,7 @@ phases:
       - aws --version
   build:
     commands:
-      - gradle -p karate test --info
+      - gradle -p karate test
       - cd InterLibraryLoan/cypress
       - npm install
       - cd ../../
