@@ -39,13 +39,12 @@ phases:
       - echo $CODEBUILD_WEBHOOK_BASE_REF
       - echo $CODEBUILD_SRC_DIR
       - env
-      - echo $apiKey
       - node -v
       - aws --version
   build:
     commands:
       - cd karate
-      - gradle -p karate test --info
+      - ./gradlew test --info
       - cd ../InterLibraryLoan/cypress
       - npm install
       - cd ../../
