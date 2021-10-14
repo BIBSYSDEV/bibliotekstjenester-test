@@ -3,6 +3,7 @@ Feature: Testing Base-bibliotek
   Background:
     * def BasePath = 'https://api-eu.hosted.exlibrisgroup.com/primo/v1/search'
     * def apiKey = ALMA_APIKEY
+    * def apiKey2 = "pcb"
 
 
   Scenario: Lookup by bibnr

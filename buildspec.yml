@@ -1,0 +1,74 @@
+version: 0.2
+
+env:
+  shell: bash
+    #variables:
+    # key: "value"
+    # key: "value"
+    #parameter-store:
+    # key: "value"
+    # key: "value"
+    #secrets-manager:
+    # key: secret-id:json-key:version-stage:version-id
+    # key: secret-id:json-key:version-stage:version-id
+    #exported-variables:
+    # - variable
+  # - variable
+  #git-credential-helper: yes
+  #batch:
+  #fast-fail: true
+  #build-list:
+  #build-matrix:
+  #build-graph:
+phases:
+  install:
+    #If you use the Ubuntu standard image 2.0 or later, you must specify runtime-versions.
+    #If you specify runtime-versions and use an image other than Ubuntu standard image 2.0, the build fails.
+    runtime-versions:
+      nodejs: 12.x
+      java: corretto11
+    commands:
+      - node -v
+      - npm -v
+      - npm i -g npm
+  pre_build:
+    commands:
+      - echo "pre_build steps for revision ${CODEBUILD_RESOLVED_SOURCE_VERSION}..."
+      - echo $CODEBUILD_WEBHOOK_HEAD_REF
+      - echo $CODEBUILD_WEBHOOK_TRIGGER
+      - echo $CODEBUILD_WEBHOOK_BASE_REF
+      - echo $CODEBUILD_SRC_DIR
+      - env
+      - echo $apiKey
+      - node -v
+      - aws --version
+  build:
+    commands:
+      - gradle -p karate test --info
+      - cd InterLibraryLoan/cypress
+      - npm install
+      - cd ../../
+      - npm test --prefix InterLibraryLoan/cypress
+  post_build:
+    commands:
+      - pwd
+      - if [ -d "build/karate-reports" ]; then aws s3 cp build/karate-reports s3://interlibraryloan-test/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
+      - if [ -d "InterLibraryLoan/cypress/cypress/screenshots" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/screenshots s3://interlibraryloan-test/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
+      - if [ -d "InterLibraryLoan/cypress/cypress/videos" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/videos s3://interlibraryloan-test/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
+      #reports:
+      #report-name-or-arn:
+      #files:
+      # - location
+      # - location
+    #base-directory: location
+    #discard-paths: yes
+    #file-format: JunitXml | CucumberJson
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build
+  name: $(date +%Y-%m-%d)
+    #discard-paths: yes
+    #cache:
+    #paths:
+  # - paths
