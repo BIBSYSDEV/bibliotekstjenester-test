@@ -10,7 +10,7 @@ Feature: Testing SRU-PROXY
     When method get
     Then status 200
     And match response.mmsId == mmsId
-    And match response.institution == 'HIIIIT'
+    And match response.institution == 'PCB'
     And match response.libraryCode == libCode
     And match response.totalNumberOfItems == '#number'
     And match response.numberAvailForInterLibraryLoan == '#number'
@@ -22,7 +22,7 @@ Feature: Testing SRU-PROXY
     When method get
     Then status 200
     And match response.mmsId == mmsIdNonExisting
-    And match response.institution == 'HIT'
+    And match response.institution == '#string'
     And match response.libraryCode == libCode
     And match response.totalNumberOfItems == 0
     And match response.numberAvailForInterLibraryLoan == 0

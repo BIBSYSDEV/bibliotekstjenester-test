@@ -1,10 +1,8 @@
-Feature: Testing Base-bibliotek
+Feature: Testing ALMA-primo-search
 
   Background:
     * def BasePath = 'https://api-eu.hosted.exlibrisgroup.com/primo/v1/search'
     * def apiKey = ALMA_APIKEY
-    * def apiKey2 = "pcb"
-
 
   Scenario: Lookup by bibnr
     * def recordId = 'BIBSYS_ILS71560264980002201'
