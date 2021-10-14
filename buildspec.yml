@@ -1,0 +1,43 @@
+version: 0.2
+
+env:
+  shell: bash
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12.x
+      java: corretto11
+    commands:
+      - node -v
+      - npm -v
+      - npm i -g npm
+  pre_build:
+    commands:
+      - echo "pre_build steps for revision ${CODEBUILD_RESOLVED_SOURCE_VERSION}..."
+      - echo $CODEBUILD_WEBHOOK_HEAD_REF
+      - echo $CODEBUILD_WEBHOOK_TRIGGER
+      - echo $CODEBUILD_WEBHOOK_BASE_REF
+      - echo $CODEBUILD_SRC_DIR
+      - env
+      - node -v
+      - aws --version
+  build:
+    commands:
+      - cd karate
+      - ./gradlew test --info
+      - cd ../InterLibraryLoan/cypress
+      - npm install
+      - cd ../../
+      - npm test --prefix InterLibraryLoan/cypress
+  post_build:
+    commands:
+      - pwd
+      - if [ -d "build/karate-reports" ]; then aws s3 cp build/karate-reports s3://interlibraryloan-test/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
+      - if [ -d "karate/build/karate-reports" ]; then aws s3 cp karate/build/karate-reports s3://interlibraryloan-test/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
+      - if [ -d "InterLibraryLoan/cypress/cypress/screenshots" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/screenshots s3://interlibraryloan-test/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
+      - if [ -d "InterLibraryLoan/cypress/cypress/videos" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/videos s3://interlibraryloan-test/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build
+  name: $(date +%Y-%m-%d)

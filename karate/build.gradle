@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+
+dependencies {
+    testImplementation "com.intuit.karate:karate-junit5:1.0.1"
+}
+
+sourceSets {
+    test {
+        resources {
+            srcDirs("src/test/java")
+            exclude '**/*.java'
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty "karate.options", System.properties.getProperty("karate.options")
+    systemProperty "karate.env", System.properties.getProperty("karate.env")
+    outputs.upToDateWhen { false }
+
+    options {
+        systemProperties(System.getProperties())
+    }
+}
+
+repositories {
+    mavenCentral()
+}
