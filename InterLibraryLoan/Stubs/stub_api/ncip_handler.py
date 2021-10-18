@@ -8,7 +8,7 @@ PROBLEM_DETAILS = "Item may not be renewed"
 def handler_pnx_sender(event, _context):
     json_file = open("/var/task/resources/mock_ids.json", "r")
     mock_ids = json.load(json_file)
-    ncip_failure_id = mock_ids['ncip']['failure']
+    ncip_failure_id = mock_ids['libraries']['library_that_trigger_failure_response_from_ncip']
 
     print("NCIP HANDLER EVENT: ", event)
     body = event['body']
