@@ -1,8 +1,10 @@
 import mockIds from '../../../Stubs/resources/mock_ids.json'
 
-context('End to end testing', () => {
+const interLibraryLoanFrontendBaseUrl = "https://ill.test.bibs.aws.unit.no"
+
+context('End to end testing, interlibrary loan', () => {
   beforeEach(() => {
-    cy.visit(`/?patronid=${mockIds.libraries.ncip_only_library}&recordid=123`);
+    cy.visit(`${interLibraryLoanFrontendBaseUrl}/?patronid=${mockIds.libraries.ncip_only_library}&recordid=123`);
     cy.wait(1000) // waiting is because of slow lambda api, this should be removed once acceptable performance has been achieved
   });
 
@@ -20,7 +22,7 @@ context('End to end testing', () => {
   });
 
   it('shows errormessage when metadata-server responds with error', () => {
-    cy.visit(`/?patronid=${mockIds.libraries.ncip_only_library}&recordid=${mockIds.pnx.trigger_empty_pnx_response}`);
+    cy.visit(`${interLibraryLoanFrontendBaseUrl}/?patronid=${mockIds.libraries.ncip_only_library}&recordid=${mockIds.pnx.trigger_empty_pnx_response}`);
     cy.get('[data-testid="alert"]').should('exist').contains('500');
   });
 
@@ -42,17 +44,17 @@ context('End to end testing', () => {
   });
 
   it('lib_user-access-api shows servererror', () => {
-    cy.visit(`/?recordid=123&patronid=${mockIds.libraries.trigger_garbled_base_bibliotek_response}`);
+    cy.visit(`${interLibraryLoanFrontendBaseUrl}/?recordid=123&patronid=${mockIds.libraries.trigger_garbled_base_bibliotek_response}`);
     cy.get('[data-testid="alert"]').should('exist').contains('400');
   });
 
   it('lib_user does not have access to ill', () => {
-    cy.visit(`/?recordid=123&patronid=${mockIds.libraries.neither_alma_nor_ncip_library}`);
+    cy.visit(`${interLibraryLoanFrontendBaseUrl}/?recordid=123&patronid=${mockIds.libraries.neither_alma_nor_ncip_library}`);
     cy.get('[data-testid="warning"]').should('exist').contains('not available');
   });
 
   it('lib_user is alma-library and should get a read-only schema', () => {
-    cy.visit(`/?recordid=123&patronid=1232`);
+    cy.visit(`${interLibraryLoanFrontendBaseUrl}/?recordid=123&patronid=1232`);
     cy.get('[data-testid="warning"]').should('exist').contains('Alma libraries');
   });
 
