@@ -8,10 +8,10 @@ Feature: Testing SRU-authority
     Given url SRUBasePath + 'rest/sru?operation=searchRetrieve&version=1.2&recordPacking=xml&recordSchema=marcxchange&query=' + authId
     When method get
     Then status 200
-    And match response/srw:searchRetrieveResponse/srw:numberOfRecords == '1'
-    And match response/srw:searchRetrieveResponse/srw:records/srw:record/srw:recordIdentifier == authId
-    And match response/srw:searchRetrieveResponse/srw:records/srw:record/srw:recordData/marc:record/marc:controlfield[1] == authId
-    * def firstDatafieldPath = 'response/srw:searchRetrieveResponse/srw:records/srw:record/srw:recordData/marc:record/marc:datafield[1]'
+    And match response/searchRetrieveResponse/numberOfRecords == '1'
+    And match response/searchRetrieveResponse/records/record/recordIdentifier == authId
+    And match response/searchRetrieveResponse/records/record/recordData/record/controlfield[1] == authId
+    * def firstDatafieldPath = 'response/searchRetrieveResponse/records/record/recordData/record/datafield[1]'
     And match firstDatafieldPath + /marc:subfield[1]  == '#string'
 
   Scenario: Requesting non-existing resource returns empty (authority)
@@ -24,7 +24,7 @@ Feature: Testing SRU-authority
   Scenario: Requesting without parameters returns errormessage
     Given url SRUBasePath + 'rest/sru'
     When method get
-    Then status 200
+    Then status 400
     And match response/searchRetrieveResponse/diagnostics/diagnostic/message == '#string'
 
 
