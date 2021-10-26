@@ -1,4 +1,8 @@
 {
+  "authority": {
+    "recordid_trigger_empty_response": "1199960"
+
+  },
   "pnx": {
     "trigger_empty_pnx_response": "emptypnx123"
   },

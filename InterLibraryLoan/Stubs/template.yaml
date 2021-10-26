@@ -69,6 +69,62 @@ Resources:
             validateRequestBody: true
             validateRequestParameters: false
         paths:
+          /authorities/rest/sru:
+            get:
+              summary: Get authority stubbing data
+              description: Sends authority stubbing data
+              consumes:
+                - application/xml
+              produces:
+                - application/xml
+              x-amazon-apigateway-request-validator : params-only
+              x-amazon-apigateway-integration:
+                uri:
+                  Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${GetAuthorityStubbDataFunction.Arn}/invocations
+                responses: { }
+                httpMethod: POST
+                type: AWS_PROXY
+              parameters:
+                - in: query
+                  name: query
+                  type: string
+                - in: query
+                  name: operation
+                  type: string
+                  required: true
+                - in: query
+                  name: version
+                  type: string
+                  required: true
+              responses:
+                '200':
+                  description: SRU stubbing data
+                  content:
+                    text/xml:
+                      schema:
+                        type: object
+                '400':
+                  description: Bad request.
+                  content:
+                    application/json:
+                      schema:
+                        title: 400 Bad request
+                        type: object
+                        properties:
+                          error:
+                            type: string
+                            description: error message
+                '500':
+                  description: Internal server error.
+                  content:
+                    application/json:
+                      schema:
+                        title: 500 internal server error
+                        type: object
+                        properties:
+                          error:
+                            type: string
+                            description: error message
           /view/sru/{network}:
             get:
               summary: Get SRU stubbing data
@@ -351,6 +407,23 @@ Resources:
             RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
             Method: get
             Path: /basebibliotek/rest/bibnr/{identifier}
+
+  GetAuthorityStubbDataFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      Environment:
+        Variables:
+          ALLOWED_ORIGIN: '*'
+      Handler: "stub_api/authority_handler.handler_authority_sender"
+      Runtime: python3.8
+      MemorySize: 1024
+      Events:
+        PutEvent:
+          Type: Api
+          Properties:
+            RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+            Method: get
+            Path: /authority/rest/sru
 
   InterLibraryLoanMetadataExternalStubbBasePathMapping:
     Type: AWS::ApiGateway::BasePathMapping
