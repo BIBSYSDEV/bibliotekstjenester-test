@@ -26,6 +26,12 @@
     "failure": "1235847985654"
   },
   "mms_ids": {
-    "triggers_complex_sru_response": "999919860233902214"
+    "triggers_complex_sru_response": "999919860233902214",
+    "triggers_lensvik_indremisjon": "999208985724702201"
+  },
+  "isbn": {
+    "isbn_that_trigger_2_hits": "978-0-367-19672-1",
+    "isbn_that_trigger_1_hit": "978-8-205-37754-7",
+    "isbn_that_trigger_0_hit": "978-6-123-55555-5"
   }
 }
