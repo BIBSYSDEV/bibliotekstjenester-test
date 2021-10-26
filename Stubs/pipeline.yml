@@ -35,10 +35,10 @@ Metadata:
         default: Git Branch
       StackTemplatePath:
         description: Path to template
-        default: InterLibraryLoan/Stubs/template.yaml
+        default: Stubs/template.yaml
       StackTemplateConfigurationPath:
         description: Stack template configuration path
-        default: InterLibraryLoan/Stubs/template-configuration.json
+        default: Stubs/template-configuration.json
       DeployStackName:
         default: Stack name
       PipelineApprovalAction:
@@ -51,7 +51,7 @@ Metadata:
 Parameters:
   StackTemplatePath:
     Type: String
-    Default: InterLibraryLoan/Stubs/template.yaml
+    Default: Stubs/template.yaml
     Description: CloudFormation stack template filename in the Git repo
   StackTemplateConfigurationPath:
     Type: String
@@ -59,7 +59,7 @@ Parameters:
     Description: CloudFormation stack template configuration filename in the Git repo
   DeployStackName:
     Type: String
-    Default: interlibrary-loan-stubbing-api
+    Default: test-stubbing-api
     Description: The name to use for the CloudFormation stack managed by this pipeline.
   GitHubOAuthToken:
     Description: OAuth token used by AWS CodePipeline to connect to GitHub
@@ -353,7 +353,7 @@ Resources:
           Type: OAUTH
         Type: GITHUB
         Location: https://github.com/BIBSYSDEV/bibliotekstjenester-test.git
-        BuildSpec: 'InterLibraryLoan/Stubs/buildspec.yml'
+        BuildSpec: 'Stubs/buildspec.yml'
       Triggers:
         Webhook: true
       TimeoutInMinutes: 30
@@ -422,7 +422,7 @@ Resources:
                 RoleArn: !GetAtt 'CloudFormationRole.Arn'
                 StackName: !Ref 'AWS::StackName'
                 Capabilities: CAPABILITY_IAM
-                TemplatePath: 'SourceArtifacts::InterLibraryLoan/Stubs/pipeline.yml'
+                TemplatePath: 'SourceArtifacts::Stubs/pipeline.yml'
                 ParameterOverrides: !Sub |
                   {
                     "GitRepo": "${GitRepo}",

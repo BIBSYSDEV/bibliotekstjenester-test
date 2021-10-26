@@ -17,7 +17,7 @@ phases:
       - pip3 install aws-sam-cli
       # Install cfn_nag
       - gem install cfn-nag
-      - pip3 install --upgrade pip -r InterLibraryLoan/Stubs/requirements.txt
+      - pip3 install --upgrade pip -r Stubs/requirements.txt
 
   pre_build:
     commands:
@@ -29,7 +29,7 @@ phases:
 
       # Lint
       - cfn-lint # uses .cfnlintrc
-      - cd InterLibraryLoan/Stubs
+      - cd Stubs
 
       # Run cfn-nag (looks for patterns in CFN templates that may indicate insecure infrastructure)
       - cfn_nag_scan --output-format txt --print-suppression --blacklist-path .cfn_nag_blacklist --input-path . --template-pattern '^(?!.*buildspec\.y[a]?ml)((..*\.y[a]?ml)|(..*\.template))$'
@@ -45,7 +45,7 @@ phases:
       # Lint after 'package'
       - cfn-lint packaged.yml
       - ls -a
-      - mv * ../..
+      - mv * ..
 
     post_build:
       commands:

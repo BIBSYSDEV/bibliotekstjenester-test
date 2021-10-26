@@ -33,7 +33,7 @@ Globals:
     EndpointConfiguration: REGIONAL
 
 Resources:
-  InterLibraryLoanMetadataExternalStubbApi:
+  ExternalStubbApi:
     Type: AWS::Serverless::Api
     Metadata:
       cfn_nag:
@@ -56,7 +56,7 @@ Resources:
       DefinitionBody:
         openapi: 3.0.3
         info:
-          title: Inter library loan external api stubbs
+          title: External api stubbs
           version: '1.0'
         x-amazon-apigateway-request-validators:
           all:
@@ -349,7 +349,7 @@ Resources:
         PutEvent:
           Type: Api
           Properties:
-            RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+            RestApiId: !Ref ExternalStubbApi
             Method: get
             Path: /view/sru/{network}
 
@@ -367,7 +367,7 @@ Resources:
         GetInterLibraryLoanMetadataRecordEvent:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
           Properties:
-            RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+            RestApiId: !Ref ExternalStubbApi
             Method: post
             Path: /ncip
       Timeout: 60
@@ -386,7 +386,7 @@ Resources:
         GetInterLibraryLoanMetadataRecordEvent:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
           Properties:
-            RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+            RestApiId: !Ref ExternalStubbApi
             Method: get
             Path: /primo/v1/search
       Timeout: 60
@@ -404,7 +404,7 @@ Resources:
         PutEvent:
           Type: Api
           Properties:
-            RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+            RestApiId: !Ref ExternalStubbApi
             Method: get
             Path: /basebibliotek/rest/bibnr/{identifier}
 
@@ -421,11 +421,11 @@ Resources:
         PutEvent:
           Type: Api
           Properties:
-            RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
+            RestApiId: !Ref ExternalStubbApi
             Method: get
             Path: /authority/rest/sru
 
-  InterLibraryLoanMetadataExternalStubbBasePathMapping:
+  ExternalStubbBasePathMapping:
     Type: AWS::ApiGateway::BasePathMapping
     Condition: HasDomainName
     Properties:
@@ -434,8 +434,8 @@ Resources:
         - !Ref CustomDomainBasePath
         - !Ref 'AWS::NoValue'
       DomainName: !Ref CustomDomain
-      RestApiId: !Ref InterLibraryLoanMetadataExternalStubbApi
-      Stage: !Ref InterLibraryLoanMetadataExternalStubbApi.Stage
+      RestApiId: !Ref ExternalStubbApi
+      Stage: !Ref ExternalStubbApi.Stage
 
 Outputs:
   ApiEndpoint:
@@ -443,4 +443,4 @@ Outputs:
     Value: !If
       - HasDomainName
       - !Sub "https://${CustomDomain}/${CustomDomainBasePath}"
-      - !Sub "https://${InterLibraryLoanMetadataExternalStubbApi}.execute-api.${AWS::Region}.amazonaws.com/${InterLibraryLoanMetadataExternalStubbApi.Stage}/"
+      - !Sub "https://${ExternalStubbApi}.execute-api.${AWS::Region}.amazonaws.com/${StubbApi.Stage}/"
