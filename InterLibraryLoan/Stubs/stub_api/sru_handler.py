@@ -12,7 +12,7 @@ def sru_handler(event, _context):
     query = event['queryStringParameters']['query']
 
     if isbn_that_trigger_2_hits in query:
-        f = open("SRU_response_2_hits.xml", "r")
+        f = open("/var/task/resources/SRU_response_2_hits.xml", "r")
         isbn_that_trigger_2_hits_xml_response = f.read()
         return {
             "statusCode": 200,
@@ -23,7 +23,7 @@ def sru_handler(event, _context):
         }
 
     if isbn_that_trigger_1_hit in query:
-        f = open("search_for_isbn_9788205377547_response.xml", "r")
+        f = open("/var/task/resources/search_for_isbn_9788205377547_response.xml", "r")
         pelsjeger_liv = f.read()
         return {
             "statusCode": 200,
@@ -34,7 +34,7 @@ def sru_handler(event, _context):
         }
 
     if isbn_that_trigger_0_hits in query:
-        f = open("search_for_isbn_0_hit.xml", "r")
+        f = open("/var/task/resources/search_for_isbn_0_hit.xml", "r")
         zero_hits = f.read()
         return {
             "statusCode": 200,
@@ -43,7 +43,6 @@ def sru_handler(event, _context):
             },
             "body": zero_hits
         }
-
 
     if mms_id_that_trigger_complex_sru_response in query:
         f = open("/var/task/resources/sru_holdings_complex.xml", "r")
@@ -56,7 +55,7 @@ def sru_handler(event, _context):
             "body": sru_holdings_complex
         }
 
-    if 'ishold' in query:
+    if 'isohold' in query:
         f = open("/var/task/resources/sru_holdings_with_only_copy.xml", "r")
         sru_response_1_hit = f.read()
         return {
@@ -67,7 +66,7 @@ def sru_handler(event, _context):
             "body": sru_response_1_hit
         }
 
-    f = open("lensvik_indremisjon.xml", "r")
+    f = open("/var/task/resources/lensvik_indremisjon.xml", "r")
     marc = f.read()
     return {
         "statusCode": 200,
@@ -76,6 +75,3 @@ def sru_handler(event, _context):
         },
         "body": marc
     }
-
-
-
