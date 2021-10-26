@@ -18,6 +18,14 @@ Feature: Testing SRU-PROXY
     And match response.[0].xmlPresentation contains '\u003crecord xmlns:marc\u003d\"info:lc/xmlns/marcxchange-v1\" format\u003d\"MARC21\" id\u003d\"90386146\" type\u003d\"Authority\"\u003e'
     And match response.[0].linePresentation contains '*001 ' + authId
 
+
+  Scenario: Requesting with non existing auth_id returns empty array
+    * def authId = '000000000'
+    Given url SruAuthorityBasePath + '?auth_id=' + authId
+    When method get
+    Then status 200
+    And match response == []
+
   Scenario: Search just mms_id
     * def mmsId = '999208985724702201'
     Given url SRUBasePath + '?mms_id=' + mmsId
