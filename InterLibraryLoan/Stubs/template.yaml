@@ -69,7 +69,7 @@ Resources:
             validateRequestBody: true
             validateRequestParameters: false
         paths:
-          /authorities/rest/sru:
+          /authority/rest/sru:
             get:
               summary: Get authority stubbing data
               description: Sends authority stubbing data
