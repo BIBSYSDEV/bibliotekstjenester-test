@@ -66,6 +66,15 @@ def sru_handler(event, _context):
             "body": sru_response_1_hit
         }
 
+    if 'hello world' in query:
+        return {
+            "statusCode": 200,
+            "headers": {
+                "Content-Type": "application/xml; charset=utf-8"
+            },
+            "body": "hello from lambda"
+        }
+
     f = open("/var/task/resources/lensvik_indremisjon.xml", "r")
     marc = f.read()
     return {
