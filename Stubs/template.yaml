@@ -69,7 +69,7 @@ Resources:
             validateRequestBody: true
             validateRequestParameters: false
         paths:
-          /authority/rest/sru:
+          /stub/authority/rest/sru:
             get:
               summary: Get authority stubbing data
               description: Sends authority stubbing data
@@ -423,7 +423,7 @@ Resources:
           Properties:
             RestApiId: !Ref ExternalStubbApi
             Method: get
-            Path: /authority/rest/sru
+            Path: /stub/authority/rest/sru
 
   ExternalStubbBasePathMapping:
     Type: AWS::ApiGateway::BasePathMapping
