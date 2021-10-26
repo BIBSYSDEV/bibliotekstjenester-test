@@ -443,4 +443,4 @@ Outputs:
     Value: !If
       - HasDomainName
       - !Sub "https://${CustomDomain}/${CustomDomainBasePath}"
-      - !Sub "https://${ExternalStubbApi}.execute-api.${AWS::Region}.amazonaws.com/${StubbApi.Stage}/"
+      - !Sub "https://${ExternalStubbApi}.execute-api.${AWS::Region}.amazonaws.com/${ExternalStubbApi.Stage}/"
