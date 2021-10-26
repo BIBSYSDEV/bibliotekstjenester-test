@@ -3,6 +3,20 @@ Feature: Testing SRU-PROXY
   Background:
     * def libCode = '1060501'
     * def SRUBasePath = 'https://api.bibs.aws.unit.no/alma'
+    * def SruAuthorityBasePath = 'https://api.bibs.aws.unit.no/authority'
+
+  Scenario: Search authority with auth_id
+    * def authId = '90386146'
+    Given url SruAuthorityBasePath + '?auth_id=' + authId
+    When method get
+    Then status 200
+    And match response.[0].id == authId
+    And match response.[0].authors.[0].name == '#string'
+    And match response.[0].authors.[0].date == '#string'
+    And match response.[0].xmlPresentation == '#string'
+    And match response.[0].xmlPresentation contains authId
+    And match response.[0].xmlPresentation contains '\u003crecord xmlns:marc\u003d\"info:lc/xmlns/marcxchange-v1\" format\u003d\"MARC21\" id\u003d\"90386146\" type\u003d\"Authority\"\u003e'
+    And match response.[0].linePresentation contains '*001 ' + authId
 
   Scenario: Search just mms_id
     * def mmsId = '999208985724702201'
