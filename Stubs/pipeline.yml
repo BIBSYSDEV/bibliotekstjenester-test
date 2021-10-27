@@ -321,6 +321,9 @@ Resources:
                   - s3:CreateMultipartUpload
                   - s3:ListMultipartUploadParts
                   - s3:AbortMultipartUpload
+                  - dynamoDB:BatchWriteItem
+                  - dynamoDB:CreateTable
+                  - dynamoDB:DeleteTable
                 Resource: !Sub
                   - 'arn:aws:s3:::${BucketName}/*'
                   - BucketName: !Ref ArtifactsBucket
