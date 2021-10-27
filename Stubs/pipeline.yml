@@ -304,6 +304,13 @@ Resources:
           PolicyDocument:
             Version: '2012-10-17'
             Statement:
+              - Sid: DynamoDBPolicy
+                Effect: Allow
+                Action:
+                  - dynamoDB:BatchWriteItem
+                  - dynamoDB:CreateTable
+                  - dynamoDB:DeleteTable
+                Resource: '*'
               - Sid: CloudWatchLogsPolicy
                 Effect: Allow
                 Action:
@@ -321,9 +328,6 @@ Resources:
                   - s3:CreateMultipartUpload
                   - s3:ListMultipartUploadParts
                   - s3:AbortMultipartUpload
-                  - dynamoDB:BatchWriteItem
-                  - dynamoDB:CreateTable
-                  - dynamoDB:DeleteTable
                 Resource: !Sub
                   - 'arn:aws:s3:::${BucketName}/*'
                   - BucketName: !Ref ArtifactsBucket
