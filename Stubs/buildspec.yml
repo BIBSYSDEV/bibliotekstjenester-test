@@ -30,7 +30,7 @@ phases:
       # Lint
       - cfn-lint # uses .cfnlintrc
        # Setting up dynamoDB
-      - if [aws dynamodb create-table --table-name contents --attribute-definitions AttributeName=isbn,AttributeType=S --key-schema AttributeName=isbn,KeyType=HASH --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1]; then echo "created table contents"
+      - if [aws dynamodb create-table --table-name contents --attribute-definitions AttributeName=isbn,AttributeType=S --key-schema AttributeName=isbn,KeyType=HASH --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1]; then echo "created table contents"; fi
       - aws dynamodb describe-table --table-name contents | grep TableStatus
 
       - cd Stubs
