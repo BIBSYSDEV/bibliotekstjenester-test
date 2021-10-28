@@ -310,6 +310,7 @@ Resources:
                   - dynamoDB:BatchWriteItem
                   - dynamoDB:CreateTable
                   - dynamoDB:DeleteTable
+                  - dynamodb:DescribeTable
                 Resource: '*'
               - Sid: CloudWatchLogsPolicy
                 Effect: Allow
