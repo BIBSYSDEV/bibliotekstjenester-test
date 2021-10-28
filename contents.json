@@ -2,802 +2,902 @@
   "contents": [
     {
       "PutRequest": {
-        "isbn": "0306449293",
-        "created": "2021-05-19T14:46:57.588557Z",
-        "date_of_publication": "",
-        "description_long": "Elastic and inelastic scattering in transmission electron microscopy (TEM) are important research subjects. For a long time, I have wished to systematically summarize various dynamic theories associated with quantitative electron micros  copy and their applications in simulations of electron diffraction patterns and images. This wish now becomes reality. The aim of this book is to explore the physics in electron diffraction and imaging and related applications for materials characterizations. Particular emphasis is placed on diffraction and imaging of inelastically scattered electrons, which, I believe, have not been discussed exten  sively in existing books. This book assumes that readers have some preknowledge of electron microscopy, electron diffraction, and quantum mechanics. I anticipate that this book will be a guide to approaching phenomena observed in electron microscopy from the prospects of diffraction physics. The SI units are employed throughout the book except for angstrom (A), which is used occasionally for convenience. To reduce the number of symbols used, the Fourier transform of a real-space function P'(r), for example, is denoted by the same symbol P'(u) in reciprocal space except that r is replaced by u. Upper and lower limits of an integral in the book are (-co, co) unless otherwise specified. The (-co, co) integral limits are usually omitted in a mathematical expression for simplification. I very much appreciate opportunity of working with Drs. J. M. Cowley and J. C. H. Spence (Arizona State University), J.",
-        "description_short": "For a long time, I have wished to systematically summarize various dynamic theories associated with quantitative electron micros  copy and their applications in simulations of electron diffraction patterns and images. This book assumes that readers have some preknowledge of electron microscopy, electron diffraction, and quantum mechanics.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Elastic and inelastic scattering in electron diffraction and imaging"
+        "Item": {
+          "isbn": "0306449293",
+          "created": "2021-05-19T14:46:57.588557Z",
+          "date_of_publication": "",
+          "description_long": "Elastic and inelastic scattering in transmission electron microscopy (TEM) are important research subjects. For a long time, I have wished to systematically summarize various dynamic theories associated with quantitative electron micros  copy and their applications in simulations of electron diffraction patterns and images. This wish now becomes reality. The aim of this book is to explore the physics in electron diffraction and imaging and related applications for materials characterizations. Particular emphasis is placed on diffraction and imaging of inelastically scattered electrons, which, I believe, have not been discussed exten  sively in existing books. This book assumes that readers have some preknowledge of electron microscopy, electron diffraction, and quantum mechanics. I anticipate that this book will be a guide to approaching phenomena observed in electron microscopy from the prospects of diffraction physics. The SI units are employed throughout the book except for angstrom (A), which is used occasionally for convenience. To reduce the number of symbols used, the Fourier transform of a real-space function P'(r), for example, is denoted by the same symbol P'(u) in reciprocal space except that r is replaced by u. Upper and lower limits of an integral in the book are (-co, co) unless otherwise specified. The (-co, co) integral limits are usually omitted in a mathematical expression for simplification. I very much appreciate opportunity of working with Drs. J. M. Cowley and J. C. H. Spence (Arizona State University), J.",
+          "description_short": "For a long time, I have wished to systematically summarize various dynamic theories associated with quantitative electron micros  copy and their applications in simulations of electron diffraction patterns and images. This book assumes that readers have some preknowledge of electron microscopy, electron diffraction, and quantum mechanics.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Elastic and inelastic scattering in electron diffraction and imaging"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0226538567",
-        "created": "2021-05-21T14:31:39.691627Z",
-        "date_of_publication": "",
-        "description_long": "\"A serious reconsideration of the 'economics of science' is long overdue,\" say Philip Mirowski and Esther-Mirjam Sent in the introduction to Science Bought and Sold. Indeed, it is only recently that one could speak of a field of economics of science at all. Although it has long been accepted that economics can provide useful tools with which to understand science, economics has only lately shifted its focus to the economic agent as information processor, making it more broadly applicable to science. \nBringing together central themes in this emerging discipline, the editors have assembled important articles that provide a wider context and background against which the economics of science can be evaluated. Roughly one-third of the essays presented here are original papers, and the rest are critical articles previously published in the field. From essays examining economic welfare to the idea of scientists as agents to the digital aspects of higher education,Science Bought and Sold presents a comprehensive overview of the new directions of this expanding area.\n\n\nContributors: \nKenneth J. Arrow \nMario Biagioli \nWilliam A. Brock \nMichel Callon \nPartha Dasgupta \nPaul A. David \nSteven N. Durlauf \nPaul Forman \nSteve Fuller \nD. Wade Hands \nShaun P. Hargreaves Heap \nPhilip Kitcher \nSharon G. Levin \nRichard R. Nelson \nDavid F. Noble \nMichael Polanyi \nGary Rhoades \nCharles Sanders Peirce \nSheila Slaughter\nPaula E. Stephan \nStephen Turner \nJames R. Wible\nJohn Ziman",
-        "description_short": "Although it has long been accepted that economics can provide tools with which to understand science, economics has shifted its focus to the economic agent as information processor. This collection of essays presents an overview of this area.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Science bought and sold : essays in the economics of science"
+        "Item": {
+          "isbn": "0226538567",
+          "created": "2021-05-21T14:31:39.691627Z",
+          "date_of_publication": "",
+          "description_long": "\"A serious reconsideration of the 'economics of science' is long overdue,\" say Philip Mirowski and Esther-Mirjam Sent in the introduction to Science Bought and Sold. Indeed, it is only recently that one could speak of a field of economics of science at all. Although it has long been accepted that economics can provide useful tools with which to understand science, economics has only lately shifted its focus to the economic agent as information processor, making it more broadly applicable to science. \nBringing together central themes in this emerging discipline, the editors have assembled important articles that provide a wider context and background against which the economics of science can be evaluated. Roughly one-third of the essays presented here are original papers, and the rest are critical articles previously published in the field. From essays examining economic welfare to the idea of scientists as agents to the digital aspects of higher education,Science Bought and Sold presents a comprehensive overview of the new directions of this expanding area.\n\n\nContributors: \nKenneth J. Arrow \nMario Biagioli \nWilliam A. Brock \nMichel Callon \nPartha Dasgupta \nPaul A. David \nSteven N. Durlauf \nPaul Forman \nSteve Fuller \nD. Wade Hands \nShaun P. Hargreaves Heap \nPhilip Kitcher \nSharon G. Levin \nRichard R. Nelson \nDavid F. Noble \nMichael Polanyi \nGary Rhoades \nCharles Sanders Peirce \nSheila Slaughter\nPaula E. Stephan \nStephen Turner \nJames R. Wible\nJohn Ziman",
+          "description_short": "Although it has long been accepted that economics can provide tools with which to understand science, economics has shifted its focus to the economic agent as information processor. This collection of essays presents an overview of this area.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Science bought and sold : essays in the economics of science"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781472106056",
-        "created": "2021-05-16T16:29:36.245688Z",
-        "date_of_publication": "",
-        "description_long": "Ursula is obsessed with Mason; and Mason is obsessed with Ursula. But their passion is strong - murderously strong.  Two lovers, three murders, a vortex of eroticism and an intriguing deception, all set in a steamy, noir-ish Los Angeles . . . This is a smouldering sexual thriller, with echoes of James M. Cain, Raymond Chandler and all the finesse of the best traditions of European erotic writing.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781472106056",
+          "created": "2021-05-16T16:29:36.245688Z",
+          "date_of_publication": "",
+          "description_long": "Ursula is obsessed with Mason; and Mason is obsessed with Ursula. But their passion is strong - murderously strong.  Two lovers, three murders, a vortex of eroticism and an intriguing deception, all set in a steamy, noir-ish Los Angeles . . . This is a smouldering sexual thriller, with echoes of James M. Cain, Raymond Chandler and all the finesse of the best traditions of European erotic writing.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788211023063",
-        "created": "2021-06-16T17:01:50.615855Z",
-        "date_of_publication": "",
-        "description_long": "GRIP er et læreverk for flerspråklige elever og deltakere som får opplæring i samfunnsfag, naturfag og matematikk på grunnleggende nivå. GRIP innføring i matematikk er spesielt tilrettelagt for elever i ungdomskolen og dekker kompetansemålene etter 2., 4. og 7..trinn i læreplanene etter Kunnskapsløftet. GRIP basisfagene GRIP fokuserer på å presentere fagstoff på en enkel måte. Språket er tilpasset elever med lite skolebakgrunn fra hjemlandet. Det visuelle uttrykket er ryddig og enkelt, med variert bruk av foto og tegninger. GRIP - innføring i matematikk eleven basiskunnskaper i matematikk og dekker kompetansemålene etter 2., 4. og 7..trinn i læreplanene etter Kunnskapsløftet. Eksempler på emner: tall, de fire regneartene, tid, mønster og former, geometri, prosent, mål og statistikk. GRIP digitale ressurser GRIP Portal er verkets nettsted. He finner du digitale ressurser til alle GRIP-fagene. Læreren finner supplerende oppgavemateriell til nedlasting samt tips til undervisningen. Komponenter i GRIP-serien: GRIP 1 Samfunnsfag og naturfag GRIP 2 Samfunnsfag og naturfag GRIP 1 Matematikk GRIP 2 Matematikk GRIP Innføring i matematikk GRIP Portal - fagnettsted med digitale bøker og oppgavemateriell Les mer på: www.fagbokforlaget.no/grip Forfatter Grete Angvik Hermanrud her lang erfaring med å undervise voksne innvandrere i matematikk. Hun har også vært engasjert av Utdanningsdirektoratet til å lage eksamensoppgaver i matematikk for voksne i grunnskoleopplæringen. Angvik Hermanrud er for tiden knyttet til Enhet for voksenopplæring i Trondheim. Forfatter Liv Hermanrud er lektor i realfag med spesialisering i fysikk og matematikk. Hermanrud har undervisningserfaring med flerspråklige elever i realfag.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788211023063",
+          "created": "2021-06-16T17:01:50.615855Z",
+          "date_of_publication": "",
+          "description_long": "GRIP er et læreverk for flerspråklige elever og deltakere som får opplæring i samfunnsfag, naturfag og matematikk på grunnleggende nivå. GRIP innføring i matematikk er spesielt tilrettelagt for elever i ungdomskolen og dekker kompetansemålene etter 2., 4. og 7..trinn i læreplanene etter Kunnskapsløftet. GRIP basisfagene GRIP fokuserer på å presentere fagstoff på en enkel måte. Språket er tilpasset elever med lite skolebakgrunn fra hjemlandet. Det visuelle uttrykket er ryddig og enkelt, med variert bruk av foto og tegninger. GRIP - innføring i matematikk eleven basiskunnskaper i matematikk og dekker kompetansemålene etter 2., 4. og 7..trinn i læreplanene etter Kunnskapsløftet. Eksempler på emner: tall, de fire regneartene, tid, mønster og former, geometri, prosent, mål og statistikk. GRIP digitale ressurser GRIP Portal er verkets nettsted. He finner du digitale ressurser til alle GRIP-fagene. Læreren finner supplerende oppgavemateriell til nedlasting samt tips til undervisningen. Komponenter i GRIP-serien: GRIP 1 Samfunnsfag og naturfag GRIP 2 Samfunnsfag og naturfag GRIP 1 Matematikk GRIP 2 Matematikk GRIP Innføring i matematikk GRIP Portal - fagnettsted med digitale bøker og oppgavemateriell Les mer på: www.fagbokforlaget.no/grip Forfatter Grete Angvik Hermanrud her lang erfaring med å undervise voksne innvandrere i matematikk. Hun har også vært engasjert av Utdanningsdirektoratet til å lage eksamensoppgaver i matematikk for voksne i grunnskoleopplæringen. Angvik Hermanrud er for tiden knyttet til Enhet for voksenopplæring i Trondheim. Forfatter Liv Hermanrud er lektor i realfag med spesialisering i fysikk og matematikk. Hermanrud har undervisningserfaring med flerspråklige elever i realfag.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0511759908",
-        "created": "2021-05-05T06:28:37.807Z",
-        "date_of_publication": "1988",
-        "description_long": "This book examines how transformations in Brazil's social, economic and political organization affect the demographic behaviour of people who live in different parts of the country and who occupy different positions in the social system. The authors review the history of unequal development and document the concentration of income and land ownership. Using data from the 1970 and 1980 censuses, they show how the Brazilian style of economic growth unequally affected different population subgroups. Mortality estimates for white and non-white people measure the consequences of racial inequality on the life chances of children. Other chapters investigate rural out-migration, the impact of Amazon colonization schemes on rural poverty, and the implications of differential rates of population growth among rich and poor households for future patterns of inequality and underemployment. The overall perspective places the concept of inequality at the centre of the study of demographic and structural change.",
-        "description_short": "This book examines how transformations in Brazil's social, economic and political organization affect the demographic behaviour of people who live in different parts of the country.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": " 1. Introduction\n<br>  2. Framework for the study of population\n<br>  3. Growth and distribution in historical perspective\n<br>  4. Income inequality and length of life\n<br>  5. Wage policy, infant mortality and collective social action in Sao Paulo\n<br>  6. Racial inequality and child mortality\n<br>  7. The 'baby' bust\n<br>  8. Income distribution and population growth\n<br>  9. Agrarian structure and the rural exodus\n<br>  10. Colonization and frontier expansion in Amazonia\n<br>  11. Development and persistent underemployment\n<br>  12. The demography of inequality in Brazil: summary and conclusion.\n<br>\n<br>",
-        "title": ""
+        "Item": {
+          "isbn": "0511759908",
+          "created": "2021-05-05T06:28:37.807Z",
+          "date_of_publication": "1988",
+          "description_long": "This book examines how transformations in Brazil's social, economic and political organization affect the demographic behaviour of people who live in different parts of the country and who occupy different positions in the social system. The authors review the history of unequal development and document the concentration of income and land ownership. Using data from the 1970 and 1980 censuses, they show how the Brazilian style of economic growth unequally affected different population subgroups. Mortality estimates for white and non-white people measure the consequences of racial inequality on the life chances of children. Other chapters investigate rural out-migration, the impact of Amazon colonization schemes on rural poverty, and the implications of differential rates of population growth among rich and poor households for future patterns of inequality and underemployment. The overall perspective places the concept of inequality at the centre of the study of demographic and structural change.",
+          "description_short": "This book examines how transformations in Brazil's social, economic and political organization affect the demographic behaviour of people who live in different parts of the country.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": " 1. Introduction\n<br>  2. Framework for the study of population\n<br>  3. Growth and distribution in historical perspective\n<br>  4. Income inequality and length of life\n<br>  5. Wage policy, infant mortality and collective social action in Sao Paulo\n<br>  6. Racial inequality and child mortality\n<br>  7. The 'baby' bust\n<br>  8. Income distribution and population growth\n<br>  9. Agrarian structure and the rural exodus\n<br>  10. Colonization and frontier expansion in Amazonia\n<br>  11. Development and persistent underemployment\n<br>  12. The demography of inequality in Brazil: summary and conclusion.\n<br>\n<br>",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781573317511",
-        "created": "2021-05-06T14:27:19.546804Z",
-        "date_of_publication": "",
-        "description_long": "At a microscopic level, organisms are ruled by interacting systems of biomolecules. Historically, scientists painstakingly elucidated chains of molecular events using experiments that reveal individual interactions, although they recognized that members of different pathways frequently interact. In recent years, researchers have built richer, interconnected networks to mathematically summarize their knowledge of these interactions. This systems biology enterprise, largely stimulated by high-throughput tools like microarrays that measure mRNA levels as an indicator of gene expression, is a vital and increasingly important activity in both basic biology and in medicine. A nagging concern, however, is how accurately these networks represent the biology. For complex systems like biological networks, there are practical limits on how well even massive amounts of data can uniquely define the underlying structure and yield useful predictions of measurable events. Indeed, although its advocates call this process \"reverse engineering,\" the topology and the detailed molecular interactions of the \"inferred\" networks will likely never be known with precision.\nThis volume captures the ongoing process to assess the ability of scientists-and their computer servants-to infer networks from experimental data, by comparing their predictions to \"gold-standard\" networks whose structure is thought to be known. NOTE: Annals volumes are available for sale as individual books or as a journal. For information on institutional journal subscriptions, please visit www.blackwellpublishing.com/nyas. ACADEMY MEMBERS: Please contact the New York Academy of Sciences directly to place your order (www.nyas.org). Members of the New York Academy of Science receive full-text access to the Annals online and discounts on print volumes. Please visit http://www.nyas.org/MemberCenter/Join.aspx for more information about becoming a member.",
-        "description_short": "At a microscopic level, organisms are ruled by interacting systems of biomolecules. Historically, scientists painstakingly elucidated chains of molecular events using experiments that reveal individual interactions, although they recognized that members of different pathways frequently interact.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "The challenges of systems biology : community efforts to harness biological complexity"
+        "Item": {
+          "isbn": "9781573317511",
+          "created": "2021-05-06T14:27:19.546804Z",
+          "date_of_publication": "",
+          "description_long": "At a microscopic level, organisms are ruled by interacting systems of biomolecules. Historically, scientists painstakingly elucidated chains of molecular events using experiments that reveal individual interactions, although they recognized that members of different pathways frequently interact. In recent years, researchers have built richer, interconnected networks to mathematically summarize their knowledge of these interactions. This systems biology enterprise, largely stimulated by high-throughput tools like microarrays that measure mRNA levels as an indicator of gene expression, is a vital and increasingly important activity in both basic biology and in medicine. A nagging concern, however, is how accurately these networks represent the biology. For complex systems like biological networks, there are practical limits on how well even massive amounts of data can uniquely define the underlying structure and yield useful predictions of measurable events. Indeed, although its advocates call this process \"reverse engineering,\" the topology and the detailed molecular interactions of the \"inferred\" networks will likely never be known with precision.\nThis volume captures the ongoing process to assess the ability of scientists-and their computer servants-to infer networks from experimental data, by comparing their predictions to \"gold-standard\" networks whose structure is thought to be known. NOTE: Annals volumes are available for sale as individual books or as a journal. For information on institutional journal subscriptions, please visit www.blackwellpublishing.com/nyas. ACADEMY MEMBERS: Please contact the New York Academy of Sciences directly to place your order (www.nyas.org). Members of the New York Academy of Science receive full-text access to the Annals online and discounts on print volumes. Please visit http://www.nyas.org/MemberCenter/Join.aspx for more information about becoming a member.",
+          "description_short": "At a microscopic level, organisms are ruled by interacting systems of biomolecules. Historically, scientists painstakingly elucidated chains of molecular events using experiments that reveal individual interactions, although they recognized that members of different pathways frequently interact.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "The challenges of systems biology : community efforts to harness biological complexity"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788202527891",
-        "created": "2021-05-06T17:01:17.628221Z",
-        "date_of_publication": "",
-        "description_long": "Gatene her skremmer meg. Det er så mye veskenapping og ran. Annalisa har nettopp fylt 14 år. En dag hun er ute sammen med noen venner blir hun ved en tilfeldighet skutt og drept av mafiaen. Senere finner faren den hemmelige dagboka hennes. Der skriver Annalisa om hvordan det er å være ung i et av Italias farligste mafiastrøk. Og hun skriver om lekser og lærere, om foreldre og søsken, om venninner, om ønsker for framtiden, om å drømme seg bort - og om å være forelsket. \"Jeg liker å tenke at livet mitt ikke ender med døden. Jeg ønsker å bli minnet av de som lever etter meg.\"",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788202527891",
+          "created": "2021-05-06T17:01:17.628221Z",
+          "date_of_publication": "",
+          "description_long": "Gatene her skremmer meg. Det er så mye veskenapping og ran. Annalisa har nettopp fylt 14 år. En dag hun er ute sammen med noen venner blir hun ved en tilfeldighet skutt og drept av mafiaen. Senere finner faren den hemmelige dagboka hennes. Der skriver Annalisa om hvordan det er å være ung i et av Italias farligste mafiastrøk. Og hun skriver om lekser og lærere, om foreldre og søsken, om venninner, om ønsker for framtiden, om å drømme seg bort - og om å være forelsket. \"Jeg liker å tenke at livet mitt ikke ender med døden. Jeg ønsker å bli minnet av de som lever etter meg.\"",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781444943597",
-        "created": "2021-05-09T16:21:45.124769Z",
-        "date_of_publication": "",
-        "description_long": "A brilliant mystery series from bestselling author Enid Blyton, perfect for fans of The Secret Seven. \n\nPrince Bongawah is staying at a school camp near Peterswood, but before Fatty, Larry, Daisy, Pip and Bets get to see him he disappears in the middle of the night! The Find-Outers, along with the help of Ern and his brothers Sid and Pearce, are on the case to find the missing prince. And this time they'll have to work with Mr Goon...\n\nFirst published in 1951, this audio edition is based on the original text.\n\n(P) 2019 Hodder & Stoughton Limited\n\nEnid Blyton ® and Enid Blyton's signature are registered trade marks of Hodder & Stoughton Limited. No trade mark or copyrighted material may be reproduced without the express written permission of the trade mark and copyright owner.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-19T16:23:54.939689Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781444943597",
+          "created": "2021-05-09T16:21:45.124769Z",
+          "date_of_publication": "",
+          "description_long": "A brilliant mystery series from bestselling author Enid Blyton, perfect for fans of The Secret Seven. \n\nPrince Bongawah is staying at a school camp near Peterswood, but before Fatty, Larry, Daisy, Pip and Bets get to see him he disappears in the middle of the night! The Find-Outers, along with the help of Ern and his brothers Sid and Pearce, are on the case to find the missing prince. And this time they'll have to work with Mr Goon...\n\nFirst published in 1951, this audio edition is based on the original text.\n\n(P) 2019 Hodder & Stoughton Limited\n\nEnid Blyton ® and Enid Blyton's signature are registered trade marks of Hodder & Stoughton Limited. No trade mark or copyrighted material may be reproduced without the express written permission of the trade mark and copyright owner.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-19T16:23:54.939689Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "3540225706",
-        "created": "2021-05-25T15:02:42.779035Z",
-        "date_of_publication": "",
-        "description_long": "This volume contains all papers presented at SSPR 2004 and SPR 2004, hosted by the Instituto de Telecomunicac\" ,oes/Instituto Superior T' ecnico, Lisbon, Portugal, August 18-20, 2004. This was the fourth time that the two workshops were held back-to-back. The SSPR was the tenth International Workshop on Structural and Synt- tic Pattern Recognition, and the SPR was the ?fth International Workshop on Statistical Techniques in Pattern Recognition. These workshops have traditi- ally been held in conjunction with ICPR (International Conference on Pattern Recognition), and are the major events for technical committees TC2 and TC1, respectively, of the International Association for Pattern Recognition (IAPR). The workshops were closely coordinated, being held in parallel, with plenary talks and a common session on hybrid systems. This was an attempt to resolve thedilemmaofhowto dealwiththeneedfornarrow-focusspecializedworkshops yet accommodate the presentation of new theories and techniques that blur the distinction between the statistical and the structural approaches.\nA total of 219 papers were received from many countries, with the subm- sion and reviewing processes being carried out separately for each workshop. A total of 59 papers were accepted for oral presentation and 64 for posters. In - dition, four invited speakers presented informative talks and overviews of their research. They were: Alberto Sanfeliu, from the Technical University of Cata- nia, Spain; Marco Gori, from the University of Siena, Italy; Nello Cristianini, from the University of California, USA; and Erkki Oja, from Helsinki University of Technology, Finland, winner of the 2004 Pierre Devijver Award.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Structural, syntactic, and statistical pattern recognition : joint IAPR international workshops SSPR 2004 and SPR 2004, Lisbon, Portugal, August 18-20, 2004 : proceedings"
+        "Item": {
+          "isbn": "3540225706",
+          "created": "2021-05-25T15:02:42.779035Z",
+          "date_of_publication": "",
+          "description_long": "This volume contains all papers presented at SSPR 2004 and SPR 2004, hosted by the Instituto de Telecomunicac\" ,oes/Instituto Superior T' ecnico, Lisbon, Portugal, August 18-20, 2004. This was the fourth time that the two workshops were held back-to-back. The SSPR was the tenth International Workshop on Structural and Synt- tic Pattern Recognition, and the SPR was the ?fth International Workshop on Statistical Techniques in Pattern Recognition. These workshops have traditi- ally been held in conjunction with ICPR (International Conference on Pattern Recognition), and are the major events for technical committees TC2 and TC1, respectively, of the International Association for Pattern Recognition (IAPR). The workshops were closely coordinated, being held in parallel, with plenary talks and a common session on hybrid systems. This was an attempt to resolve thedilemmaofhowto dealwiththeneedfornarrow-focusspecializedworkshops yet accommodate the presentation of new theories and techniques that blur the distinction between the statistical and the structural approaches.\nA total of 219 papers were received from many countries, with the subm- sion and reviewing processes being carried out separately for each workshop. A total of 59 papers were accepted for oral presentation and 64 for posters. In - dition, four invited speakers presented informative talks and overviews of their research. They were: Alberto Sanfeliu, from the Technical University of Cata- nia, Spain; Marco Gori, from the University of Siena, Italy; Nello Cristianini, from the University of California, USA; and Erkki Oja, from Helsinki University of Technology, Finland, winner of the 2004 Pierre Devijver Award.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Structural, syntactic, and statistical pattern recognition : joint IAPR international workshops SSPR 2004 and SPR 2004, Lisbon, Portugal, August 18-20, 2004 : proceedings"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0122267621",
-        "created": "2021-06-03T15:13:59.642838Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "A comprehensive three-volume work which aims to be a definitive source of all immunological knowledge. Features include approximately 600 entries covering all aspects of immunology; extensive cross-references; and an alphabetically arranged format for easy access.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Encyclopedia of immunology"
+        "Item": {
+          "isbn": "0122267621",
+          "created": "2021-06-03T15:13:59.642838Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "A comprehensive three-volume work which aims to be a definitive source of all immunological knowledge. Features include approximately 600 entries covering all aspects of immunology; extensive cross-references; and an alphabetically arranged format for easy access.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Encyclopedia of immunology"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0897668804",
-        "created": "2021-05-15T14:41:58.791476Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Pharmacology of aging processes : methods of assessment and potential interventions"
+        "Item": {
+          "isbn": "0897668804",
+          "created": "2021-05-15T14:41:58.791476Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Pharmacology of aging processes : methods of assessment and potential interventions"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0412569701",
-        "created": "2021-05-11T14:54:48.943460Z",
-        "date_of_publication": "",
-        "description_long": "This book was conceived to mark the Silver Jubilee of the British Butterfly Conservation Society. Interest in the conservation of butterflies has increased so rapidly that it is difficult to relate to the situation 25 years ago. Butterflies were on the decline in Britain, Europe and elsewhere but we lacked data on the extent of the decline and the underlying reasons, leaving us unable to implement effective conservation measures. An early recognition of the plight of British butterflies and moths led to the foundation of the society by a small group of conservationists in 1968. Today the society has over 10000 members, owns a number of reserves and sponsors research, conservation and monitoring activities at the local and national level. As part of the Silver Jubilee celebrations an international symposium was held at Keele University in September 1993 entitled 'Ecology and Conservation of Butterflies'. This symposium clearly showed how much important work has been done in recent years and also gave me the impression that the subject had reached a watershed. This was not because the decline of butterflies has stopped or even slowed down, far from it, the threat to our butterflies continues to increase from habitat destruction and intensification of land use. The watershed is in our understanding of the relationship between butterflies and their habitat.",
-        "description_short": "This was not because the decline of butterflies has stopped or even slowed down, far from it, the threat to our butterflies continues to increase from habitat destruction and intensification of land use.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Ecology and conservation of butterflies"
+        "Item": {
+          "isbn": "0412569701",
+          "created": "2021-05-11T14:54:48.943460Z",
+          "date_of_publication": "",
+          "description_long": "This book was conceived to mark the Silver Jubilee of the British Butterfly Conservation Society. Interest in the conservation of butterflies has increased so rapidly that it is difficult to relate to the situation 25 years ago. Butterflies were on the decline in Britain, Europe and elsewhere but we lacked data on the extent of the decline and the underlying reasons, leaving us unable to implement effective conservation measures. An early recognition of the plight of British butterflies and moths led to the foundation of the society by a small group of conservationists in 1968. Today the society has over 10000 members, owns a number of reserves and sponsors research, conservation and monitoring activities at the local and national level. As part of the Silver Jubilee celebrations an international symposium was held at Keele University in September 1993 entitled 'Ecology and Conservation of Butterflies'. This symposium clearly showed how much important work has been done in recent years and also gave me the impression that the subject had reached a watershed. This was not because the decline of butterflies has stopped or even slowed down, far from it, the threat to our butterflies continues to increase from habitat destruction and intensification of land use. The watershed is in our understanding of the relationship between butterflies and their habitat.",
+          "description_short": "This was not because the decline of butterflies has stopped or even slowed down, far from it, the threat to our butterflies continues to increase from habitat destruction and intensification of land use.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Ecology and conservation of butterflies"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788203371981",
-        "created": "2021-04-29T16:50:35.145297Z",
-        "date_of_publication": "",
-        "description_long": "Døvstumme Singer blir en slags skriftefar, eller klagemur, for en fargerik samling mennesker i en liten sørstatsby på 1930-tallet. Alle som én betror de seg til han: Ungpiken som elsker musikk, den sorte doktor Copeland, den godhjertede barkeeperen og den krakilske kommunisten. Singer er der for alle, mens han lengter intenst etter sin greske venn Antonapulos som ble lagt inn på asylet i en annen by.\n\nMcCullers gir et lavmælt og krystallklart bilde av den daglige kampen omkring klasse, rase og kjønn og skildrer det fattige og harde livet i byen. \n\n\"Hjertet er en ensom jeger\" er debutboka til amerikanske Carson McCullers, utgitt i 1940, da hun bare var 23 år gammel. Boken ble en sensasjon og gjorde navnet hennes kjent verden over. Hun viser i debuten en sjelden litterær modenhet, en menneskekunnskap og en livsinnsikt som treffer leseren midt i hjertet. Det er en inntrengende bok, full av ømme, varme og bittert sanne portretter.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788203371981",
+          "created": "2021-04-29T16:50:35.145297Z",
+          "date_of_publication": "",
+          "description_long": "Døvstumme Singer blir en slags skriftefar, eller klagemur, for en fargerik samling mennesker i en liten sørstatsby på 1930-tallet. Alle som én betror de seg til han: Ungpiken som elsker musikk, den sorte doktor Copeland, den godhjertede barkeeperen og den krakilske kommunisten. Singer er der for alle, mens han lengter intenst etter sin greske venn Antonapulos som ble lagt inn på asylet i en annen by.\n\nMcCullers gir et lavmælt og krystallklart bilde av den daglige kampen omkring klasse, rase og kjønn og skildrer det fattige og harde livet i byen. \n\n\"Hjertet er en ensom jeger\" er debutboka til amerikanske Carson McCullers, utgitt i 1940, da hun bare var 23 år gammel. Boken ble en sensasjon og gjorde navnet hennes kjent verden over. Hun viser i debuten en sjelden litterær modenhet, en menneskekunnskap og en livsinnsikt som treffer leseren midt i hjertet. Det er en inntrengende bok, full av ømme, varme og bittert sanne portretter.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781529351637",
-        "created": "2021-05-20T16:32:50.711270Z",
-        "date_of_publication": "",
-        "description_long": "A laugh-out-loud, poignant and uplifting ode to the simple pleasure and small joys in life. Perfect for fans of Gail Honeyman, Rosanna Ley and Ruth Hogan.\n\n\"A lovely feel-good story\" -Lisa, NetGalley reviewer\n\n\"I adored this book... a wonderful discovery!\" -Breves litteraires blog\n\nHow do you find where you're going, if you've forgotten where you're from...\n\n\nWHAT READERS THINK\n\n\"A wonderful read\" -Abby, NetGalley reviewer\n\n\"An ode to the simple pleasure and small joys in life.\" -Breves litteraires blog\n\n\"A real treat!\" -RTBF\n\n\"A book full of light, sunshine and joy.\" -Lapresse.ca\n\n\"The writing is soft, luminous, and full of hope.\" -Blogger\n\n\"A delightful novel that celebrates the reading experience.\" -Tele 7 Jours\n\n\nGiacomo is stuck in a funk he can't shake - and a translation he can't finish. When he's summoned home to Sardinia, to say a final goodbye to his dying grandmother, he's offered the perfect opportunity to escape. \n\nOn the noisy, sun-drenched island, Giacomo reconnects with long-lost friends and overbearing relatives, relives the childhood he once couldn't wait to leave behind, and rediscovers new joie-de-vivre within him. Never mind that he's making no progress on his translation. . . \n\nWhen the time comes to leave once more, Giacomo wonders: has he fallen back in love with his home-island? Or has he been hiding from something which he needs the courage to return and confront? \n\nBut most importantly - is his grandma really as ill as she's claiming to be?",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781529351637",
+          "created": "2021-05-20T16:32:50.711270Z",
+          "date_of_publication": "",
+          "description_long": "A laugh-out-loud, poignant and uplifting ode to the simple pleasure and small joys in life. Perfect for fans of Gail Honeyman, Rosanna Ley and Ruth Hogan.\n\n\"A lovely feel-good story\" -Lisa, NetGalley reviewer\n\n\"I adored this book... a wonderful discovery!\" -Breves litteraires blog\n\nHow do you find where you're going, if you've forgotten where you're from...\n\n\nWHAT READERS THINK\n\n\"A wonderful read\" -Abby, NetGalley reviewer\n\n\"An ode to the simple pleasure and small joys in life.\" -Breves litteraires blog\n\n\"A real treat!\" -RTBF\n\n\"A book full of light, sunshine and joy.\" -Lapresse.ca\n\n\"The writing is soft, luminous, and full of hope.\" -Blogger\n\n\"A delightful novel that celebrates the reading experience.\" -Tele 7 Jours\n\n\nGiacomo is stuck in a funk he can't shake - and a translation he can't finish. When he's summoned home to Sardinia, to say a final goodbye to his dying grandmother, he's offered the perfect opportunity to escape. \n\nOn the noisy, sun-drenched island, Giacomo reconnects with long-lost friends and overbearing relatives, relives the childhood he once couldn't wait to leave behind, and rediscovers new joie-de-vivre within him. Never mind that he's making no progress on his translation. . . \n\nWhen the time comes to leave once more, Giacomo wonders: has he fallen back in love with his home-island? Or has he been hiding from something which he needs the courage to return and confront? \n\nBut most importantly - is his grandma really as ill as she's claiming to be?",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0713128984",
-        "created": "2021-05-23T15:00:50.253646Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Seed physiology"
+        "Item": {
+          "isbn": "0713128984",
+          "created": "2021-05-23T15:00:50.253646Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Seed physiology"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0262194929",
-        "created": "2021-05-18T15:19:03.454440Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Energy at the crossroads : global perspectives and uncertainties"
+        "Item": {
+          "isbn": "0262194929",
+          "created": "2021-05-18T15:19:03.454440Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Energy at the crossroads : global perspectives and uncertainties"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788202711245",
-        "created": "2021-05-31T16:15:02.873784Z",
-        "date_of_publication": "",
-        "description_long": "For femten år siden landet en kråke i fanget til Espen Sletteberg. Siden har han og kråka Hafez bodd sammen. Mytene om kråker har i uminnelige tider fulgt dem, og handler så å si alltid om død og fordervelse. Men for Sletteberg er dette et spørsmål om liv og død. Hvordan er det egentlig å leve med en kråke? Dette er utgangsspørsmålet DN-journalist Alf Marius Opsahl stiller seg i møte med Kråkemannen Espen.",
-        "description_short": "",
-        "image_large": "files/images/large/5/4/9788202711245.jpg",
-        "image_original": "files/images/original/5/4/9788202711245.jpg",
-        "image_small": "files/images/small/5/4/9788202711245.jpg",
-        "modified": "2021-06-01T16:19:30.573864Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788202711245",
+          "created": "2021-05-31T16:15:02.873784Z",
+          "date_of_publication": "",
+          "description_long": "For femten år siden landet en kråke i fanget til Espen Sletteberg. Siden har han og kråka Hafez bodd sammen. Mytene om kråker har i uminnelige tider fulgt dem, og handler så å si alltid om død og fordervelse. Men for Sletteberg er dette et spørsmål om liv og død. Hvordan er det egentlig å leve med en kråke? Dette er utgangsspørsmålet DN-journalist Alf Marius Opsahl stiller seg i møte med Kråkemannen Espen.",
+          "description_short": "",
+          "image_large": "files/images/large/5/4/9788202711245.jpg",
+          "image_original": "files/images/original/5/4/9788202711245.jpg",
+          "image_small": "files/images/small/5/4/9788202711245.jpg",
+          "modified": "2021-06-01T16:19:30.573864Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "829319121X",
-        "created": "2021-05-05T06:56:16.878Z",
-        "date_of_publication": "2014",
-        "description_long": "",
-        "description_short": "En nyttig h�ndbok for alle med matallergi eller matintoleranse. Ogs� godt egnet for kokker, f�rskolel�rere og helsepersonell. F�rste del av boken gir n�dvendig innsikt og bakgrunn til � forst� problemkomplekset rundt matallergi. For mange vil denne innsikten gi en trygghet i den daglige omgangen med mat. Andre del presenterer rundt 350 velpr�vde og gode oppskrifter og en rekke gode r�d som vil gj�re hverdagen lettere for alle med allergi eller matoverf�lsomhet.",
-        "image_large": "files/images/large/X/1/829319121X.jpg",
-        "image_original": "",
-        "image_small": "files/images/small/X/1/829319121X.jpg",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": "Allergi og matintoleranse"
+        "Item": {
+          "isbn": "829319121X",
+          "created": "2021-05-05T06:56:16.878Z",
+          "date_of_publication": "2014",
+          "description_long": "",
+          "description_short": "En nyttig h�ndbok for alle med matallergi eller matintoleranse. Ogs� godt egnet for kokker, f�rskolel�rere og helsepersonell. F�rste del av boken gir n�dvendig innsikt og bakgrunn til � forst� problemkomplekset rundt matallergi. For mange vil denne innsikten gi en trygghet i den daglige omgangen med mat. Andre del presenterer rundt 350 velpr�vde og gode oppskrifter og en rekke gode r�d som vil gj�re hverdagen lettere for alle med allergi eller matoverf�lsomhet.",
+          "image_large": "files/images/large/X/1/829319121X.jpg",
+          "image_original": "",
+          "image_small": "files/images/small/X/1/829319121X.jpg",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": "Allergi og matintoleranse"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788202664534",
-        "created": "2021-05-06T17:09:53.882970Z",
-        "date_of_publication": "",
-        "description_long": "Det var lille julaften, klokken var bare fire om ettermiddagen, men mørket hadde begynt å legge seg over landskapet. Katrine myste mot snøværet og var glad for de røde baklyktene på bilen foran. «Driving home for Christmas» ljomet fra høyttalerne i bilen. Det var en fem timers tur fra Bergen på slikt føre, men julegrauten på lille julaften var en tradisjon hun ikke ville gå glipp av. Dessuten hadde bestemoren vært bestemt på at hun skulle komme på lille juleaften, ikke dagen etter. Veldig bestemt ...",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788202664534",
+          "created": "2021-05-06T17:09:53.882970Z",
+          "date_of_publication": "",
+          "description_long": "Det var lille julaften, klokken var bare fire om ettermiddagen, men mørket hadde begynt å legge seg over landskapet. Katrine myste mot snøværet og var glad for de røde baklyktene på bilen foran. «Driving home for Christmas» ljomet fra høyttalerne i bilen. Det var en fem timers tur fra Bergen på slikt føre, men julegrauten på lille julaften var en tradisjon hun ikke ville gå glipp av. Dessuten hadde bestemoren vært bestemt på at hun skulle komme på lille juleaften, ikke dagen etter. Veldig bestemt ...",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781780591254",
-        "created": "2021-05-20T16:30:45.711756Z",
-        "date_of_publication": "",
-        "description_long": "Where is the only tube station where a crown prince has died?\n\n Where is the oak tree where Good Queen Bess took her rest?\n\n Which Queen befriended the Elephant Man  and played a part in the development of the modern Olympic Games?\n\n Where are the favourite shopping haunts of todays young royals?\n\n From Westminster to Greenwich, Kensington to the Tower of London, no other city in the world is steeped in quite as much royal history as London. Overflowing with royal boroughs, royal palaces, royal parks and gardens, London has played host to key historical events for over a thousand years. Royal London brings together the best of the drama and intrigue of royal history, and guides readers to the very spot where the events happened. Topics covered also include:\n\n  Royals round the monopoly board\n  Royals sporting London\n  Royal stops on the underground\n  Royal food and drink\n  Areas named after royals\n  Royal monuments/statues/plaques\n  Royals and the military\n  Royal plots and conspiracies\n\n A unique and indispensable guide for Londoners and visitors alike with an interest in all things royal.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-05-28T16:24:31.333244Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781780591254",
+          "created": "2021-05-20T16:30:45.711756Z",
+          "date_of_publication": "",
+          "description_long": "Where is the only tube station where a crown prince has died?\n\n Where is the oak tree where Good Queen Bess took her rest?\n\n Which Queen befriended the Elephant Man  and played a part in the development of the modern Olympic Games?\n\n Where are the favourite shopping haunts of todays young royals?\n\n From Westminster to Greenwich, Kensington to the Tower of London, no other city in the world is steeped in quite as much royal history as London. Overflowing with royal boroughs, royal palaces, royal parks and gardens, London has played host to key historical events for over a thousand years. Royal London brings together the best of the drama and intrigue of royal history, and guides readers to the very spot where the events happened. Topics covered also include:\n\n  Royals round the monopoly board\n  Royals sporting London\n  Royal stops on the underground\n  Royal food and drink\n  Areas named after royals\n  Royal monuments/statues/plaques\n  Royals and the military\n  Royal plots and conspiracies\n\n A unique and indispensable guide for Londoners and visitors alike with an interest in all things royal.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-05-28T16:24:31.333244Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788251928427",
-        "created": "2021-06-16T16:59:18.063865Z",
-        "date_of_publication": "",
-        "description_long": "Overalt og hele tida er vi omgitt av tekster og tegn: internettsider, huskelapper, aviser, tekstmeldinger, reklame, film, bøker - lista er nærmest uendelig. Mennesker har til alle tider kommunisert gjennom bilder og skrift. Det nye er mengden av tekster som omgir oss, og kompleksiteten. Å delta i samfunnet forutsetter en like kompleks tekstkompetanse. Dette stiller nye krav til lese- og skriveopplæringen. \n Denne boka formidler viktige innsikter fra en rekke nordiske forskningsprosjekt om lesing, skriving og multimodalitet. Studiene handler om arbeid med multimodale tekster på ulike trinn i skole og høyere utdanning - og i samfunnet for øvrig. Samlet gir boka en dypere forståelse av hvilke grunnleggende ferdigheter barn og unge trenger i ulike fag, og denpresenterer konkrete forslag til hvordan lærere og andre kan arbeide med lesing, skriving og multimodalitet",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788251928427",
+          "created": "2021-06-16T16:59:18.063865Z",
+          "date_of_publication": "",
+          "description_long": "Overalt og hele tida er vi omgitt av tekster og tegn: internettsider, huskelapper, aviser, tekstmeldinger, reklame, film, bøker - lista er nærmest uendelig. Mennesker har til alle tider kommunisert gjennom bilder og skrift. Det nye er mengden av tekster som omgir oss, og kompleksiteten. Å delta i samfunnet forutsetter en like kompleks tekstkompetanse. Dette stiller nye krav til lese- og skriveopplæringen. \n Denne boka formidler viktige innsikter fra en rekke nordiske forskningsprosjekt om lesing, skriving og multimodalitet. Studiene handler om arbeid med multimodale tekster på ulike trinn i skole og høyere utdanning - og i samfunnet for øvrig. Samlet gir boka en dypere forståelse av hvilke grunnleggende ferdigheter barn og unge trenger i ulike fag, og denpresenterer konkrete forslag til hvordan lærere og andre kan arbeide med lesing, skriving og multimodalitet",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781408349601",
-        "created": "2021-05-09T16:34:15.097541Z",
-        "date_of_publication": "",
-        "description_long": "Get ready for an exciting fairy adventure   with the no. 1 bestselling series for girls aged 5 and up. \n\n     Kirsty is so excited to visit Rachel for a weekend and even more excited to   visit The Fernandos' Fabulous Funfair! But Jack Frost wants a funfair all to   himself and he's stolen the Funfair Fairies magic keyring to make it happen.   Can Kirsty and Rachel defeat him, before the funfair is totally   wrecked!\n\n     'These stories are magic; they turn children into readers!' ReadingZone.com\n\n     Read all four fairy adventures in the Funfair Fairies set! Rae the   Rollercoaster Fairy; Fatima the Face-Painting Fairy; Paloma the Dodgems   Fairy; Bobbi the Bouncy Castle Fairy.\n\n     If you like Rainbow Magic, check out Daisy Meadows' other series: Magic   Animal Friends and Unicorn Magic!",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781408349601",
+          "created": "2021-05-09T16:34:15.097541Z",
+          "date_of_publication": "",
+          "description_long": "Get ready for an exciting fairy adventure   with the no. 1 bestselling series for girls aged 5 and up. \n\n     Kirsty is so excited to visit Rachel for a weekend and even more excited to   visit The Fernandos' Fabulous Funfair! But Jack Frost wants a funfair all to   himself and he's stolen the Funfair Fairies magic keyring to make it happen.   Can Kirsty and Rachel defeat him, before the funfair is totally   wrecked!\n\n     'These stories are magic; they turn children into readers!' ReadingZone.com\n\n     Read all four fairy adventures in the Funfair Fairies set! Rae the   Rollercoaster Fairy; Fatima the Face-Painting Fairy; Paloma the Dodgems   Fairy; Bobbi the Bouncy Castle Fairy.\n\n     If you like Rainbow Magic, check out Daisy Meadows' other series: Magic   Animal Friends and Unicorn Magic!",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9780198855590",
-        "created": "2021-05-26T15:45:17.872951Z",
-        "date_of_publication": "",
-        "description_long": "This collection of essays to focuses on the critical issue of  corruption that lies at the heart of the crisis of constitutionalism in Africa. Most anti-corruption measures over the years have been inadequate, serving merely as symbolic gestures to give the impression something is being done. The African Union's declaration of 2018 as the 'African anti-corruption year', belated though it be, is an open recognition by African governments of the impact corruption will\nhave on the continent unless urgent steps are taken.\n\nThe key objective of this volume is to draw attention to the problem of corruption, the complexity of the situation, with all its multi-faceted social, political, economic and legal dimensions, and the need for remedial action.",
-        "description_short": "This edited collection explores the endemic corruption that has spread into every aspect of social, economic, and political life which is at the heart of the crisis of constitutionalism in Africa and draws attention to the need for remedial action.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Corruption and constitutionalism in Africa : revisiting control measures and strategies"
+        "Item": {
+          "isbn": "9780198855590",
+          "created": "2021-05-26T15:45:17.872951Z",
+          "date_of_publication": "",
+          "description_long": "This collection of essays to focuses on the critical issue of  corruption that lies at the heart of the crisis of constitutionalism in Africa. Most anti-corruption measures over the years have been inadequate, serving merely as symbolic gestures to give the impression something is being done. The African Union's declaration of 2018 as the 'African anti-corruption year', belated though it be, is an open recognition by African governments of the impact corruption will\nhave on the continent unless urgent steps are taken.\n\nThe key objective of this volume is to draw attention to the problem of corruption, the complexity of the situation, with all its multi-faceted social, political, economic and legal dimensions, and the need for remedial action.",
+          "description_short": "This edited collection explores the endemic corruption that has spread into every aspect of social, economic, and political life which is at the heart of the crisis of constitutionalism in Africa and draws attention to the need for remedial action.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Corruption and constitutionalism in Africa : revisiting control measures and strategies"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788211027566",
-        "created": "2021-06-16T17:50:53.269042Z",
-        "date_of_publication": "",
-        "description_long": "Vi er i Noreg i år 940.\n VISSTE DU AT vikingane hadde slavar, som vart kalla trælar? Og at trælane ikkje var like mykje verde som andre menneske? Kva trur du skjer når Arn får høyre at bestevenen hans, trælen Torstein, skal sendast bort?\n HISTORIER I SAMFUNNSFAG gir deg innblikk i korleis det var å leve i ulike periodar av verdshistoria. Alle historiene finst på tre forskjellige nivå og som digitale bøker med innlesen tekst.\n Sjå meir på lesedilla.no   Fagbokforlaget sitt digitale bibliotek.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788211027566",
+          "created": "2021-06-16T17:50:53.269042Z",
+          "date_of_publication": "",
+          "description_long": "Vi er i Noreg i år 940.\n VISSTE DU AT vikingane hadde slavar, som vart kalla trælar? Og at trælane ikkje var like mykje verde som andre menneske? Kva trur du skjer når Arn får høyre at bestevenen hans, trælen Torstein, skal sendast bort?\n HISTORIER I SAMFUNNSFAG gir deg innblikk i korleis det var å leve i ulike periodar av verdshistoria. Alle historiene finst på tre forskjellige nivå og som digitale bøker med innlesen tekst.\n Sjå meir på lesedilla.no   Fagbokforlaget sitt digitale bibliotek.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0241019486",
-        "created": "2021-06-19T19:43:58.221666Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-24T14:52:31.165359Z",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "The discovery of the East"
+        "Item": {
+          "isbn": "0241019486",
+          "created": "2021-06-19T19:43:58.221666Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-24T14:52:31.165359Z",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "The discovery of the East"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "1591405602",
-        "created": "2021-05-06T14:49:35.251562Z",
-        "date_of_publication": "",
-        "description_long": "There are a myriad of new directions in which databases are growing, presenting new and exciting challenges that promise flux in the whole society, because of the impact and changes the database systems have provoked almost everywhere in modern life. This ranges from the way the organizations operate and make their business decisions, to the use of portable devices with database involvements. The Encyclopedia of Database Technologies and Applications is a collection of diverse topics related to databases, providing an overview not only of the state-of-the-art of classical subjects but also clear and concise explanations of the latest technology, its practical applications and research directions. This encyclopedia includes articles written by experts and respected authorities in the database field, providing the most widely accepted scholarly views and perspectives. This important new publication offers researchers, scholars, students and professionals access to the latest knowledge related to database science and technology.",
-        "description_short": "The Encyclopedia of Database Technologies and Applications is a collection of diverse topics related to databases, providing an overview not only of the state-of-the-art of classical subjects but also clear and concise explanations of the latest technology, its practical applications and research directions.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Encyclopedia of database technologies and applications"
+        "Item": {
+          "isbn": "1591405602",
+          "created": "2021-05-06T14:49:35.251562Z",
+          "date_of_publication": "",
+          "description_long": "There are a myriad of new directions in which databases are growing, presenting new and exciting challenges that promise flux in the whole society, because of the impact and changes the database systems have provoked almost everywhere in modern life. This ranges from the way the organizations operate and make their business decisions, to the use of portable devices with database involvements. The Encyclopedia of Database Technologies and Applications is a collection of diverse topics related to databases, providing an overview not only of the state-of-the-art of classical subjects but also clear and concise explanations of the latest technology, its practical applications and research directions. This encyclopedia includes articles written by experts and respected authorities in the database field, providing the most widely accepted scholarly views and perspectives. This important new publication offers researchers, scholars, students and professionals access to the latest knowledge related to database science and technology.",
+          "description_short": "The Encyclopedia of Database Technologies and Applications is a collection of diverse topics related to databases, providing an overview not only of the state-of-the-art of classical subjects but also clear and concise explanations of the latest technology, its practical applications and research directions.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Encyclopedia of database technologies and applications"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788251792998",
-        "created": "2021-05-05T11:03:37.258Z",
-        "date_of_publication": "cop. 1996",
-        "description_long": "Boken tar en n�rmere kikk p� forskjellige brannutrykningskj�ret�y. Fotografiene gir en mengde tekniske detaljer. Boken oppmuntrer barn til � sammenlikne maskinene og det de benyttes til, med dagligdagse ting og gj�rem�l.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": "Min aller f�rste bok om brannbiler"
+        "Item": {
+          "isbn": "9788251792998",
+          "created": "2021-05-05T11:03:37.258Z",
+          "date_of_publication": "cop. 1996",
+          "description_long": "Boken tar en n�rmere kikk p� forskjellige brannutrykningskj�ret�y. Fotografiene gir en mengde tekniske detaljer. Boken oppmuntrer barn til � sammenlikne maskinene og det de benyttes til, med dagligdagse ting og gj�rem�l.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": "Min aller f�rste bok om brannbiler"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0671831569",
-        "created": "2021-06-27T16:27:21.096727Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-27T16:27:46.703940Z",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "The clone rebellion"
+        "Item": {
+          "isbn": "0671831569",
+          "created": "2021-06-27T16:27:21.096727Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-27T16:27:46.703940Z",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "The clone rebellion"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0262025914",
-        "created": "2021-05-06T15:02:28.193517Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Ontologies for bioinformatics"
+        "Item": {
+          "isbn": "0262025914",
+          "created": "2021-05-06T15:02:28.193517Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Ontologies for bioinformatics"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9780575087699",
-        "created": "2021-05-09T16:34:05.770088Z",
-        "date_of_publication": "",
-        "description_long": "Come to Chasm City and embark on a mind-bending ride through the universe of Revelation Space\n\nTanner Mirabel was a security specialist who never made a mistake - until the day a woman in his care was blown away by Argent Reivich, a vengeful young postmortal. Tanner's pursuit of Reivich takes him across light-years of space to Chasm City, the domed human settlement on the otherwise inhospitable planet of Yellowstone.\n\nBut Chasm City is not what it was. The one time high-tech utopia has become a Gothic nightmare: a nanotechnological virus has corrupted the city's inhabitants as thoroughly as it has the buildings and machines. Before the chase is done, Tanner will have to confront truths which reach back centuries, towards deep space and an atrocity history barely remembers.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9780575087699",
+          "created": "2021-05-09T16:34:05.770088Z",
+          "date_of_publication": "",
+          "description_long": "Come to Chasm City and embark on a mind-bending ride through the universe of Revelation Space\n\nTanner Mirabel was a security specialist who never made a mistake - until the day a woman in his care was blown away by Argent Reivich, a vengeful young postmortal. Tanner's pursuit of Reivich takes him across light-years of space to Chasm City, the domed human settlement on the otherwise inhospitable planet of Yellowstone.\n\nBut Chasm City is not what it was. The one time high-tech utopia has become a Gothic nightmare: a nanotechnological virus has corrupted the city's inhabitants as thoroughly as it has the buildings and machines. Before the chase is done, Tanner will have to confront truths which reach back centuries, towards deep space and an atrocity history barely remembers.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788245015362",
-        "created": "2021-05-05T06:57:03.201Z",
-        "date_of_publication": "cop. 2014",
-        "description_long": "Formålet med denne boka er at studenter og praktikere i velferdsfeltet, samt andre som underviser og forsker i feltet, kan lære mer om hvordan en kan tilby innovative og kunnskapsbaserte velferdstjenester ved å legge større vekt på samarbeid mellom forsknings- og utdanningsinstitusjoner, praksisfelt og brukere. Dette er et viktig punkt på dagsordenen i både velferds- og kunnskapssektorene. Utgangspunktet for boka er at slike nye former for samarbeid kan forstås som en innovasjon, og siktemålet med boka er å synliggjøre og diskutere noen prinsipielle aspekt og utfordringer ved slike samarbeidsmodeller i sosialt arbeid / velferdsfeltet. Det empiriske utgangspunktet er HUSK-prosjektet som ble drevet i perioden 2006 til 2011, og det er forskernes blikk på og erfaringer fra prosjektarbeidet som presenteres. Forfatterne av boka har alle deltatt i HUSK-prosjektet i Agder. På den bakgrunn løfter de fram problemstillinger som kan være relevante for andre prosjekter som skal ivareta målsettinger om innovative tjenester og økt samarbeid om forskning. Anne Marie Støkken er professor i sosiologi ved Universitetet i Agder.",
-        "description_short": "Den tradisjonelle arbeidsdelingen mellom forskere og informanter endres n�r partene skal v�re sammen om kunnskapsutvikling. Tilsvarende endres relasjonen mellom praktikere og brukere. Relasjonen underviser - student f�r ogs� en annen betydning n�r en tredje part, brukerne, for eksempel trekkes inn i undervisning. Hva inneb�rer slike prinsipper i praksis for utforming av roller og relasjoner, og hvilke valg og utfordringer genererer de? Forfatterne trekker p� erfaringer fra HUSK-prosjektet for � belyse temaet. Anne Marie St�kken er professor ved Universitetet i Agder.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-16T16:54:28.994331Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": "Innovasjon og utvikling i sosialt arbeid"
+        "Item": {
+          "isbn": "9788245015362",
+          "created": "2021-05-05T06:57:03.201Z",
+          "date_of_publication": "cop. 2014",
+          "description_long": "Formålet med denne boka er at studenter og praktikere i velferdsfeltet, samt andre som underviser og forsker i feltet, kan lære mer om hvordan en kan tilby innovative og kunnskapsbaserte velferdstjenester ved å legge større vekt på samarbeid mellom forsknings- og utdanningsinstitusjoner, praksisfelt og brukere. Dette er et viktig punkt på dagsordenen i både velferds- og kunnskapssektorene. Utgangspunktet for boka er at slike nye former for samarbeid kan forstås som en innovasjon, og siktemålet med boka er å synliggjøre og diskutere noen prinsipielle aspekt og utfordringer ved slike samarbeidsmodeller i sosialt arbeid / velferdsfeltet. Det empiriske utgangspunktet er HUSK-prosjektet som ble drevet i perioden 2006 til 2011, og det er forskernes blikk på og erfaringer fra prosjektarbeidet som presenteres. Forfatterne av boka har alle deltatt i HUSK-prosjektet i Agder. På den bakgrunn løfter de fram problemstillinger som kan være relevante for andre prosjekter som skal ivareta målsettinger om innovative tjenester og økt samarbeid om forskning. Anne Marie Støkken er professor i sosiologi ved Universitetet i Agder.",
+          "description_short": "Den tradisjonelle arbeidsdelingen mellom forskere og informanter endres n�r partene skal v�re sammen om kunnskapsutvikling. Tilsvarende endres relasjonen mellom praktikere og brukere. Relasjonen underviser - student f�r ogs� en annen betydning n�r en tredje part, brukerne, for eksempel trekkes inn i undervisning. Hva inneb�rer slike prinsipper i praksis for utforming av roller og relasjoner, og hvilke valg og utfordringer genererer de? Forfatterne trekker p� erfaringer fra HUSK-prosjektet for � belyse temaet. Anne Marie St�kken er professor ved Universitetet i Agder.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-16T16:54:28.994331Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": "Innovasjon og utvikling i sosialt arbeid"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9061910188",
-        "created": "2021-05-28T14:46:21.058723Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Fleas : proceedings of the International Conference on Fleas, Ashton Wold, Peterborough, UK, 21-25 June 1977"
+        "Item": {
+          "isbn": "9061910188",
+          "created": "2021-05-28T14:46:21.058723Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Fleas : proceedings of the International Conference on Fleas, Ashton Wold, Peterborough, UK, 21-25 June 1977"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788203349553",
-        "created": "2021-05-27T16:26:57.741787Z",
-        "date_of_publication": "",
-        "description_long": "Pasiones Lærer avvikles sommeren 2021 når Lokus.no legges ned. Tilsvarende innhold finnes i Pasiones Digitale ressurser (ISBN 9788203410475), som er tilpasset læreplanen i Fagfornyelsen.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788203349553",
+          "created": "2021-05-27T16:26:57.741787Z",
+          "date_of_publication": "",
+          "description_long": "Pasiones Lærer avvikles sommeren 2021 når Lokus.no legges ned. Tilsvarende innhold finnes i Pasiones Digitale ressurser (ISBN 9788203410475), som er tilpasset læreplanen i Fagfornyelsen.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "3540936335",
-        "created": "2021-04-29T14:27:00.115702Z",
-        "date_of_publication": "",
-        "description_long": "",
-        "description_short": "Part of an encyclopaedic reference on inorganic and organometallic chemistry, this particular volume continues the series of the aliphatic and aromatic compounds of nitrogen.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-15T14:46:40.020748Z",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Gmelins Handbuch der anorganischen Chemie"
+        "Item": {
+          "isbn": "3540936335",
+          "created": "2021-04-29T14:27:00.115702Z",
+          "date_of_publication": "",
+          "description_long": "",
+          "description_short": "Part of an encyclopaedic reference on inorganic and organometallic chemistry, this particular volume continues the series of the aliphatic and aromatic compounds of nitrogen.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-15T14:46:40.020748Z",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Gmelins Handbuch der anorganischen Chemie"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788210047206",
-        "created": "2021-05-05T06:57:40.409Z",
-        "date_of_publication": "2002",
-        "description_long": "Boken skildrer Ole Klemetsens bokserkarriere fra begynnelsen, til familiens kamp for sitt eget Team Klemetsen. Vi f�lger Oles bokserkarriere, b�de som amat�r i Stavanger og senere som profesjonell i milj�et i Kronk Gym i Detroit. Oles utvikling som bokser st�r i sentrum av beretningen. Men historien rommer ogs� et annet perspektiv: Familiens s�ken etter sin identitet, som reisende folk. Har kildehenvisninger. � DnBB AS",
-        "description_short": "En unik og intens beretning om Ole Klemetsens fantastiske boksekarriere og livet bak kulissene. Boken burde v�re sv�rt relevant for sportsinteresserte i alle aldre og andre som har fulgt Lukk�yes mye omtalte karriere gjennom �rene. Biografien skildrerOle Klemetsens boksekarriere helt fra begynnelsen: Fra oppveksten i Stavanger, der de f�rste trenings�ktene skjedde sammen med faren og broren i Nylund skoles kjellerlokaler, til familiens kamp for sitt eget Team Klemetsen. Vi f�lger Oles utrolige boksekarriere, b�de som amat�r og senere som profesjonell i det steinharde milj�et i Kronk Gym i Detroit i USA. Boken g�r tett inn p� amat�r- og proffboksingens gode og mindre gode sider. Oles utvikling som bokser st�r naturlig nok i sentrum for beretningen. Men historien om Ole Klemetsen rommer ogs� et annet perspektiv: Familiens s�ken etter sin identitet. Boken er illustrert. Bj�rn-Erik Hanssen (f. 1952) bor i Trondheim. Han har tidligere utgitt en rekke b�ker, b�de dikt og prosa. Flere av dem er oversatt til dansk og tysk. Dokumentarromanen 'Gategutt' kom ut i 1990 p� Tiden Norsk Forlag.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "files/images/small/6/0/9788210047206.jpg",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": "Lukk�ye"
+        "Item": {
+          "isbn": "9788210047206",
+          "created": "2021-05-05T06:57:40.409Z",
+          "date_of_publication": "2002",
+          "description_long": "Boken skildrer Ole Klemetsens bokserkarriere fra begynnelsen, til familiens kamp for sitt eget Team Klemetsen. Vi f�lger Oles bokserkarriere, b�de som amat�r i Stavanger og senere som profesjonell i milj�et i Kronk Gym i Detroit. Oles utvikling som bokser st�r i sentrum av beretningen. Men historien rommer ogs� et annet perspektiv: Familiens s�ken etter sin identitet, som reisende folk. Har kildehenvisninger. � DnBB AS",
+          "description_short": "En unik og intens beretning om Ole Klemetsens fantastiske boksekarriere og livet bak kulissene. Boken burde v�re sv�rt relevant for sportsinteresserte i alle aldre og andre som har fulgt Lukk�yes mye omtalte karriere gjennom �rene. Biografien skildrerOle Klemetsens boksekarriere helt fra begynnelsen: Fra oppveksten i Stavanger, der de f�rste trenings�ktene skjedde sammen med faren og broren i Nylund skoles kjellerlokaler, til familiens kamp for sitt eget Team Klemetsen. Vi f�lger Oles utrolige boksekarriere, b�de som amat�r og senere som profesjonell i det steinharde milj�et i Kronk Gym i Detroit i USA. Boken g�r tett inn p� amat�r- og proffboksingens gode og mindre gode sider. Oles utvikling som bokser st�r naturlig nok i sentrum for beretningen. Men historien om Ole Klemetsen rommer ogs� et annet perspektiv: Familiens s�ken etter sin identitet. Boken er illustrert. Bj�rn-Erik Hanssen (f. 1952) bor i Trondheim. Han har tidligere utgitt en rekke b�ker, b�de dikt og prosa. Flere av dem er oversatt til dansk og tysk. Dokumentarromanen 'Gategutt' kom ut i 1990 p� Tiden Norsk Forlag.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "files/images/small/6/0/9788210047206.jpg",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": "Lukk�ye"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781472060839",
-        "created": "2021-04-30T16:34:20.134623Z",
-        "date_of_publication": "",
-        "description_long": "Ashley Gallagher had wished for money and power, then she received a promotion...\n\n\n          and a new boss: Max Caine, corporate shark and the first man to break her heart. But Ashley knew better than to trust a bad boy, even one in a suit. Was he in town to destroy his grandfather's company? She'd find out-no matter what it took, even if it meant wining and dining Max while resisting his potent half smiles and sizzling glances.\n\n\n          But then the riches of his love began to glitter more temptingly than gold....",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-19T16:23:00.260861Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781472060839",
+          "created": "2021-04-30T16:34:20.134623Z",
+          "date_of_publication": "",
+          "description_long": "Ashley Gallagher had wished for money and power, then she received a promotion...\n\n\n          and a new boss: Max Caine, corporate shark and the first man to break her heart. But Ashley knew better than to trust a bad boy, even one in a suit. Was he in town to destroy his grandfather's company? She'd find out-no matter what it took, even if it meant wining and dining Max while resisting his potent half smiles and sizzling glances.\n\n\n          But then the riches of his love began to glitter more temptingly than gold....",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-19T16:23:00.260861Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "3540582118",
-        "created": "2021-05-06T14:33:00.093083Z",
-        "date_of_publication": "",
-        "description_long": "Volume II/19 <b>Molecular Constants mostly from Microwave,</b> <b>Molecular Beam and Sub-Doppler Laser Spectroscopy</b> is a supplement to the earlier volumes II/4, II/6 and II/14. The slight change in the title reflects current trends in the applications of spectroscopic methods. Together, the four volumes collect all the critically evaluated data published up to 1989/90 on constants of free molecules obtained by classical and modern spectroscopy. The present Subvolume II/19 contains high resolution spectroscopic results for freely rotating paramagnetic and ionic molecular species and in Part d3 a substance index for all subvolumes of the volume II/19.",
-        "description_short": "Volume II/19 <b>Molecular Constants mostly from Microwave,</b> <b>Molecular Beam and Sub-Doppler Laser Spectroscopy</b> is a supplement to the earlier volumes II/4, II/6 and II/14.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Index of substances for volumes II/4, II/6, II/14 and II/19"
+        "Item": {
+          "isbn": "3540582118",
+          "created": "2021-05-06T14:33:00.093083Z",
+          "date_of_publication": "",
+          "description_long": "Volume II/19 <b>Molecular Constants mostly from Microwave,</b> <b>Molecular Beam and Sub-Doppler Laser Spectroscopy</b> is a supplement to the earlier volumes II/4, II/6 and II/14. The slight change in the title reflects current trends in the applications of spectroscopic methods. Together, the four volumes collect all the critically evaluated data published up to 1989/90 on constants of free molecules obtained by classical and modern spectroscopy. The present Subvolume II/19 contains high resolution spectroscopic results for freely rotating paramagnetic and ionic molecular species and in Part d3 a substance index for all subvolumes of the volume II/19.",
+          "description_short": "Volume II/19 <b>Molecular Constants mostly from Microwave,</b> <b>Molecular Beam and Sub-Doppler Laser Spectroscopy</b> is a supplement to the earlier volumes II/4, II/6 and II/14.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Index of substances for volumes II/4, II/6, II/14 and II/19"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781472210180",
-        "created": "2021-05-15T16:42:49.601035Z",
-        "date_of_publication": "",
-        "description_long": "The passionate and explosive first novel in Jo Davis's breathtaking new series, SUGARLAND BLUE.\n\nDetective Shane Ford, Sugarland's favourite cop, has been blindsided by the sudden death of his best friend NFL star Brad Cooper, and by becoming the legal guardian of Brad's son Dylan - a bitter, angry sixteen-year-old with a dangerous secret.  Shane is determined to pry the truth from Dylan, but manages only to alienate him - and winds up going head-to-head with Juvenile Officer Daisy Callahan, whose job is to protect the teen's best interests.\n\nShane has always been drawn to Daisy's beauty and strength, but he's determined not to allow their intense attraction to interfere with his duty ever again.  It's a vow that will prove difficult to keep, as the realities of Shane and Daisy's blossoming love and their growing bond with the grieving teen propel Shane headlong into danger for the new family he has sworn to protect.\n\nDon't miss Jo Davis's paranormal romance alter-ego J. D. Tyler, and her dark, sexy Alpha Pack series.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781472210180",
+          "created": "2021-05-15T16:42:49.601035Z",
+          "date_of_publication": "",
+          "description_long": "The passionate and explosive first novel in Jo Davis's breathtaking new series, SUGARLAND BLUE.\n\nDetective Shane Ford, Sugarland's favourite cop, has been blindsided by the sudden death of his best friend NFL star Brad Cooper, and by becoming the legal guardian of Brad's son Dylan - a bitter, angry sixteen-year-old with a dangerous secret.  Shane is determined to pry the truth from Dylan, but manages only to alienate him - and winds up going head-to-head with Juvenile Officer Daisy Callahan, whose job is to protect the teen's best interests.\n\nShane has always been drawn to Daisy's beauty and strength, but he's determined not to allow their intense attraction to interfere with his duty ever again.  It's a vow that will prove difficult to keep, as the realities of Shane and Daisy's blossoming love and their growing bond with the grieving teen propel Shane headlong into danger for the new family he has sworn to protect.\n\nDon't miss Jo Davis's paranormal romance alter-ego J. D. Tyler, and her dark, sexy Alpha Pack series.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0521781701",
-        "created": "2021-06-02T14:38:58.859607Z",
-        "date_of_publication": "",
-        "description_long": "The question of whether biologists should continue to use the Linnaean hierarchy has been a hotly debated issue. Invented before the introduction of evolutionary theory, Linnaeus's system of classifying organisms is based on outdated theoretical assumptions, and is thought to be unable to provide accurate biological classifications. Marc Ereshefsky argues that biologists should abandon the Linnaean system and adopt an alternative that is more in line with evolutionary theory. He traces the evolution of the Linnaean hierarchy from its introduction to the present. He illustrates how the continued use of this system hampers our ability to classify the organic world, and then goes on to make specific recommendations for a post-Linnaean method of classification. Accessible to a wide range of readers by providing introductory chapters to the philosophy of classification and the taxonomy of biology, the book will interest both scholars and students of biology and the philosophy of science.",
-        "description_short": "The question of whether biologists should continue to use the Linnaean hierarchy has been a hotly debated issue. Ereshefsky argues that biologists should abandon the Linnaean system and adopt an alternative that is in line with evolutionary theory. He then makes specific recommendations for a post-Linnaean method of classification.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "The poverty of the Linnaean hierarchy : a philosophical study of biological taxonomy"
+        "Item": {
+          "isbn": "0521781701",
+          "created": "2021-06-02T14:38:58.859607Z",
+          "date_of_publication": "",
+          "description_long": "The question of whether biologists should continue to use the Linnaean hierarchy has been a hotly debated issue. Invented before the introduction of evolutionary theory, Linnaeus's system of classifying organisms is based on outdated theoretical assumptions, and is thought to be unable to provide accurate biological classifications. Marc Ereshefsky argues that biologists should abandon the Linnaean system and adopt an alternative that is more in line with evolutionary theory. He traces the evolution of the Linnaean hierarchy from its introduction to the present. He illustrates how the continued use of this system hampers our ability to classify the organic world, and then goes on to make specific recommendations for a post-Linnaean method of classification. Accessible to a wide range of readers by providing introductory chapters to the philosophy of classification and the taxonomy of biology, the book will interest both scholars and students of biology and the philosophy of science.",
+          "description_short": "The question of whether biologists should continue to use the Linnaean hierarchy has been a hotly debated issue. Ereshefsky argues that biologists should abandon the Linnaean system and adopt an alternative that is in line with evolutionary theory. He then makes specific recommendations for a post-Linnaean method of classification.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "The poverty of the Linnaean hierarchy : a philosophical study of biological taxonomy"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "3527821074",
-        "created": "2021-05-16T15:13:15.498998Z",
-        "date_of_publication": "",
-        "description_long": "<p><b>Explore the latest developments in electrochemical energy storage device technology </b></p> <p>In <i>Novel Electrochemical Energy Storage Devices</i>, an accomplished team of authors delivers a thorough examination of the latest developments in the electrode and cell configurations of lithium-ion batteries and electrochemical capacitors. Several kinds of newly developed devices are introduced, with information about their theoretical bases, materials, fabrication technologies, design considerations, and implementation presented. </p> <p>You'll learn about the current challenges facing the industry, future research trends likely to capture the imaginations of researchers and professionals working in industry and academia, and still-available opportunities in this fast-moving area. You'll discover a wide range of new concepts, materials, and technologies that have been developed over the past few decades to advance the technologies of lithium-ion batteries, electrochemical capacitors, and intelligent devices. Finally, you'll find solutions to basic research challenges and the technologies applicable to energy storage industries. </p> <p>Readers will also benefit from the inclusion of: </p> <ul><li>A thorough introduction to energy conversion and storage, and the history and classification of electrochemical energy storage </li><li>An exploration of materials and fabrication of electrochemical energy storage devices, including categories, EDLCSs, pseudocapacitors, and hybrid capacitors </li><li>A practical discussion of the theory and characterizations of flexible cells, including their mechanical properties and the limits of conventional architectures </li><li>A concise treatment of the materials and fabrication technologies involved in the manufacture of flexible cells </li></ul> <p>Perfect for materials scientists, electrochemists, and solid-state chemists, <i>Novel Electrochemical Energy Storage Devices </i>will also earn a place in the libraries of applied physicists, and engineers in power technology and the electrotechnical industry seeking a one-stop reference for portable and smart electrochemical energy storage devices. </p> <p> </p>",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Gmelins Handbuch der anorganischen Chemie"
+        "Item": {
+          "isbn": "3527821074",
+          "created": "2021-05-16T15:13:15.498998Z",
+          "date_of_publication": "",
+          "description_long": "<p><b>Explore the latest developments in electrochemical energy storage device technology </b></p> <p>In <i>Novel Electrochemical Energy Storage Devices</i>, an accomplished team of authors delivers a thorough examination of the latest developments in the electrode and cell configurations of lithium-ion batteries and electrochemical capacitors. Several kinds of newly developed devices are introduced, with information about their theoretical bases, materials, fabrication technologies, design considerations, and implementation presented. </p> <p>You'll learn about the current challenges facing the industry, future research trends likely to capture the imaginations of researchers and professionals working in industry and academia, and still-available opportunities in this fast-moving area. You'll discover a wide range of new concepts, materials, and technologies that have been developed over the past few decades to advance the technologies of lithium-ion batteries, electrochemical capacitors, and intelligent devices. Finally, you'll find solutions to basic research challenges and the technologies applicable to energy storage industries. </p> <p>Readers will also benefit from the inclusion of: </p> <ul><li>A thorough introduction to energy conversion and storage, and the history and classification of electrochemical energy storage </li><li>An exploration of materials and fabrication of electrochemical energy storage devices, including categories, EDLCSs, pseudocapacitors, and hybrid capacitors </li><li>A practical discussion of the theory and characterizations of flexible cells, including their mechanical properties and the limits of conventional architectures </li><li>A concise treatment of the materials and fabrication technologies involved in the manufacture of flexible cells </li></ul> <p>Perfect for materials scientists, electrochemists, and solid-state chemists, <i>Novel Electrochemical Energy Storage Devices </i>will also earn a place in the libraries of applied physicists, and engineers in power technology and the electrotechnical industry seeking a one-stop reference for portable and smart electrochemical energy storage devices. </p> <p> </p>",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Gmelins Handbuch der anorganischen Chemie"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781472246806",
-        "created": "2021-05-01T16:22:31.402423Z",
-        "date_of_publication": "",
-        "description_long": "Roguish hero Jack Lark - dubbed 'Sharpe meets the Talented Mr Ripley' - travels to America to reinvent himself as the American Civil War looms... A must-read for fans of Bernard Cornwell and Simon Scarrow. \n\n'Nobody writing today depicts the chaos, terror and brutality of war better than Paul Fraser Collard' Matthew Harffy  \n\n'This ain't the kind of war you are used to. It's brother against brother, countryman against countryman'\n\nApril, 1861. Jack Lark arrives in Boston as civil war storms across America. \n\nA hardened soldier, Jack has always gone where he was ordered to go - and killed the enemy he was ordered to kill. But when he becomes a sergeant for the Union army, he realises that this conflict between North and South is different. Men are choosing to fight - and die - for a cause they believe in. \n\nThe people of Boston think it will take just one, great battle. But, with years of experience, Jack knows better. This is the beginning of something that will tear a country apart - and force Jack to see what he is truly fighting for. \n\n\n(P)2017 Headline Publishing Group Ltd",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-17T16:31:22.634026Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781472246806",
+          "created": "2021-05-01T16:22:31.402423Z",
+          "date_of_publication": "",
+          "description_long": "Roguish hero Jack Lark - dubbed 'Sharpe meets the Talented Mr Ripley' - travels to America to reinvent himself as the American Civil War looms... A must-read for fans of Bernard Cornwell and Simon Scarrow. \n\n'Nobody writing today depicts the chaos, terror and brutality of war better than Paul Fraser Collard' Matthew Harffy  \n\n'This ain't the kind of war you are used to. It's brother against brother, countryman against countryman'\n\nApril, 1861. Jack Lark arrives in Boston as civil war storms across America. \n\nA hardened soldier, Jack has always gone where he was ordered to go - and killed the enemy he was ordered to kill. But when he becomes a sergeant for the Union army, he realises that this conflict between North and South is different. Men are choosing to fight - and die - for a cause they believe in. \n\nThe people of Boston think it will take just one, great battle. But, with years of experience, Jack knows better. This is the beginning of something that will tear a country apart - and force Jack to see what he is truly fighting for. \n\n\n(P)2017 Headline Publishing Group Ltd",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-17T16:31:22.634026Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781408940105",
-        "created": "2021-04-30T16:30:21.264491Z",
-        "date_of_publication": "",
-        "description_long": "Diego de Santo: dynamic, charismatic, he's made millions and he believes everything is for sale....\n\n\n          Cassandra Preston-Villiers: heiress to an empire, she's beautiful and sophisticated everything Diego's ever wanted in a woman so he blackmails her into becoming his mistress. But now that he's got Cassandra, Diego wants more an affair is no longer enough for this hot Latin lover!",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-26T16:23:18.060757Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781408940105",
+          "created": "2021-04-30T16:30:21.264491Z",
+          "date_of_publication": "",
+          "description_long": "Diego de Santo: dynamic, charismatic, he's made millions and he believes everything is for sale....\n\n\n          Cassandra Preston-Villiers: heiress to an empire, she's beautiful and sophisticated everything Diego's ever wanted in a woman so he blackmails her into becoming his mistress. But now that he's got Cassandra, Diego wants more an affair is no longer enough for this hot Latin lover!",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-26T16:23:18.060757Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788233411428",
-        "created": "2021-06-16T17:54:31.324068Z",
-        "date_of_publication": "",
-        "description_long": "Ragnhild har bestemt seg for å se lysere på tilværelsen og glede seg over at hun snart skal bli mor. Lite aner hun om hva som har skjedd på Jan Mayen ...\n - En hånd! utbrøt Alfred.  Edvartsen klarte ikke si noe. De skjønte alle hva det betydde. De ville høyst sannsynlig finne resten av kroppen også - i flere stykker.  - Hvem er den sin? hvisket Vidar.\n Berit vil varsle politiet om at faren til Gunnar planlegger å få utført et drap, men synes hun må vente til hun har sagt fra til Gunnar. Vil han tro henne?",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788233411428",
+          "created": "2021-06-16T17:54:31.324068Z",
+          "date_of_publication": "",
+          "description_long": "Ragnhild har bestemt seg for å se lysere på tilværelsen og glede seg over at hun snart skal bli mor. Lite aner hun om hva som har skjedd på Jan Mayen ...\n - En hånd! utbrøt Alfred.  Edvartsen klarte ikke si noe. De skjønte alle hva det betydde. De ville høyst sannsynlig finne resten av kroppen også - i flere stykker.  - Hvem er den sin? hvisket Vidar.\n Berit vil varsle politiet om at faren til Gunnar planlegger å få utført et drap, men synes hun må vente til hun har sagt fra til Gunnar. Vil han tro henne?",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781409197829",
-        "created": "2021-04-29T16:44:15.602671Z",
-        "date_of_publication": "",
-        "description_long": "'Yet another of history's most brutal and dramatic chapters given the five-star Ben Kane treatment.' Paul Finch\n\nKING. POLITICIAN. WARRIOR. CONQUEROR.\n\n1189. Richard the Lionheart's long-awaited goal comes true as he is crowned King of England. Setting his own kingdom in order, he prepares to embark on a gruelling crusade to reclaim Jerusalem.\n\nWith him on every step of the journey is Ferdia, his loyal Irish follower. Together they travel from southern France to Italy, to the kingdom of Sicily and beyond.\n\nFinally poised to sail to the Holy Land, Richard finds a bitter two-year-long siege awaiting him. And with it, the iconic Saracen leader responsible for the loss of Jerusalem, Saladin.\n\nNo one can agree who should fill the empty throne of the Kingdom of Jerusalem and Saladin's huge army shadows Richard's every move. Conditions are brutal, the temperatures boiling, and on the dusty field of Arsuf, the Lionheart and his soldiers face their ultimate test...",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-05-23T16:24:06.855645Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781409197829",
+          "created": "2021-04-29T16:44:15.602671Z",
+          "date_of_publication": "",
+          "description_long": "'Yet another of history's most brutal and dramatic chapters given the five-star Ben Kane treatment.' Paul Finch\n\nKING. POLITICIAN. WARRIOR. CONQUEROR.\n\n1189. Richard the Lionheart's long-awaited goal comes true as he is crowned King of England. Setting his own kingdom in order, he prepares to embark on a gruelling crusade to reclaim Jerusalem.\n\nWith him on every step of the journey is Ferdia, his loyal Irish follower. Together they travel from southern France to Italy, to the kingdom of Sicily and beyond.\n\nFinally poised to sail to the Holy Land, Richard finds a bitter two-year-long siege awaiting him. And with it, the iconic Saracen leader responsible for the loss of Jerusalem, Saladin.\n\nNo one can agree who should fill the empty throne of the Kingdom of Jerusalem and Saladin's huge army shadows Richard's every move. Conditions are brutal, the temperatures boiling, and on the dusty field of Arsuf, the Lionheart and his soldiers face their ultimate test...",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-05-23T16:24:06.855645Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9788242130723",
-        "created": "2021-05-02T16:18:55.032801Z",
-        "date_of_publication": "",
-        "description_long": "\"Kanskje jeg ble stående hos Siri den kvelden fordi hun viste så tydelig at hun ikke trengte meg. Hun sto som en sval skulptur av lys og muskler midt i rommet og hun var den eneste, den absolutt eneste jeg la merke til. - Jeg har hørt at det skal bli et par av oss to, sa jeg.\"\nVåren syv år etter. Han er alene på sommerstedet rett over grensen til Sverige. Han skal rydde opp og gjøre huset klart - men til hva?\nSammen med hunden oppsøker han steder i skogen og der de pleide å bade og den forlatte hytta i nærheten. Uopphørlig vender tankene tilbake til hendelsene i fjor sommer.\nMen hva var det egentlig som hendte? I en suggestiv og sensuelt stemningsfull prosa tegner Niels Fredrik Dahl en intens og dramatisk kjærlighetshistorie, der innbilningskraften og besettelsen hos en forelsket mann er en av de drivende kreftene.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9788242130723",
+          "created": "2021-05-02T16:18:55.032801Z",
+          "date_of_publication": "",
+          "description_long": "\"Kanskje jeg ble stående hos Siri den kvelden fordi hun viste så tydelig at hun ikke trengte meg. Hun sto som en sval skulptur av lys og muskler midt i rommet og hun var den eneste, den absolutt eneste jeg la merke til. - Jeg har hørt at det skal bli et par av oss to, sa jeg.\"\nVåren syv år etter. Han er alene på sommerstedet rett over grensen til Sverige. Han skal rydde opp og gjøre huset klart - men til hva?\nSammen med hunden oppsøker han steder i skogen og der de pleide å bade og den forlatte hytta i nærheten. Uopphørlig vender tankene tilbake til hendelsene i fjor sommer.\nMen hva var det egentlig som hendte? I en suggestiv og sensuelt stemningsfull prosa tegner Niels Fredrik Dahl en intens og dramatisk kjærlighetshistorie, der innbilningskraften og besettelsen hos en forelsket mann er en av de drivende kreftene.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781575213491",
-        "created": "2021-05-05T09:16:58.308Z",
-        "date_of_publication": "1998",
-        "description_long": "",
-        "description_short": "Offers a guide to designing, creating and publishing on the WWW and on intranet webs with Microsoft FrontPage. The book documents the product and its features, wizards, bots and other tools. It also offers a foundation in the principles of Web publishing, such as planning, design and tables.",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Microsoft FrontPage Unleashed"
+        "Item": {
+          "isbn": "9781575213491",
+          "created": "2021-05-05T09:16:58.308Z",
+          "date_of_publication": "1998",
+          "description_long": "",
+          "description_short": "Offers a guide to designing, creating and publishing on the WWW and on intranet webs with Microsoft FrontPage. The book documents the product and its features, wizards, bots and other tools. It also offers a foundation in the principles of Web publishing, such as planning, design and tables.",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Microsoft FrontPage Unleashed"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781444757996",
-        "created": "2021-05-15T16:35:36.334858Z",
-        "date_of_publication": "",
-        "description_long": "A golfer loved for his courage and charisma, Darren Clarke has the crowds behind him. They know he is a warm, funny raconteur who likes a Guinness, who both works hard and plays hard. More important, they know that this man pulled himself up by his bootstraps, having lost his wife Heather to cancer, to triumph at the 2006 Ryder Cup.  Just days before the start of the 2011 Open at Royal St George's, Darren's game had once again deserted him, leaving him 'putting like a man with blurred vision'. A month before his 43rd birthday he was not in a good place. But Heather was 'watching from above', the crowd were roaring him on, golf guru Dr Bob Rotella was telling him to 'go unconscious' - and something sparked inside him. The rest is golfing history.  Born in Dungannon, Northern Ireland, Darren caddied for his golf course greenkeeper father, turning pro in 1990. He has played in four victorious Ryder Cup sides and beat his close friend Tiger Woods in the 36-hole final of the 2000 WGC-Andersen Consulting Match Play. In 2002 he became the only player to win the English Open three times.  In An Open Book he speaks candidly about fellow-players, coaches and golfing psychologists; about how he was bullied at school, narrowly missed and IRA bomb and eventually set up a foundation to develop junior golf in Ireland; and about how he found personal happiness again, marrying Alison Campbell in April 2012. Most vividly of all, he takes the reader down those rainswept fairways to the ecstasy of that final putt when, at his 20th attempt, he lifted the silver claret jug.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781444757996",
+          "created": "2021-05-15T16:35:36.334858Z",
+          "date_of_publication": "",
+          "description_long": "A golfer loved for his courage and charisma, Darren Clarke has the crowds behind him. They know he is a warm, funny raconteur who likes a Guinness, who both works hard and plays hard. More important, they know that this man pulled himself up by his bootstraps, having lost his wife Heather to cancer, to triumph at the 2006 Ryder Cup.  Just days before the start of the 2011 Open at Royal St George's, Darren's game had once again deserted him, leaving him 'putting like a man with blurred vision'. A month before his 43rd birthday he was not in a good place. But Heather was 'watching from above', the crowd were roaring him on, golf guru Dr Bob Rotella was telling him to 'go unconscious' - and something sparked inside him. The rest is golfing history.  Born in Dungannon, Northern Ireland, Darren caddied for his golf course greenkeeper father, turning pro in 1990. He has played in four victorious Ryder Cup sides and beat his close friend Tiger Woods in the 36-hole final of the 2000 WGC-Andersen Consulting Match Play. In 2002 he became the only player to win the English Open three times.  In An Open Book he speaks candidly about fellow-players, coaches and golfing psychologists; about how he was bullied at school, narrowly missed and IRA bomb and eventually set up a foundation to develop junior golf in Ireland; and about how he found personal happiness again, marrying Alison Campbell in April 2012. Most vividly of all, he takes the reader down those rainswept fairways to the ecstasy of that final putt when, at his 20th attempt, he lifted the silver claret jug.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "0792347684",
-        "created": "2021-05-12T14:30:33.133452Z",
-        "date_of_publication": "",
-        "description_long": "Nils Petter Gleditsch International Peace Research Institute, Oslo (PRIO) & Department of Sociology and Political Science, Norwegian University of Science and Technology, Trond  heim This book could hardly have happened but for the end of the Cold War. The decline of the East-West conflict has opened up the arena for increased attention to other lines of conflict, in Europe and at the global level. Environmental disruption, not a new phenomenon by any means, is a chief beneficiary of the shift in priorities in the public debate. The Scientific and Environmental Affairs Divi  sion of NATO has moved with the times and has defined environmental security as one of its priority areas for cooperation with Central and Eastern Europe and countries of the former Soviet Union. This book is the main output of an Advanced Research Workshop (ARW), held in Bolkesjl/l, Norway, 12-16 June 1996. I would like to acknowledge the personal support of L. Veiga da Cunha, Director of the Priority Area on Environmental Security. Research on these issues is now very much a collaborative effort across former lines of division in Europe. NATO encourages, indeed requires, that this be reflected in the composition of the participants, as well as the organizing committee. This meeting was organized by a group of five people from five different countries: Lothar Brock (Germany), Nils Petter Gleditsch (Norway), Thomas Homer-Dixon (Canada), Renat Perelet (Co-Director, Russia), and Evan Vlachos (USA).",
-        "description_short": "Proceedings of the NATO Advanced Research Workshop,  Bolkesjo, Norway, 11-16 June 1996",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "NIELSEN",
-        "table_of_contents": "",
-        "title": "Conflict and the environment"
+        "Item": {
+          "isbn": "0792347684",
+          "created": "2021-05-12T14:30:33.133452Z",
+          "date_of_publication": "",
+          "description_long": "Nils Petter Gleditsch International Peace Research Institute, Oslo (PRIO) & Department of Sociology and Political Science, Norwegian University of Science and Technology, Trond  heim This book could hardly have happened but for the end of the Cold War. The decline of the East-West conflict has opened up the arena for increased attention to other lines of conflict, in Europe and at the global level. Environmental disruption, not a new phenomenon by any means, is a chief beneficiary of the shift in priorities in the public debate. The Scientific and Environmental Affairs Divi  sion of NATO has moved with the times and has defined environmental security as one of its priority areas for cooperation with Central and Eastern Europe and countries of the former Soviet Union. This book is the main output of an Advanced Research Workshop (ARW), held in Bolkesjl/l, Norway, 12-16 June 1996. I would like to acknowledge the personal support of L. Veiga da Cunha, Director of the Priority Area on Environmental Security. Research on these issues is now very much a collaborative effort across former lines of division in Europe. NATO encourages, indeed requires, that this be reflected in the composition of the participants, as well as the organizing committee. This meeting was organized by a group of five people from five different countries: Lothar Brock (Germany), Nils Petter Gleditsch (Norway), Thomas Homer-Dixon (Canada), Renat Perelet (Co-Director, Russia), and Evan Vlachos (USA).",
+          "description_short": "Proceedings of the NATO Advanced Research Workshop,  Bolkesjo, Norway, 11-16 June 1996",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "NIELSEN",
+          "table_of_contents": "",
+          "title": "Conflict and the environment"
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9780141342603",
-        "created": "2021-05-28T16:26:46.596198Z",
-        "date_of_publication": "",
-        "description_long": "Loki the trickster god is free from his chains. Now he's readying Naglfar, the Ship of the Dead, armed with a host of giants and zombies, to sail against the Norse gods and begin the final battle of Ragnarok. It's up to Magnus Chase and his friends to stop Loki's plans, but to do so they will have to sail across the oceans of Midgard, Jotunheim and Niflheim in a desperate race to reach Naglfar before it's ready to sail on Midsummer's Day. Along the way, they will face angry sea gods, hostile giants, and an evil fire-breathing dragon who happens to be a former acquaintance. But Magnus's biggest challenge will be facing his own inner demons. To defeat Loki, Magnus will need to use words, not force. This will require finding a magical elixir so deadly that it will either make Magnus Chase powerful enough to out-talk the silver-tongued Loki, or destroy Magnus utterly.",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "2021-06-17T16:53:09.514061Z",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9780141342603",
+          "created": "2021-05-28T16:26:46.596198Z",
+          "date_of_publication": "",
+          "description_long": "Loki the trickster god is free from his chains. Now he's readying Naglfar, the Ship of the Dead, armed with a host of giants and zombies, to sail against the Norse gods and begin the final battle of Ragnarok. It's up to Magnus Chase and his friends to stop Loki's plans, but to do so they will have to sail across the oceans of Midgard, Jotunheim and Niflheim in a desperate race to reach Naglfar before it's ready to sail on Midsummer's Day. Along the way, they will face angry sea gods, hostile giants, and an evil fire-breathing dragon who happens to be a former acquaintance. But Magnus's biggest challenge will be facing his own inner demons. To defeat Loki, Magnus will need to use words, not force. This will require finding a magical elixir so deadly that it will either make Magnus Chase powerful enough to out-talk the silver-tongued Loki, or destroy Magnus utterly.",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "2021-06-17T16:53:09.514061Z",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     },
     {
       "PutRequest": {
-        "isbn": "9781838880798",
-        "created": "2021-06-22T16:22:33.418111Z",
-        "date_of_publication": "",
-        "description_long": "'She shivered, though the kitchen was warm. Icicles of foreboding trickled down her spine. With trembling hands she whipped back her hair at the nape of her neck. As she turned away from the window, she missed the shadow passing by.'\n\n \n\nOne dark winter's morning, bride-to-be Cara Dunne is found hanging in her home, dressed in her wedding dress, with a lock of hair removed. Detective Lottie Parker is first on the scene. Looking at Cara's bruised and battered body, she wonders who could have hated her enough to kill her at the happiest time of her life. \n\n \n\nThe case takes a darker turn that afternoon with another shocking discovery - the broken body of a second young woman, pushed from the roof of the hospital where she worked. Fiona Heffernan was also due to be married, and her body is clad in a wedding dress, a lock of her hair cut off. \n\n \n\nThe killings seem so personal that Lottie is convinced the girls have been killed by someone they knew. When she goes to break the news to Fiona's family, she's on the alert for anything suspicious. But then she makes a discovery that causes her blood to run cold - Fiona's eight-year-old daughter Lily didn't return home from her dance recital that afternoon. Terrified that Lily will be the next victim of a twisted and dangerous individual, Lottie takes the case into her own hands, risking her life when she comes face-to-face with the killer...\n\n \n\nIf you love Karin Slaughter, Robert Dugoni and Rachel Caine, you'll be hooked by this heart-stopping thriller from Patricia Gibney. Broken Souls will keep you guessing until the very last page!\n\n \n\nRead what everybody is saying about Broken Souls:\n\n \n\n'Brilliant as always and totally addictive and I loved it!!... This is a thrill a minute police procedural that just doesn't let up, so many twists and lots going on it really is unputdownable but that comes as no surprise as every book in this series has been a 5 star read ... Patricia Gibney as always writes a superb story never letting up on the action and once more providing us another 5 star read and highly recommended. ' Goodreads Reviewer, ?????\n\n \n\n'I love the twists and turns in the plot that keep you guessing right to the end. And that ending! My heart was breaking. I cannot wait for the next one!'  Goodreads Reviewer, ?????\n\n \n\n'I absolutely love this series with Lottie Parker and was so looking forward to reading this. It was as brilliant as all of the other books in this series. A great storyline with all the usual twists and turns we expect from Patricia's writing but a few red herrings in there. Just as I think I have it figured out a spanner is thrown into the works and I have to think again. I couldn't put it down...",
-        "description_short": "",
-        "image_large": "",
-        "image_original": "",
-        "image_small": "",
-        "modified": "",
-        "source": "BOKBASEN",
-        "table_of_contents": "",
-        "title": ""
+        "Item": {
+          "isbn": "9781838880798",
+          "created": "2021-06-22T16:22:33.418111Z",
+          "date_of_publication": "",
+          "description_long": "'She shivered, though the kitchen was warm. Icicles of foreboding trickled down her spine. With trembling hands she whipped back her hair at the nape of her neck. As she turned away from the window, she missed the shadow passing by.'\n\n \n\nOne dark winter's morning, bride-to-be Cara Dunne is found hanging in her home, dressed in her wedding dress, with a lock of hair removed. Detective Lottie Parker is first on the scene. Looking at Cara's bruised and battered body, she wonders who could have hated her enough to kill her at the happiest time of her life. \n\n \n\nThe case takes a darker turn that afternoon with another shocking discovery - the broken body of a second young woman, pushed from the roof of the hospital where she worked. Fiona Heffernan was also due to be married, and her body is clad in a wedding dress, a lock of her hair cut off. \n\n \n\nThe killings seem so personal that Lottie is convinced the girls have been killed by someone they knew. When she goes to break the news to Fiona's family, she's on the alert for anything suspicious. But then she makes a discovery that causes her blood to run cold - Fiona's eight-year-old daughter Lily didn't return home from her dance recital that afternoon. Terrified that Lily will be the next victim of a twisted and dangerous individual, Lottie takes the case into her own hands, risking her life when she comes face-to-face with the killer...\n\n \n\nIf you love Karin Slaughter, Robert Dugoni and Rachel Caine, you'll be hooked by this heart-stopping thriller from Patricia Gibney. Broken Souls will keep you guessing until the very last page!\n\n \n\nRead what everybody is saying about Broken Souls:\n\n \n\n'Brilliant as always and totally addictive and I loved it!!... This is a thrill a minute police procedural that just doesn't let up, so many twists and lots going on it really is unputdownable but that comes as no surprise as every book in this series has been a 5 star read ... Patricia Gibney as always writes a superb story never letting up on the action and once more providing us another 5 star read and highly recommended. ' Goodreads Reviewer, ?????\n\n \n\n'I love the twists and turns in the plot that keep you guessing right to the end. And that ending! My heart was breaking. I cannot wait for the next one!'  Goodreads Reviewer, ?????\n\n \n\n'I absolutely love this series with Lottie Parker and was so looking forward to reading this. It was as brilliant as all of the other books in this series. A great storyline with all the usual twists and turns we expect from Patricia's writing but a few red herrings in there. Just as I think I have it figured out a spanner is thrown into the works and I have to think again. I couldn't put it down...",
+          "description_short": "",
+          "image_large": "",
+          "image_original": "",
+          "image_small": "",
+          "modified": "",
+          "source": "BOKBASEN",
+          "table_of_contents": "",
+          "title": ""
+        }
       }
     }
   ]
