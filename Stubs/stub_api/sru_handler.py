@@ -10,6 +10,7 @@ def sru_handler(event, _context):
     isbn_that_trigger_0_hits = mock_ids['isbn']['isbn_that_trigger_0_hit']
 
     query = event['queryStringParameters']['query']
+    record_schema = event['queryStringParameters']['recordSchema']
 
     if isbn_that_trigger_2_hits in query:
         f = open("/var/task/resources/SRU_response_2_hits.xml", "r")
@@ -55,7 +56,7 @@ def sru_handler(event, _context):
             "body": sru_holdings_complex
         }
 
-    if 'isohold' in query:
+    if 'isohold' in record_schema:
         f = open("/var/task/resources/sru_holdings_with_only_copy.xml", "r")
         sru_response_1_hit = f.read()
         return {

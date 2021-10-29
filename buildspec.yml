@@ -21,6 +21,7 @@ phases:
       - env
       - node -v
       - aws --version
+
   build:
     commands:
       - cd karate
@@ -29,6 +30,7 @@ phases:
       - npm install
       - cd ../../
       - npm test --prefix InterLibraryLoan/cypress
+
   post_build:
     commands:
       - pwd
@@ -36,6 +38,8 @@ phases:
       - if [ -d "karate/build/karate-reports" ]; then aws s3 cp karate/build/karate-reports s3://interlibraryloan-test/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
       - if [ -d "InterLibraryLoan/cypress/cypress/screenshots" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/screenshots s3://interlibraryloan-test/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
       - if [ -d "InterLibraryLoan/cypress/cypress/videos" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/videos s3://interlibraryloan-test/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
+      # Tearing down dynamoDB table
+
 artifacts:
   files:
     - '**/*'
