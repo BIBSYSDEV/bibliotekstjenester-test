@@ -304,14 +304,6 @@ Resources:
           PolicyDocument:
             Version: '2012-10-17'
             Statement:
-              - Sid: DynamoDBPolicy
-                Effect: Allow
-                Action:
-                  - dynamoDB:BatchWriteItem
-                  - dynamoDB:CreateTable
-                  - dynamoDB:DeleteTable
-                  - dynamodb:DescribeTable
-                Resource: '*'
               - Sid: CloudWatchLogsPolicy
                 Effect: Allow
                 Action:
