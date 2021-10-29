@@ -4,19 +4,127 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "0306449293"
+            "S": "9788202614324"
+          },
+          "audio_file": {
+            "S": "files/audio/mp3/1235467890123.mp3"
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-19T14:46:57.588557Z"
+            "S": "2021-05-08T19:58:01.920490Z"
           },
           "date_of_publication": {
             "S": ""
           },
           "description_long": {
-            "S": "Elastic and inelastic scattering in transmission electron microscopy (TEM) are important research subjects. For a long time, I have wished to systematically summarize various dynamic theories associated with quantitative electron micros  copy and their applications in simulations of electron diffraction patterns and images. This wish now becomes reality. The aim of this book is to explore the physics in electron diffraction and imaging and related applications for materials characterizations. Particular emphasis is placed on diffraction and imaging of inelastically scattered electrons, which, I believe, have not been discussed exten  sively in existing books. This book assumes that readers have some preknowledge of electron microscopy, electron diffraction, and quantum mechanics. I anticipate that this book will be a guide to approaching phenomena observed in electron microscopy from the prospects of diffraction physics. The SI units are employed throughout the book except for angstrom (A), which is used occasionally for convenience. To reduce the number of symbols used, the Fourier transform of a real-space function P'(r), for example, is denoted by the same symbol P'(u) in reciprocal space except that r is replaced by u. Upper and lower limits of an integral in the book are (-co, co) unless otherwise specified. The (-co, co) integral limits are usually omitted in a mathematical expression for simplification. I very much appreciate opportunity of working with Drs. J. M. Cowley and J. C. H. Spence (Arizona State University), J."
+            "S": "Den dagen eiendomsmegleren Annie O'Sullivan blir bortf\u00f8rt, har hun tre m\u00e5l: \u00e5 selge et hus, \u00e5 glemme en krangel hun nettopp har hatt med moren, og \u00e5 komme tidsnok til middagsavtalen med sin t\u00e5lmodige kj\u00e6reste. Visningen g\u00e5r tregt, men da en mann dukker opp idet hun er i ferd med \u00e5 l\u00e5se seg ut, tror Annie at det kanskje kan bli en fin dag likevel. Men ingenting er lengre fra sannheten. For i stedet begynner et mareritt med daglige fysiske og psykiske overgrep i en hytte langt inne i fjellet. Fortsatt savnet er i USA k\u00e5ret til beste debutant 2010, en av fjor\u00e5rets beste thrillere av Kirkus Review, ble nominert til Good Read Choice Award 2010 og er blitt anbefalt av Oprah Magazine."
           },
           "description_short": {
-            "S": "For a long time, I have wished to systematically summarize various dynamic theories associated with quantitative electron micros  copy and their applications in simulations of electron diffraction patterns and images. This book assumes that readers have some preknowledge of electron microscopy, electron diffraction, and quantum mechanics."
+            "S": ""
+          },
+          "image_large": {
+            "S": "files/images/large/1235467890123.jpg"
+          },
+          "image_original": {
+            "S": "files/images/original/1235467890123.jpg"
+          },
+          "image_small": {
+            "S": "files/images/small/1235467890123.jpg"
+          },
+          "modified": {
+            "S": "2021-10-26T01:04:19.940787Z"
+          },
+          "review": {
+            "S": ""
+          },
+          "source": {
+            "S": "BOKBASEN"
+          },
+          "table_of_contents": {
+            "S": ""
+          },
+          "title": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "isbn": {
+            "S": "9783531924298"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-08T15:43:38.181068Z"
+          },
+          "date_of_publication": {
+            "S": "20140523"
+          },
+          "description_long": {
+            "S": ""
+          },
+          "description_short": {
+            "S": ""
+          },
+          "image_large": {
+            "S": "files/images/large/1235467890123.jpg"
+          },
+          "image_original": {
+            "S": ""
+          },
+          "image_small": {
+            "S": "files/images/small/1235467890123.jpg"
+          },
+          "modified": {
+            "S": "2021-05-16T06:31:25.748384Z"
+          },
+          "review": {
+            "S": ""
+          },
+          "source": {
+            "S": "BIBSYS"
+          },
+          "table_of_contents": {
+            "S": ""
+          },
+          "title": {
+            "S": "Konstruierte Normalitnten Normale Abweichungen"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "isbn": {
+            "S": "0789033437"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-08T18:04:44.640796Z"
+          },
+          "date_of_publication": {
+            "S": ""
+          },
+          "description_long": {
+            "S": "\"Impact of Substance Abuse on Children and Families\" addresses the growing concern over children at risk of developing physical and mental health problems because of their parents' additions to alcohol and other drugs (AOD), including a chapter on thetroubling increase of methamphetamine abuse by parents. The book's contributors examine current research findings from the United States, Australia, Ireland and Israel to provide much-need insight into the effects of addiction on family dynamics, parental attachment styles and family characteristics. The book also looks at the impact of addiction on school-aged children and on mothers in residential treatment with their children, survey assessment instruments and treatment outcomes and the value ofStudent Assistance Services for older children."
+          },
+          "description_short": {
+            "S": ""
           },
           "image_large": {
             "S": ""
@@ -25,9 +133,12 @@
             "S": ""
           },
           "image_small": {
-            "S": ""
+            "S": "files/images/small/1235467890123.jpg"
           },
           "modified": {
+            "S": "2021-05-16T00:22:13.934306Z"
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -37,7 +148,7 @@
             "S": ""
           },
           "title": {
-            "S": "Elastic and inelastic scattering in electron diffraction and imaging"
+            "S": "Impact of Substance Abuse on Children and Families"
           }
         }
       }
@@ -46,19 +157,127 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "0226538567"
+            "S": "1402010575"
           },
-          "created": {
-            "S": "2021-05-21T14:31:39.691627Z"
-          },
-          "date_of_publication": {
+          "audio_file": {
             "S": ""
           },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-08T10:12:34.174613Z"
+          },
+          "date_of_publication": {
+            "S": "coop. 2002"
+          },
           "description_long": {
-            "S": "\"A serious reconsideration of the 'economics of science' is long overdue,\" say Philip Mirowski and Esther-Mirjam Sent in the introduction to Science Bought and Sold. Indeed, it is only recently that one could speak of a field of economics of science at all. Although it has long been accepted that economics can provide useful tools with which to understand science, economics has only lately shifted its focus to the economic agent as information processor, making it more broadly applicable to science. \nBringing together central themes in this emerging discipline, the editors have assembled important articles that provide a wider context and background against which the economics of science can be evaluated. Roughly one-third of the essays presented here are original papers, and the rest are critical articles previously published in the field. From essays examining economic welfare to the idea of scientists as agents to the digital aspects of higher education,Science Bought and Sold presents a comprehensive overview of the new directions of this expanding area.\n\n\nContributors: \nKenneth J. Arrow \nMario Biagioli \nWilliam A. Brock \nMichel Callon \nPartha Dasgupta \nPaul A. David \nSteven N. Durlauf \nPaul Forman \nSteve Fuller \nD. Wade Hands \nShaun P. Hargreaves Heap \nPhilip Kitcher \nSharon G. Levin \nRichard R. Nelson \nDavid F. Noble \nMichael Polanyi \nGary Rhoades \nCharles Sanders Peirce \nSheila Slaughter\nPaula E. Stephan \nStephen Turner \nJames R. Wible\nJohn Ziman"
+            "S": "The twenty chapters in this book all focus on aspects of mathematical beliefs, from a variety of different perspectives. Current knowledge of the field is synthesized and existing boundaries are extended. The book is divided into three, partly overlapping, sections. The first concentrates on conceptualizations and measurement of beliefs, the second on research about teachers' beliefs, and the third on facets of students' beliefs about mathematics. A diversity of instruments is used for data collection, including surveys, interviews, observations, and essay writing, as well as more innovative approaches. The volume is intended for researchers in the fleld, as well as for mathematics educators teaching the next generation of students. The book is also useful for those working in other subject disciplines, since many of the themes explored have relevance well beyond mathematics education."
           },
           "description_short": {
-            "S": "Although it has long been accepted that economics can provide tools with which to understand science, economics has shifted its focus to the economic agent as information processor. This collection of essays presents an overview of this area."
+            "S": "Focuses on aspects of mathematical beliefs, from a variety of different perspectives. This book is divided into three sections. The first concentrates on conceptualizations and measurement of beliefs, the second on research about teachers' beliefs, and the third on facets of students' beliefs about mathematics."
+          },
+          "image_large": {
+            "S": ""
+          },
+          "image_original": {
+            "S": ""
+          },
+          "image_small": {
+            "S": "files/images/small/1235467890123.jpg"
+          },
+          "modified": {
+            "S": "2021-05-15T21:29:21.051686Z"
+          },
+          "review": {
+            "S": ""
+          },
+          "source": {
+            "S": "NIELSEN"
+          },
+          "table_of_contents": {
+            "S": "\u00a0From the contents:Tables and Figures * Acknowledgements * Contributors * Part 1\n<br>\u00a0Beliefs: Conceptualization and Measurement * Part 2\n<br>\u00a0Teacher's Beliefs * Part 3\n<br>\u00a0Students'Beliefs * Index\n<br>\n<br>"
+          },
+          "title": {
+            "S": "Beliefs: a Hidden Variable in Mathematics Education?"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "isbn": {
+            "S": "9780471643852"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-08T03:53:07.272363Z"
+          },
+          "date_of_publication": {
+            "S": "1999"
+          },
+          "description_long": {
+            "S": "A fresh perspective on the HR function, High Performance HR challenges the traditional view of HR as a service function and replaces it with a new vision of HR as an internal business accountable for the return on investment of essential corporate assets-people and organizational processes. High Performance HR not only challenges HR's traditional role, but also provides practical strategies for leveraging HR's role, priorities, accountabilities, and organizational design. Get your copy today!"
+          },
+          "description_short": {
+            "S": "A fresh perspective on the HR function, High Performance HR challenges the traditional view of HR as a service function and replaces it with a new vision of HR as an internal business accountable for the return on investment of essential corporate assets-people and organizational processes."
+          },
+          "image_large": {
+            "S": "files/images/large/1235467890123.jpg"
+          },
+          "image_original": {
+            "S": ""
+          },
+          "image_small": {
+            "S": "files/images/small/1235467890123.jpg"
+          },
+          "modified": {
+            "S": "2021-06-01T07:44:45.932863Z"
+          },
+          "review": {
+            "S": ""
+          },
+          "source": {
+            "S": "NIELSEN"
+          },
+          "table_of_contents": {
+            "S": "PREFACE. ACKNOWLEDGMENTS. PART ONE: The Challenge. CHAPTER ONE: The Irish Elk. The Focus for HR's Transformation. The Growth Curve. Phase One-- The Start-up Phase. Phase Two-- The Growth Phase. Phase Three-- The Mature Phase. Respond to Company Risk with HR Professional Discipline. Summary CHAPTER TWO:  An HR Business within a Business. Business and Organizations. Becoming an HR Business within a Business. Align HR To Deliver Value to the External Customer. Redefining HR's Internal Client Relationships. All Roads Lead to the External Customer. Summary. CHAPTER THREE: The Discipline of Abandonment. Why Disciplined Abandonment Is Important. Leadership and Abandonment. Abandonment and Removing \"Noise\" from the System. People, Organizational, and Business Processes. An Exercise in Abandonment. Three Kinds of Abandonment for HR. The Discipline of the \"Tie Goes to the Runner\" in Abandonment. Life After Abandonment. Summary. PART TWO: People And Organizational Processes. CHAPTER FOUR: Core People Processes. The \"Hatch\" People Processes. The \"Match\" People Processes. Performance Development. Compensation and Recognition. Employee Services. The \"Dispatch\" People Processes. Delivering Core and Strategic Process Outcomes. Summary. CHAPTER FIVE: Organizational Value-Add. T: Technology as an Enabler to Allow Many of the New HR Activities to Occur. L: Learning-- Building a Continuous Learning Environment. C: Consulting to Enhance Organizational Performance. A Final Note on Organizational Value-Add Processes. Summary. PART THREE: Strategic Business Processes. CHAPTER SIX: Business Transformation: An Overview. Choosing the Priority Risks and Opportunities. HR Professional Must Be Strategic Partners to Deliver the Business Transformation. Two Contrasting Examples of HR's Potential Role in Business Transformation. The Next Four Chapters. Summary. CHAPTER SEVEN: Cultivate a Flexible Culture. How to Cultivate a Flexible Culture. Create and Live the Shared Values. Develop Leaders Who Inspire Shared Meaning in the Work. Foster Organizational Elasticity. Insure Rewards and Recognition Support the Flexible Culture. Human Resources Enables the Flexible Culture. Summary. CHAPTER EIGHT: Champion Strategic Alignment. The Five Areas of Strategic Alignment. 1. Alignment to the Vision of the Company. 2. Alignment with Other Strategic Teams and Changes within the Company. 3. Alignment to the Customer's Needs. 4. Alignment with Preferred Suppliers. 5. Internal Alignment within the Strategic Team. How to Fail at Strategic Alignment. HR Measures 360 Alignment. Human Resources Models Strategic Alignment. Summary. CHAPTER NINE: Implement Change and Transition. Change and Transition. The Process of Implementing Change and Transition. Element #1: Understand Competitive Forces and Customer Value. Element #2: Select Change Leaders and Define Accountabilities. Element #3: Identify the Preferred Future and the Urgency for the Change. Element #4: Engage Key Stakeholders and Identify Their Interests. Element #5: Plan the Change in Detail and Anticipate Contingencies. Element #6: Roll-Out: Communicate, Train and Help People Adjust to Gain Commitment to the Change. Element #7: Roll-In: Implement the Change and Make It Business As Usual. Element #8: Roll-On: Measure Results, Share Learnings and Continuously Improve. HR Applies the Implementing Change and Transition Process to Its Own Changes. Summary. CHAPTER TEN: Insure a Return on Investment in Human Capital. The Strategic Value of the Return on Investment in Human Capital. Identifying a Metric of Human Capital. Calculating the Investment Made in Human Capital. Implications of RIHC for the HR \"People and Organizational Processes\". The Assessment of the RIHC for Performance Development. HR Prepares Dynamic Reports on the Return on Investment in Human Capital. The HR Competencies Needed to Support RIHC Analysis. Benefits for HR When It Takes Accountability for RIHC. Barriers for HR in Leading the RIHC Business Transformation. Summary. PART FOUR: The Way Forward. CHAPTER ELEVEN: HR Structure, Roles, and Relationships. An Approach to Organizational Structure for HR. Roles and Relationships for the HR Strategic Partners. Roles and Relationships for the HR Process Owners. Roles and Relationships for the HR Strategy Council. Summary. CHAPTER TWELVE: The Solution after Next: Integrating Internal Service Businesses. Five Levels of Integrating Internal Service Businesses. Level 1-- Shared Learnings among Internal Service Businesses. Level 2-- Integration through Joint Planning and Project Management. Level 3-- Integration through Common Processes and Approaches but Still Operating Separately. Level 4-- Integration through Collaborative Work for Specific Initiatives. Level 5-- Structural Integration of Internal Service Businesses. The Extent to Which Internal Service Businesses Can Be Integrated. Epilogue: High Performance HR Professionals Lead the Transformation. Summary. APPENDIX: An Interview with Dr. David Weiss. A COMPREHENSIVE READING LIST FOR HR PROFESSIONALS. INDEX."
+          },
+          "title": {
+            "S": "High Performance HR: Leveraging Human Resources for Competitive Advantage"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "isbn": {
+            "S": "1612518044"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-10T03:06:39.719968Z"
+          },
+          "date_of_publication": {
+            "S": "2015"
+          },
+          "description_long": {
+            "S": "\"Airpower Reborn\" offers a conceptual approach to warfare that emphasizes airpower's unique capability to achieve strategic effects. Six world-leading theorists argue that a viable strategy must transcend the purely military sphere, view the adversaryas a multi-dimensional system, and pursue systemic paralysis and strategic effects rather than military destruction or attrition. The book is divided into three parts. The first section presents a historical perspective on airpower theory and airpowerstrategy, tracing their evolution from the 1920s to the 1980s. The second section contains in-depth examinations of the strategic concepts that John R. Boyd and John A. Warden developed in the 1980s and 1990s, with an emphasis on their contemporary relevance. The final section provides further context on modern airpower theory and strategy. Theory, in this setting, serves as the basic paradigm, strategy represents its generic, mechanisms-centered application, and plans of campaign constitute the specific steps for any given situation. In short, the authors look beyond the land-centric, battlefield-oriented paradigm that has continued to dominate military theories and strategies long after airpower offered new options. The book acknowledges the essential role of advanced technology in improving airpower capabilities, but emphasizes that air services must cultivate and harness the intellectual acumen of airmen and encourage officers and men to think conceptually and strategically about the application of aerospace power. Modern airpower can offer political decision-makers more and better options--provided the underlying strategy coherently links the application of airpower directly to the end-state objectives rather than limiting it to \"the battle.\" The book recommends that all countries should consider establishing a dynamic and vibrant environment for mastering aerospace history, theory, strategy, and doctrine; a milieu for cultivating broader knowledge of and insight into airpower; anda setting in which airpower experts have the opportunity to communicate their narrative to politicians, the media, and fellow officers, and to interact to mutual benefit with experts from all sectors of governance. This effort should emphasize the potentially unique contribution of airpower to political objectives and joint operations, and in turn connect to operational headquarters that do operational planning. Mastering such strategic thought lies at the heart of the military profession, but it requires in-depth knowledge and understanding of theory, strategy, and airpower, and transcends traditional metrics."
+          },
+          "description_short": {
+            "S": ""
           },
           "image_large": {
             "S": ""
@@ -70,6 +289,9 @@
             "S": ""
           },
           "modified": {
+            "S": "2021-05-15T10:14:41.012666Z"
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -79,7 +301,7 @@
             "S": ""
           },
           "title": {
-            "S": "Science bought and sold : essays in the economics of science"
+            "S": ""
           }
         }
       }
@@ -88,22 +310,28 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "9781472106056"
+            "S": "3540786465"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-16T16:29:36.245688Z"
+            "S": "2021-10-18T01:34:19.832341Z"
           },
           "date_of_publication": {
             "S": ""
           },
           "description_long": {
-            "S": "Ursula is obsessed with Mason; and Mason is obsessed with Ursula. But their passion is strong - murderously strong.  Two lovers, three murders, a vortex of eroticism and an intriguing deception, all set in a steamy, noir-ish Los Angeles . . . This is a smouldering sexual thriller, with echoes of James M. Cain, Raymond Chandler and all the finesse of the best traditions of European erotic writing."
+            "S": ""
           },
           "description_short": {
             "S": ""
           },
           "image_large": {
-            "S": ""
+            "S": "files/images/large/1235467890123.jpg"
           },
           "image_original": {
             "S": ""
@@ -114,130 +342,7 @@
           "modified": {
             "S": ""
           },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
-            "S": ""
-          },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "9788211023063"
-          },
-          "created": {
-            "S": "2021-06-16T17:01:50.615855Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "GRIP er et læreverk for flerspråklige elever og deltakere som får opplæring i samfunnsfag, naturfag og matematikk på grunnleggende nivå. GRIP innføring i matematikk er spesielt tilrettelagt for elever i ungdomskolen og dekker kompetansemålene etter 2., 4. og 7..trinn i læreplanene etter Kunnskapsløftet. GRIP basisfagene GRIP fokuserer på å presentere fagstoff på en enkel måte. Språket er tilpasset elever med lite skolebakgrunn fra hjemlandet. Det visuelle uttrykket er ryddig og enkelt, med variert bruk av foto og tegninger. GRIP - innføring i matematikk eleven basiskunnskaper i matematikk og dekker kompetansemålene etter 2., 4. og 7..trinn i læreplanene etter Kunnskapsløftet. Eksempler på emner: tall, de fire regneartene, tid, mønster og former, geometri, prosent, mål og statistikk. GRIP digitale ressurser GRIP Portal er verkets nettsted. He finner du digitale ressurser til alle GRIP-fagene. Læreren finner supplerende oppgavemateriell til nedlasting samt tips til undervisningen. Komponenter i GRIP-serien: GRIP 1 Samfunnsfag og naturfag GRIP 2 Samfunnsfag og naturfag GRIP 1 Matematikk GRIP 2 Matematikk GRIP Innføring i matematikk GRIP Portal - fagnettsted med digitale bøker og oppgavemateriell Les mer på: www.fagbokforlaget.no/grip Forfatter Grete Angvik Hermanrud her lang erfaring med å undervise voksne innvandrere i matematikk. Hun har også vært engasjert av Utdanningsdirektoratet til å lage eksamensoppgaver i matematikk for voksne i grunnskoleopplæringen. Angvik Hermanrud er for tiden knyttet til Enhet for voksenopplæring i Trondheim. Forfatter Liv Hermanrud er lektor i realfag med spesialisering i fysikk og matematikk. Hermanrud har undervisningserfaring med flerspråklige elever i realfag."
-          },
-          "description_short": {
-            "S": ""
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
-            "S": ""
-          },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
-            "S": ""
-          },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "0511759908"
-          },
-          "created": {
-            "S": "2021-05-05T06:28:37.807Z"
-          },
-          "date_of_publication": {
-            "S": "1988"
-          },
-          "description_long": {
-            "S": "This book examines how transformations in Brazil's social, economic and political organization affect the demographic behaviour of people who live in different parts of the country and who occupy different positions in the social system. The authors review the history of unequal development and document the concentration of income and land ownership. Using data from the 1970 and 1980 censuses, they show how the Brazilian style of economic growth unequally affected different population subgroups. Mortality estimates for white and non-white people measure the consequences of racial inequality on the life chances of children. Other chapters investigate rural out-migration, the impact of Amazon colonization schemes on rural poverty, and the implications of differential rates of population growth among rich and poor households for future patterns of inequality and underemployment. The overall perspective places the concept of inequality at the centre of the study of demographic and structural change."
-          },
-          "description_short": {
-            "S": "This book examines how transformations in Brazil's social, economic and political organization affect the demographic behaviour of people who live in different parts of the country."
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
-            "S": ""
-          },
-          "source": {
-            "S": "NIELSEN"
-          },
-          "table_of_contents": {
-            "S": "\u00a01. Introduction\n<br>\u00a0 2. Framework for the study of population\n<br>\u00a0 3. Growth and distribution in historical perspective\n<br>\u00a0 4. Income inequality and length of life\n<br>\u00a0 5. Wage policy, infant mortality and collective social action in Sao Paulo\n<br>\u00a0 6. Racial inequality and child mortality\n<br>\u00a0 7. The 'baby' bust\n<br>\u00a0 8. Income distribution and population growth\n<br>\u00a0 9. Agrarian structure and the rural exodus\n<br>\u00a0 10. Colonization and frontier expansion in Amazonia\n<br>\u00a0 11. Development and persistent underemployment\n<br>\u00a0 12. The demography of inequality in Brazil: summary and conclusion.\n<br>\n<br>"
-          },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "9781573317511"
-          },
-          "created": {
-            "S": "2021-05-06T14:27:19.546804Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "At a microscopic level, organisms are ruled by interacting systems of biomolecules. Historically, scientists painstakingly elucidated chains of molecular events using experiments that reveal individual interactions, although they recognized that members of different pathways frequently interact. In recent years, researchers have built richer, interconnected networks to mathematically summarize their knowledge of these interactions. This systems biology enterprise, largely stimulated by high-throughput tools like microarrays that measure mRNA levels as an indicator of gene expression, is a vital and increasingly important activity in both basic biology and in medicine. A nagging concern, however, is how accurately these networks represent the biology. For complex systems like biological networks, there are practical limits on how well even massive amounts of data can uniquely define the underlying structure and yield useful predictions of measurable events. Indeed, although its advocates call this process \"reverse engineering,\" the topology and the detailed molecular interactions of the \"inferred\" networks will likely never be known with precision.\nThis volume captures the ongoing process to assess the ability of scientists-and their computer servants-to infer networks from experimental data, by comparing their predictions to \"gold-standard\" networks whose structure is thought to be known. NOTE: Annals volumes are available for sale as individual books or as a journal. For information on institutional journal subscriptions, please visit www.blackwellpublishing.com/nyas. ACADEMY MEMBERS: Please contact the New York Academy of Sciences directly to place your order (www.nyas.org). Members of the New York Academy of Science receive full-text access to the Annals online and discounts on print volumes. Please visit http://www.nyas.org/MemberCenter/Join.aspx for more information about becoming a member."
-          },
-          "description_short": {
-            "S": "At a microscopic level, organisms are ruled by interacting systems of biomolecules. Historically, scientists painstakingly elucidated chains of molecular events using experiments that reveal individual interactions, although they recognized that members of different pathways frequently interact."
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
+          "review": {
             "S": ""
           },
           "source": {
@@ -247,7 +352,7 @@
             "S": ""
           },
           "title": {
-            "S": "The challenges of systems biology : community efforts to harness biological complexity"
+            "S": "Advances in Information Retrieval 30th European Conference on IR Research, ECIR 2008, Glasgow, UK, March 30 -- April 3, 2008 /"
           }
         }
       }
@@ -256,40 +361,49 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "9788202527891"
+            "S": "9780849331121"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-06T17:01:17.628221Z"
+            "S": "2021-05-08T09:52:25.006626Z"
           },
           "date_of_publication": {
-            "S": ""
+            "S": "1999"
           },
           "description_long": {
-            "S": "Gatene her skremmer meg. Det er så mye veskenapping og ran. Annalisa har nettopp fylt 14 år. En dag hun er ute sammen med noen venner blir hun ved en tilfeldighet skutt og drept av mafiaen. Senere finner faren den hemmelige dagboka hennes. Der skriver Annalisa om hvordan det er å være ung i et av Italias farligste mafiastrøk. Og hun skriver om lekser og lærere, om foreldre og søsken, om venninner, om ønsker for framtiden, om å drømme seg bort - og om å være forelsket. \"Jeg liker å tenke at livet mitt ikke ender med døden. Jeg ønsker å bli minnet av de som lever etter meg.\""
+            "S": "Gerontological research is currently of great interest due to ever-increasing longevity of human life spans. Created to provide researchers and scientists with the technical methods essential to their work, Methods in Aging Research is a practical bench-top guide for everyone who plans, designs, or conducts research in aging. It highlights experimental procedures that are key to the investigation of the biological aging phenomena.<br />Methods in Aging Research is a state-of-the-art reference that offers the most direct and clear cut descriptions available of methodological procedures used  in aging research. Methods and protocols are critically evaluated and the advantages and disadvantages of each technique are explored. More than 70 expert contributors from around the world share their combined knowledge on a broad range of topics essential to everyone involved in cultivating and developing the gerontological research frontier."
           },
           "description_short": {
-            "S": ""
+            "S": "A practical reference guide, this work offers descriptions of methodological procedures used in ageing research. Methods and protocols are critically evaluated and the advantages and disadvantages of each technique are explored."
           },
           "image_large": {
-            "S": ""
+            "S": "files/images/large/1235467890123.jpg"
           },
           "image_original": {
             "S": ""
           },
           "image_small": {
-            "S": ""
+            "S": "files/images/small/1235467890123.jpg"
           },
           "modified": {
+            "S": "2021-06-03T22:11:36.444906Z"
+          },
+          "review": {
             "S": ""
           },
           "source": {
-            "S": "BOKBASEN"
+            "S": "NIELSEN"
           },
           "table_of_contents": {
-            "S": ""
+            "S": "General Theoretical Approaches to Aging Research<br />Population Study of Mortality and Longevity with Gompertzian Analysis, J.R. Carey<br />Design of Cross-Sectional, Longitudinal, and Sequential Studies in Gerontology, D. Ingram<br />Mathematical and Computational Tools for Gerontological Research, T.M. Witten<br />Experimental In Vitro Models in Aging Research<br />Use of the Fibroblast Model, V.J. Cristofalo, M. Tresini, C. Volker, and  M.K. Francis <br />Electrophysiological Assessment of Aged<br /> Hippocampus In Vivo and In Vitro, G.M. Rose, K.L. Heman, G.K. Payapali, and D.A. Turner<br />Using Drosophilia in Experimental Aging Research, R. Arking and R.C. Woodruff<br />Experimentation with Nematodes, A.Z. Reznick and D. Gershon<br />Experimentation with Yeast Model, S. Kim, P.A. Kirchman, A. Benguria, and S.M. Jazwinski<br />Vertebrate Models in Aging Research<br />Long-Term Housing of Rodents Under Specific Pathogen-Free Barrier Conditions, R.W. Hart, S.M. Lewis, B. Leard, and A. Turturro<br />Choice of Rodent Model for Aging Research, E.J. Masoro<br />Aging Experiments Using Non-Human Primates, R. Colman and J.W. Keminitz<br />Methods of Assessing Aging Processes<br />Dietary Restriction, H.A. Bertrand, J.T. Herlihy, Y. Ikeno, and B.P. Yu<br />Study Design for Nutritional Assessments in the Elderly, H. Payette, Y. Guigoz, and B.J. Vellas<br />Exercise, L.L. Ji and M.T. Gore<br />Changes in Neurotransmitter Exocytosis: A Target for Regulation During Aging, H.Y. Wang, D.L. Snyder, J. Roberts, and E. Friedman<br />Pathological Analysis in Aging Research, G.B. Hubbard and Y. Ikeno<br />Molecular and Evolutionary Probes of Senescence Alterations<br />Transgenic Manipulation of the Mouse Genome, C.A. Walter<br />Telomeres and Replicative Senescence, R.C. Allsopp, S.S. Wang, N.W. Kim, and C. B.Harley<br />Evolutionary Approaches to Probing Aging Mechanisms, S.N. Austad and D.J. Holmes<br />Apoptosis and Programmed Cell Death, I.D. Bowen<br />Mitochondrial DNA Deletions, M.N. Gadaleta, A.M.S. Lezza, and P. Cantatore<br />Techniques for Exploring Age-Related Intra- and Subcellular Changes<br />Intracellular Signal Transduction Pathways Involved in Hepatocyte DNA Synthesis Following Growth Factor Stimulation, Y. Liu,, N.J. Holbrook, G.C. Kokkonen, S. Kitano, and G.S. Roth<br />Measurements of Mitochondrial Oxygen Radical Production, G. Barja<br />Methods for the Study of Immune Cells in Aging, G. Fernandes<br />Techniques for Assessing Age-Related Oxidative Modification<br />Techniques for Assessing Age-Related Oxidative Modification, M. Matsuo and T. Kaneko<br />Measurement of Oxidative DNA Damage Using the Technique of Gas Chromatography-Mass Spectrometry, M. Dizdaroglu<br />A Transgenic Mouse Model for Studying Mutations In Vivo, J. Vijg, M.E.T. Dolle, and M.E.T.I. Boerrigter<br />Protein Oxidation, P.E. Starke-Reed<br />Glycation, Glycoxidation, and Other Maillard Reaction Products, V.M. Monnier, J.F. Fogarty, and D.R. Sell"
           },
           "title": {
-            "S": ""
+            "S": "Methods in Aging Research"
           }
         }
       }
@@ -298,16 +412,22 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "9781444943597"
+            "S": "1280688777"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-09T16:21:45.124769Z"
+            "S": "2021-08-10T07:52:02.510683Z"
           },
           "date_of_publication": {
             "S": ""
           },
           "description_long": {
-            "S": "A brilliant mystery series from bestselling author Enid Blyton, perfect for fans of The Secret Seven. \n\nPrince Bongawah is staying at a school camp near Peterswood, but before Fatty, Larry, Daisy, Pip and Bets get to see him he disappears in the middle of the night! The Find-Outers, along with the help of Ern and his brothers Sid and Pearce, are on the case to find the missing prince. And this time they'll have to work with Mr Goon...\n\nFirst published in 1951, this audio edition is based on the original text.\n\n(P) 2019 Hodder & Stoughton Limited\n\nEnid Blyton \u00ae and Enid Blyton's signature are registered trade marks of Hodder & Stoughton Limited. No trade mark or copyrighted material may be reproduced without the express written permission of the trade mark and copyright owner."
+            "S": ""
           },
           "description_short": {
             "S": ""
@@ -322,48 +442,9 @@
             "S": ""
           },
           "modified": {
-            "S": "2021-06-19T16:23:54.939689Z"
-          },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
             "S": ""
           },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "3540225706"
-          },
-          "created": {
-            "S": "2021-05-25T15:02:42.779035Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "This volume contains all papers presented at SSPR 2004 and SPR 2004, hosted by the Instituto de Telecomunicac\" ,oes/Instituto Superior T' ecnico, Lisbon, Portugal, August 18-20, 2004. This was the fourth time that the two workshops were held back-to-back. The SSPR was the tenth International Workshop on Structural and Synt- tic Pattern Recognition, and the SPR was the ?fth International Workshop on Statistical Techniques in Pattern Recognition. These workshops have traditi- ally been held in conjunction with ICPR (International Conference on Pattern Recognition), and are the major events for technical committees TC2 and TC1, respectively, of the International Association for Pattern Recognition (IAPR). The workshops were closely coordinated, being held in parallel, with plenary talks and a common session on hybrid systems. This was an attempt to resolve thedilemmaofhowto dealwiththeneedfornarrow-focusspecializedworkshops yet accommodate the presentation of new theories and techniques that blur the distinction between the statistical and the structural approaches.\nA total of 219 papers were received from many countries, with the subm- sion and reviewing processes being carried out separately for each workshop. A total of 59 papers were accepted for oral presentation and 64 for posters. In - dition, four invited speakers presented informative talks and overviews of their research. They were: Alberto Sanfeliu, from the Technical University of Cata- nia, Spain; Marco Gori, from the University of Siena, Italy; Nello Cristianini, from the University of California, USA; and Erkki Oja, from Helsinki University of Technology, Finland, winner of the 2004 Pierre Devijver Award."
-          },
-          "description_short": {
-            "S": ""
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
+          "review": {
             "S": ""
           },
           "source": {
@@ -373,7 +454,7 @@
             "S": ""
           },
           "title": {
-            "S": "Structural, syntactic, and statistical pattern recognition : joint IAPR international workshops SSPR 2004 and SPR 2004, Lisbon, Portugal, August 18-20, 2004 : proceedings"
+            "S": "Critical Survey of Short Fiction : British, Irish and Commonwealth writers"
           }
         }
       }
@@ -382,19 +463,25 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "0122267621"
+            "S": "0511708009"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-06-03T15:13:59.642838Z"
+            "S": "2021-05-07T21:05:23.779529Z"
           },
           "date_of_publication": {
-            "S": ""
+            "S": "2010"
           },
           "description_long": {
-            "S": ""
+            "S": "M. R. James (1862-1936) is probably best remembered as a writer of chilling ghost stories, but he was an outstanding scholar of medieval literature and palaeography, who served both as Provost of King's College, Cambridge, and as Director of the Fitzwilliam Museum, and many of his stories reflect his academic background. His detailed descriptive catalogues of manuscripts owned by colleges, cathedrals and museums are still of value to scholars today. This book, first published in 1900, lists about six hundred medieval manuscripts in the library at Lambeth Palace, most of them collected by Archbishop Bancroft (d. 1610). These were sent to Cambridge University Library during Cromwell's Protectorate, and returned to Lambeth Palace at the Restoration. Referring to several early inventories, James succeeds in tracing the ownership of many of the manuscripts back to English monastic houses dissolved at the Reformation including Durham Priory, Lanthony (near Gloucester), and Ely."
           },
           "description_short": {
-            "S": "A comprehensive three-volume work which aims to be a definitive source of all immunological knowledge. Features include approximately 600 entries covering all aspects of immunology; extensive cross-references; and an alphabetically arranged format for easy access."
+            "S": "M. R. James' much-sought-after catalogue of the manuscript collection at Lambeth Palace."
           },
           "image_large": {
             "S": ""
@@ -406,6 +493,111 @@
             "S": ""
           },
           "modified": {
+            "S": "2021-05-15T06:30:45.770938Z"
+          },
+          "review": {
+            "S": ""
+          },
+          "source": {
+            "S": "NIELSEN"
+          },
+          "table_of_contents": {
+            "S": "\u00a0The manuscripts in the library at Lambeth Palace\n<br>\u00a0Codices Lambethani\n<br>\u00a0Codices Carewani\n<br>\u00a0Codices Tenisoniani\n<br>\u00a0Codices Miscellanei\n<br>\u00a0Codices Manners-Suttoniani\n<br>\u00a0Additional note\n<br>\u00a0Indexes.\n<br>\n<br>"
+          },
+          "title": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "isbn": {
+            "S": "9780199601714"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-07T23:45:46.994438Z"
+          },
+          "date_of_publication": {
+            "S": "2013"
+          },
+          "description_long": {
+            "S": "To consider comedy in its many incarnations is to raise diverse but related questions: what, for instance, is humour, and how may it be used (or abused)? When do we laugh, and why? What is it that writers and speakers enjoy - and risk - when they tell a joke, indulge in bathos, talk nonsense, or encourage irony? \n\nThis Very Short Introduction explores comedy both as a literary genre, and as a range of non-literary phenomena, experiences and events. Matthew Bevis studies the classics of comic drama, prose fiction and poetry, alongside forms of pantomime, comic opera, silent cinema, popular music, Broadway shows, music-hall, stand-up and circus acts, rom-coms, sketch shows, sit-coms, caricatures, and cartoons. \n\nTaking in scenes from Aristophanes to The Office, from the Roman Saturnalia to Groundhog Day, Bevis also considers comic theory from Aristotle to Freud and beyond, tracing how comic achievements have resisted as well as confirmed theory across the ages.\n\nThis book takes comedy seriously without taking it solemnly, and offers an engaging study of the comic spirit which lies at the heart of our shared social and cultural life. \n\nABOUT THE SERIES: The Very Short Introductions series from Oxford University Press contains hundreds of titles in almost every subject area. These pocket-sized books are the perfect way to get ahead in a new subject quickly. Our expert authors combine facts, analysis, perspective, new ideas, and enthusiasm to make interesting and challenging topics highly readable."
+          },
+          "description_short": {
+            "S": "With a broad scope across the millennia, from high literature to popular culture, between page and stage and screen, this Very Short Introduction considers comedy not only as a literary genre, but also as a broader impulse at work in many other historical and contemporary forms of satire, parody, and play."
+          },
+          "image_large": {
+            "S": "files/images/large/1235467890123.jpg"
+          },
+          "image_original": {
+            "S": ""
+          },
+          "image_small": {
+            "S": "files/images/small/1235467890123.jpg"
+          },
+          "modified": {
+            "S": "2021-06-02T15:23:28.857306Z"
+          },
+          "review": {
+            "S": ""
+          },
+          "source": {
+            "S": "NIELSEN"
+          },
+          "table_of_contents": {
+            "S": "Introduction ; 1. In the beginning... ; 2. In and out of character ; 3. Plotting mischief ; 4. Underdogs ; 5. Getting physical ; 6. Taking liberties ; 7. Beyond a joke ; 8. Endgames ; Conclusion"
+          },
+          "title": {
+            "S": "Comedy: A Very Short Introduction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "isbn": {
+            "S": "0819566888"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-08T09:25:44.233296Z"
+          },
+          "date_of_publication": {
+            "S": "c2004"
+          },
+          "description_long": {
+            "S": "Samuel R. Delany is one of today's most interesting writers. African-American and gay, Delany crosses boundaries - generic (science fiction, memoir, theory, pornography) and academic (literary studies, cultural studies, African-American studies, gay and lesbian studies). Critics both black and white have read Delany as a writer who downplays his racial identity in order to aspire to universal values. In contrast, A Sense of Wonder shows how Delany's works participate in African-American cultural traditions.\n<p></p>The book begins with an analysis of Delany's Dhalgren (1975), using the novel's links to black cultural traditions as the key to unlocking its puzzling content. Jeffrey Allen Tucker's reading of the four-volume Return to Neveryon series places Delany's explorations of semiotics in dialogue with Frederick Douglass's 1845 Narrative and social histories on slavery in America. From there, Tucker moves to Delany's ground-breaking autobiography, The Motion of Light in Water, his experimental novella Atlantis: Model, 1925, and to his pornographic novel, The Mad Man. Tucker's aim is to advance a reading of identity that acknowledges its multiplicity and permeability without emptying it of socio-political efficacy and meaning."
+          },
+          "description_short": {
+            "S": "Samuel R. Delany is one of today's most interesting writers. 'A Sense of Wonder' shows how Delany's works participate in African American cultural traditions."
+          },
+          "image_large": {
+            "S": ""
+          },
+          "image_original": {
+            "S": ""
+          },
+          "image_small": {
+            "S": ""
+          },
+          "modified": {
+            "S": "2021-05-15T22:21:23.943776Z"
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -415,7 +607,7 @@
             "S": ""
           },
           "title": {
-            "S": "Encyclopedia of immunology"
+            "S": "Sense of Wonder"
           }
         }
       }
@@ -424,10 +616,16 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "0897668804"
+            "S": "9781847315373"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-15T14:41:58.791476Z"
+            "S": "2021-06-04T00:49:20.525Z"
           },
           "date_of_publication": {
             "S": ""
@@ -439,7 +637,7 @@
             "S": ""
           },
           "image_large": {
-            "S": ""
+            "S": "files/images/large/1235467890123.jpg"
           },
           "image_original": {
             "S": ""
@@ -448,6 +646,9 @@
             "S": ""
           },
           "modified": {
+            "S": ""
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -457,7 +658,7 @@
             "S": ""
           },
           "title": {
-            "S": "Pharmacology of aging processes : methods of assessment and potential interventions"
+            "S": "Studies in the History of Tax Law, Volume 3"
           }
         }
       }
@@ -466,22 +667,28 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "0412569701"
+            "S": "9783110944976"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-11T14:54:48.943460Z"
+            "S": "2021-05-06T21:08:09.976Z"
           },
           "date_of_publication": {
-            "S": ""
+            "S": "2003"
           },
           "description_long": {
-            "S": "This book was conceived to mark the Silver Jubilee of the British Butterfly Conservation Society. Interest in the conservation of butterflies has increased so rapidly that it is difficult to relate to the situation 25 years ago. Butterflies were on the decline in Britain, Europe and elsewhere but we lacked data on the extent of the decline and the underlying reasons, leaving us unable to implement effective conservation measures. An early recognition of the plight of British butterflies and moths led to the foundation of the society by a small group of conservationists in 1968. Today the society has over 10000 members, owns a number of reserves and sponsors research, conservation and monitoring activities at the local and national level. As part of the Silver Jubilee celebrations an international symposium was held at Keele University in September 1993 entitled 'Ecology and Conservation of Butterflies'. This symposium clearly showed how much important work has been done in recent years and also gave me the impression that the subject had reached a watershed. This was not because the decline of butterflies has stopped or even slowed down, far from it, the threat to our butterflies continues to increase from habitat destruction and intensification of land use. The watershed is in our understanding of the relationship between butterflies and their habitat."
+            "S": "This monograph deals with linear integra Volterra equations of the first kind with variable upper and lower limits of integration. Volterra operators of this type are the basic operators for integral models of dynamic systems."
           },
           "description_short": {
-            "S": "This was not because the decline of butterflies has stopped or even slowed down, far from it, the threat to our butterflies continues to increase from habitat destruction and intensification of land use."
+            "S": "This monograph deals with linear integra Volterra equations of the first kind with variable upper and lower limits of integration. Volterra operators of this type are the basic operators for integral models of dynamic systems."
           },
           "image_large": {
-            "S": ""
+            "S": "files/images/large/1235467890123.jpg"
           },
           "image_original": {
             "S": ""
@@ -490,6 +697,9 @@
             "S": ""
           },
           "modified": {
+            "S": "2021-06-04T10:38:01.224907Z"
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -499,7 +709,7 @@
             "S": ""
           },
           "title": {
-            "S": "Ecology and conservation of butterflies"
+            "S": "Nonclassical Linear Volterra Equations of the First Kind"
           }
         }
       }
@@ -508,16 +718,22 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "9788203371981"
+            "S": "9780553840742"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-04-29T16:50:35.145297Z"
+            "S": "2021-05-06T21:51:48.579Z"
           },
           "date_of_publication": {
             "S": ""
           },
           "description_long": {
-            "S": "Døvstumme Singer blir en slags skriftefar, eller klagemur, for en fargerik samling mennesker i en liten sørstatsby på 1930-tallet. Alle som \u00e9n betror de seg til han: Ungpiken som elsker musikk, den sorte doktor Copeland, den godhjertede barkeeperen og den krakilske kommunisten. Singer er der for alle, mens han lengter intenst etter sin greske venn Antonapulos som ble lagt inn på asylet i en annen by.\n\nMcCullers gir et lavmælt og krystallklart bilde av den daglige kampen omkring klasse, rase og kjønn og skildrer det fattige og harde livet i byen. \n\n\"Hjertet er en ensom jeger\" er debutboka til amerikanske Carson McCullers, utgitt i 1940, da hun bare var 23 år gammel. Boken ble en sensasjon og gjorde navnet hennes kjent verden over. Hun viser i debuten en sjelden litterær modenhet, en menneskekunnskap og en livsinnsikt som treffer leseren midt i hjertet. Det er en inntrengende bok, full av ømme, varme og bittert sanne portretter."
+            "S": "Dette er den andre romanen i en trilogi."
           },
           "description_short": {
             "S": ""
@@ -532,6 +748,9 @@
             "S": ""
           },
           "modified": {
+            "S": "2021-05-15T07:04:27.003504Z"
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -541,7 +760,7 @@
             "S": ""
           },
           "title": {
-            "S": ""
+            "S": "The twelve"
           }
         }
       }
@@ -550,19 +769,25 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "9781529351637"
+            "S": "8204086377"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-20T16:32:50.711270Z"
+            "S": "2021-05-08T10:54:21.134244Z"
           },
           "date_of_publication": {
-            "S": ""
+            "S": "2003"
           },
           "description_long": {
-            "S": "A laugh-out-loud, poignant and uplifting ode to the simple pleasure and small joys in life. Perfect for fans of Gail Honeyman, Rosanna Ley and Ruth Hogan.\n\n\"A lovely feel-good story\" -Lisa, NetGalley reviewer\n\n\"I adored this book... a wonderful discovery!\" -Breves litteraires blog\n\nHow do you find where you're going, if you've forgotten where you're from...\n\n\nWHAT READERS THINK\n\n\"A wonderful read\" -Abby, NetGalley reviewer\n\n\"An ode to the simple pleasure and small joys in life.\" -Breves litteraires blog\n\n\"A real treat!\" -RTBF\n\n\"A book full of light, sunshine and joy.\" -Lapresse.ca\n\n\"The writing is soft, luminous, and full of hope.\" -Blogger\n\n\"A delightful novel that celebrates the reading experience.\" -Tele 7 Jours\n\n\nGiacomo is stuck in a funk he can't shake - and a translation he can't finish. When he's summoned home to Sardinia, to say a final goodbye to his dying grandmother, he's offered the perfect opportunity to escape. \n\nOn the noisy, sun-drenched island, Giacomo reconnects with long-lost friends and overbearing relatives, relives the childhood he once couldn't wait to leave behind, and rediscovers new joie-de-vivre within him. Never mind that he's making no progress on his translation. . . \n\nWhen the time comes to leave once more, Giacomo wonders: has he fallen back in love with his home-island? Or has he been hiding from something which he needs the courage to return and confront? \n\nBut most importantly - is his grandma really as ill as she's claiming to be?"
+            "S": "P\u00e5 en morsom m\u00e5te f\u00e5r barna vite om barndommen til b\u00e5de Kong Haakon og Dronning Maud, som begge var kongelig f\u00f8dt. Bakgrunnen for hvorfor de kom til Norge etter unionsoppl\u00f8sningen i 1905 er selvf\u00f8lgelig med, men enda viktigere er morsomme historier fra deres dagligliv i Norge, som ogs\u00e5 inneholder litt om oppveksten til Kong Olav helt frem til hans bryllup med M\u00e4rtha. Forfatteren loser oss igjennom Mauds d\u00f8d, krigs\u00e5rene 1940-1945, og fram til Kong Haakons d\u00f8d - helt til slutt f\u00e5r vi med det nyeste skuddet p\u00e5 den norske kongelige stammen, som er oppkalt etter sin tippoldemor Maud!"
           },
           "description_short": {
-            "S": ""
+            "S": "P\u00e5 en morsom m\u00e5te f\u00e5r barna vite om barndommen til b\u00e5de Kong Haakon og Dronning Maud, som begge var kongelig f\u00f8dt. Bakgrunnen for hvorfor de kom til Norge etter unionsoppl\u00f8sningen i 1905 er selvf\u00f8lgelig med, men enda viktigere er morsomme historier fra deres dagligliv i Norge, som ogs\u00e5 inneholder litt om oppveksten til Kong Olav helt frem til hans bryllup med M\u00e4rtha. Forfatteren loser oss igjennom Mauds d\u00f8d, krigs\u00e5rene 1940-1945, og fram til Kong Haakons d\u00f8d - helt til slutt f\u00e5r vi med det nyeste skuddet p\u00e5 den norske kongelige stammen, som er oppkalt etter sin tippoldemor Maud!"
           },
           "image_large": {
             "S": ""
@@ -574,6 +799,9 @@
             "S": ""
           },
           "modified": {
+            "S": "2021-05-15T19:10:39.318109Z"
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -583,7 +811,7 @@
             "S": ""
           },
           "title": {
-            "S": ""
+            "S": "Haakon og Maud"
           }
         }
       }
@@ -592,19 +820,25 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "0713128984"
+            "S": "9780415023306"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-23T15:00:50.253646Z"
+            "S": "2021-05-09T10:37:33.860254Z"
           },
           "date_of_publication": {
-            "S": ""
+            "S": "19881215"
           },
           "description_long": {
             "S": ""
           },
           "description_short": {
-            "S": ""
+            "S": "This book should be of interest to students of modern German lite rature, critical theory, modern drama and cultural studies."
           },
           "image_large": {
             "S": ""
@@ -616,6 +850,9 @@
             "S": ""
           },
           "modified": {
+            "S": ""
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -625,7 +862,7 @@
             "S": ""
           },
           "title": {
-            "S": "Seed physiology"
+            "S": "Postmodern Brecht: A Re-Presentation"
           }
         }
       }
@@ -634,16 +871,22 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "0262194929"
+            "S": "9780786718993"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-18T15:19:03.454440Z"
+            "S": "2021-05-05T18:21:33.420Z"
           },
           "date_of_publication": {
             "S": ""
           },
           "description_long": {
-            "S": ""
+            "S": "Fear, and man's attempt to master it, is of eternal interest and just as significant today as when Moran, as a young medical officer, went to the trenches in 1914 to research the subject scientifically. He asked why a man can appear to be as brave asa lion one day and break the next and, crucially, \"what can be done to delay or prevent the using up of courage?\" First published in 1945, this early groundbreaking account of the psychological effects of war, recounted by means of vivid first-hand observation and anecdote, came at a time when shell-shock was equated with lack of moral fiber. In 1940, Moran became Churchill's doctor and his position as a one of history's most important war physicians was secured. His humane, considered observations, scientific analysis and proposed solutions constitute one of the great First World War sources. However, they are perhaps just as relevant to our own conflict-ridden times."
           },
           "description_short": {
             "S": ""
@@ -658,6 +901,9 @@
             "S": ""
           },
           "modified": {
+            "S": "2021-05-15T00:13:42.138024Z"
+          },
+          "review": {
             "S": ""
           },
           "source": {
@@ -667,48 +913,6 @@
             "S": ""
           },
           "title": {
-            "S": "Energy at the crossroads : global perspectives and uncertainties"
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "9788202711245"
-          },
-          "created": {
-            "S": "2021-05-31T16:15:02.873784Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "For femten år siden landet en kråke i fanget til Espen Sletteberg. Siden har han og kråka Hafez bodd sammen. Mytene om kråker har i uminnelige tider fulgt dem, og handler så å si alltid om død og fordervelse. Men for Sletteberg er dette et spørsmål om liv og død. Hvordan er det egentlig å leve med en kråke? Dette er utgangsspørsmålet DN-journalist Alf Marius Opsahl stiller seg i møte med Kråkemannen Espen."
-          },
-          "description_short": {
-            "S": ""
-          },
-          "image_large": {
-            "S": "files/images/large/5/4/9788202711245.jpg"
-          },
-          "image_original": {
-            "S": "files/images/original/5/4/9788202711245.jpg"
-          },
-          "image_small": {
-            "S": "files/images/small/5/4/9788202711245.jpg"
-          },
-          "modified": {
-            "S": "2021-06-01T16:19:30.573864Z"
-          },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
-            "S": ""
-          },
-          "title": {
             "S": ""
           }
         }
@@ -718,40 +922,49 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "829319121X"
+            "S": "9781138789722"
           },
-          "created": {
-            "S": "2021-05-05T06:56:16.878Z"
-          },
-          "date_of_publication": {
-            "S": "2014"
-          },
-          "description_long": {
+          "audio_file": {
             "S": ""
           },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-06-02T15:49:11.247Z"
+          },
+          "date_of_publication": {
+            "S": ""
+          },
+          "description_long": {
+            "S": "<p>This book is a second edition of <i>Interpretation of Contracts</i> (2007). </p>\n<p></p>\n<p>The original work examined various issues surrounding the question of how contracts should be interpreted by courts, in particular focusing on the law of contract interpretation following Lord Hoffmann's exposition of the principles of contextual interpretation in <i>Investors Compensation Scheme Ltd v</i> <i>West Bromwich</i> <i>Building Society</i> [1998] 1 WLR 896. As with the original, this new edition provides an overview of the subject, concentrating on elements of controversy and disagreement, rather than a detailed analysis of all the contract law rules and doctrines that might be regarded as interpretative in one sense or another. The book will be concerned with interpretation of contracts generally (following the rule that there are not different rules of interpretation for different kinds of contracts), but with reference to commercial contracts in particular, since this is the area in which the contextual interpretative approach was developed, and where it has most relevance. </p>\n<p></p>\n<p>The overall aim of the second edition remains the same as the first - to produce an accessible and readable guide to contract interpretation for law students, scholars and practitioners.</p>"
+          },
           "description_short": {
-            "S": "En nyttig håndbok for alle med matallergi eller matintoleranse. Også godt egnet for kokker, fårskolelårere og helsepersonell. Fårste del av boken gir nådvendig innsikt og bakgrunn til å forstå problemkomplekset rundt matallergi. For mange vil denne innsikten gi en trygghet i den daglige omgangen med mat. Andre del presenterer rundt 350 velpråvde og gode oppskrifter og en rekke gode råd som vil gjåre hverdagen lettere for alle med allergi eller matoverfålsomhet."
+            "S": ""
           },
           "image_large": {
-            "S": "files/images/large/X/1/829319121X.jpg"
+            "S": "files/images/large/1235467890123.jpg"
           },
           "image_original": {
             "S": ""
           },
           "image_small": {
-            "S": "files/images/small/X/1/829319121X.jpg"
+            "S": ""
           },
           "modified": {
+            "S": ""
+          },
+          "review": {
             "S": ""
           },
           "source": {
-            "S": "BOKBASEN"
+            "S": "NIELSEN"
           },
           "table_of_contents": {
-            "S": ""
+            "S": "<p>Table of Contents</p>\n<p></p>\n<p>Table of cases</p>\n<p>Preface to first edition</p>\n<p>Preface to second edition </p>\n<p></p><b>\n</b><p><b>Chapter 1 The Nature of Contract Interpretation</b></p>\n<p></p>\n<p><b>Introduction</b></p>\n<p><b>What is interpretation?</b></p>\n<p><b><i>A general theory of interpretation?</i></b></p>\n<p><b><i>Interpretation and meaning</i></b></p>\n<p><b><i>Context and interpretation</i></b></p>\n<p><b><i>What is a contract?</i></b></p>\n<p><b><i>Interpretation and contractual power</i></b></p>\n<p><b><i>The range of interpretation problems</i></b></p>\n<p><b><i>Why do contractual interpretation disputes exist?</i></b></p>\n<p><b><i>Foundations of contract interpretation</i></b></p>\n<p><b><i>Conclusion</i></b></p>\n<p></p><b><i><b>\n</b></i></b><p><b><i><b>Chapter 2 The Rise (and Fall?) of Contextual Interpretation</b></i></b></p>\n<p></p>\n<p><b><i><b>Literalism and rules in contracts interpretation</b></i></b></p>\n<p><b><i><b>The contextualist shift</b></i></b></p>\n<p><b><i><b><i>Lord Hoffmann's restatement</i></b></i></b></p>\n<p><b><i><b><i>Implications of Lord Hoffmann's contextualism</i></b></i></b></p>\n<p><b><i><b><i><i>The meaning communicated to a reasonable person</i></i></b></i></b></p>\n<p><b><i><b><i><i>No need for ambiguity before examining the background</i></i></b></i></b></p>\n<p><b><i><b><i><i>Mistakes can be corrected by contextual interpretation</i></i></b></i></b></p>\n<p><b><i><b><i><i>The role of business common sense </i></i></b></i></b></p>\n<p><b><i><b><i><i>Contextualism subsumes literalism</i></i></b></i></b></p>\n<p><b><i><b><i><i>Contextual interpretation subsumes doctrine</i></i></b></i></b></p>\n<p><b><i><b><i><i>Contextual interpretation in context</i></i></b></i></b></p>\n<p><b><i><b><i><i><i>Accessing the 'real' agreement</i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i>Interdisciplinarity in law</i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i>Conclusion</i></i></i></b></i></b></p>\n<p></p><b><i><b><i><i><i><b>\n</b></i></i></i></b></i></b><p><b><i><b><i><i><i><b>Chapter 3 Divisions and Disputes in Contract Interpretation</b></i></i></i></b></i></b></p>\n<p></p>\n<p><b><i><b><i><i><i><b>Retreating from contextualism</b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i>Arnold v Britton </i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i>The role of ambiguity</i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i>What the words say/what the language communicates</i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i>Identifying the relevant context</i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i>Commercial reasonableness after <i>Arnold v Britton</i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i>Reasonable person or pedantic lawyer?</i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i>The limitations on the contract background</i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i>Common intentions of the parties</i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i>Admissibility of prior negotiations</i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i>Subjectivity</i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i>Costs</i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i>Helpfulness, relevance and the legal framework</i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i>Should the rule be reformed?</i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i>Subsequent conduct</i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i>The retreat from contextualism in context</i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i>Contract complexity</i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i>Maintaining competitive edge</i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i>Waning European influence</i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i>Conclusion</i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p></p><b><i><b><i><i><i><b><i><i><i><i><i><b>\n</b></i></i></i></i></i></b></i></i></i></b></i></b><p><b><i><b><i><i><i><b><i><i><i><i><i><b>Chapter 4 The Scope of Contract Interpretation</b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b>Interpretation or something else?</b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i>Interpretation and implied terms</i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i>A-G of Belize v Belize Telecom</i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i>Connections and disconnections between interpretation</i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i>and implication</i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i>What turns on the division between implication and</i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i>interpretation?</i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i>Interpretation and construction</i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i>Interpretation and rectification</i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i>Conclusion</i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p></p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b>\n</b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b><p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b>Chapter 5 Formalism and Contract Interpretation</b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b>Indications of formalism in English contract law</b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i>Form and interpretation</i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i>The rise of neo-formalism</i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i>Neo-formalism: empirical, theoretical or pragmatic?</i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i>Empirically defended formalism</i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i>Theoretically defended formalism</i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i>Pragmatically defended formalism</i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i>The preference for formalism and textualism</i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i>The costs of contextualism</i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i>Judicial error</i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i>Flexible norms vs legal norms</i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i>The existence of contextual materials</i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i>Conclusion</i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p></p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b>\n</b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b><p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b>Chapter 6 Controlling Contract Interpretation</b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b>General considerations</b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i>Courts, not the parties, interpret contracts</i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i>The limits of formalism</i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i>Choosing between formalist or contextualist contracting</i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i>strategies</i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i>Formalist interpretation of contractual standards</i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i>Contracting for textualism</i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i>Entire agreement clauses (EACs)</i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i>Should an EAC influence interpretation?</i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i>Resurrecting the parol evidence rule</i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i>Identifying and interpreting obligations</i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i>Evading the EAC</i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i>The impossibility of dispensing with context</i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i>Conclusion</i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i> </i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i>Bibliography</i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>\n<p><b><i><b><i><i><i><b><i><i><i><i><i><b><i><i><b><i><i><i><b><i><i><i>Index</i></i></i></b></i></i></i></b></i></i></b></i></i></i></i></i></b></i></i></i></b></i></b></p>"
           },
           "title": {
-            "S": "Allergi og matintoleranse"
+            "S": "Interpretation of Contracts"
           }
         }
       }
@@ -760,16 +973,22 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "9788202664534"
+            "S": "1776581598"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-05-06T17:09:53.882970Z"
+            "S": "2021-09-22T01:44:35.853127Z"
           },
           "date_of_publication": {
             "S": ""
           },
           "description_long": {
-            "S": "Det var lille julaften, klokken var bare fire om ettermiddagen, men mørket hadde begynt å legge seg over landskapet. Katrine myste mot snøværet og var glad for de røde baklyktene på bilen foran. \u00abDriving home for Christmas\u00bb ljomet fra høyttalerne i bilen. Det var en fem timers tur fra Bergen på slikt føre, men julegrauten på lille julaften var en tradisjon hun ikke ville gå glipp av. Dessuten hadde bestemoren vært bestemt på at hun skulle komme på lille juleaften, ikke dagen etter. Veldig bestemt ..."
+            "S": ""
           },
           "description_short": {
             "S": ""
@@ -786,172 +1005,7 @@
           "modified": {
             "S": ""
           },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
-            "S": ""
-          },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "9781780591254"
-          },
-          "created": {
-            "S": "2021-05-20T16:30:45.711756Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "Where is the only tube station where a crown prince has died?\n\n Where is the oak tree where Good Queen Bess took her rest?\n\n Which Queen befriended the Elephant Man \u0096 and played a part in the development of the modern Olympic Games?\n\n Where are the favourite shopping haunts of today\u0092s young royals?\n\n From Westminster to Greenwich, Kensington to the Tower of London, no other city in the world is steeped in quite as much royal history as London. Overflowing with royal boroughs, royal palaces, royal parks and gardens, London has played host to key historical events for over a thousand years. Royal London brings together the best of the drama and intrigue of royal history, and guides readers to the very spot where the events happened. Topics covered also include:\n\n \u0095 Royals round the monopoly board\n \u0095 Royals sporting London\n \u0095 Royal stops on the underground\n \u0095 Royal food and drink\n \u0095 Areas named after royals\n \u0095 Royal monuments/statues/plaques\n \u0095 Royals and the military\n \u0095 Royal plots and conspiracies\n\n A unique and indispensable guide for Londoners and visitors alike with an interest in all things royal."
-          },
-          "description_short": {
-            "S": ""
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
-            "S": "2021-05-28T16:24:31.333244Z"
-          },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
-            "S": ""
-          },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "9788251928427"
-          },
-          "created": {
-            "S": "2021-06-16T16:59:18.063865Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "Overalt og hele tida er vi omgitt av tekster og tegn: internettsider, huskelapper, aviser, tekstmeldinger, reklame, film, bøker - lista er nærmest uendelig. Mennesker har til alle tider kommunisert gjennom bilder og skrift. Det nye er mengden av tekster som omgir oss, og kompleksiteten. Å delta i samfunnet forutsetter en like kompleks tekstkompetanse. Dette stiller nye krav til lese- og skriveopplæringen. \n Denne boka formidler viktige innsikter fra en rekke nordiske forskningsprosjekt om lesing, skriving og multimodalitet. Studiene handler om arbeid med multimodale tekster på ulike trinn i skole og høyere utdanning - og i samfunnet for øvrig. Samlet gir boka en dypere forståelse av hvilke grunnleggende ferdigheter barn og unge trenger i ulike fag, og denpresenterer konkrete forslag til hvordan lærere og andre kan arbeide med lesing, skriving og multimodalitet"
-          },
-          "description_short": {
-            "S": ""
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
-            "S": ""
-          },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
-            "S": ""
-          },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "9781408349601"
-          },
-          "created": {
-            "S": "2021-05-09T16:34:15.097541Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "Get ready for an exciting fairy adventure   with the no. 1 bestselling series for girls aged 5 and up. \n\n     Kirsty is so excited to visit Rachel for a weekend and even more excited to   visit The Fernandos' Fabulous Funfair! But Jack Frost wants a funfair all to   himself and he's stolen the Funfair Fairies magic keyring to make it happen.   Can Kirsty and Rachel defeat him, before the funfair is totally   wrecked!\n\n     'These stories are magic; they turn children into readers!' ReadingZone.com\n\n     Read all four fairy adventures in the Funfair Fairies set! Rae the   Rollercoaster Fairy; Fatima the Face-Painting Fairy; Paloma the Dodgems   Fairy; Bobbi the Bouncy Castle Fairy.\n\n     If you like Rainbow Magic, check out Daisy Meadows' other series: Magic   Animal Friends and Unicorn Magic!"
-          },
-          "description_short": {
-            "S": ""
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
-            "S": ""
-          },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
-            "S": ""
-          },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "9780198855590"
-          },
-          "created": {
-            "S": "2021-05-26T15:45:17.872951Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "This collection of essays to focuses on the critical issue of  corruption that lies at the heart of the crisis of constitutionalism in Africa. Most anti-corruption measures over the years have been inadequate, serving merely as symbolic gestures to give the impression something is being done. The African Union's declaration of 2018 as the 'African anti-corruption year', belated though it be, is an open recognition by African governments of the impact corruption will\nhave on the continent unless urgent steps are taken.\n\nThe key objective of this volume is to draw attention to the problem of corruption, the complexity of the situation, with all its multi-faceted social, political, economic and legal dimensions, and the need for remedial action."
-          },
-          "description_short": {
-            "S": "This edited collection explores the endemic corruption that has spread into every aspect of social, economic, and political life which is at the heart of the crisis of constitutionalism in Africa and draws attention to the need for remedial action."
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
+          "review": {
             "S": ""
           },
           "source": {
@@ -961,7 +1015,7 @@
             "S": ""
           },
           "title": {
-            "S": "Corruption and constitutionalism in Africa : revisiting control measures and strategies"
+            "S": "No Hero"
           }
         }
       }
@@ -970,52 +1024,16 @@
       "PutRequest": {
         "Item": {
           "isbn": {
-            "S": "9788211027566"
+            "S": "9780786745814"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
           },
           "created": {
-            "S": "2021-06-16T17:50:53.269042Z"
-          },
-          "date_of_publication": {
-            "S": ""
-          },
-          "description_long": {
-            "S": "Vi er i Noreg i år 940.\n VISSTE DU AT vikingane hadde slavar, som vart kalla trælar? Og at trælane ikkje var like mykje verde som andre menneske? Kva trur du skjer når Arn får høyre at bestevenen hans, trælen Torstein, skal sendast bort?\n HISTORIER I SAMFUNNSFAG gir deg innblikk i korleis det var å leve i ulike periodar av verdshistoria. Alle historiene finst på tre forskjellige nivå og som digitale bøker med innlesen tekst.\n Sjå meir på lesedilla.no   Fagbokforlaget sitt digitale bibliotek."
-          },
-          "description_short": {
-            "S": ""
-          },
-          "image_large": {
-            "S": ""
-          },
-          "image_original": {
-            "S": ""
-          },
-          "image_small": {
-            "S": ""
-          },
-          "modified": {
-            "S": ""
-          },
-          "source": {
-            "S": "BOKBASEN"
-          },
-          "table_of_contents": {
-            "S": ""
-          },
-          "title": {
-            "S": ""
-          }
-        }
-      }
-    },
-    {
-      "PutRequest": {
-        "Item": {
-          "isbn": {
-            "S": "0241019486"
-          },
-          "created": {
-            "S": "2021-06-19T19:43:58.221666Z"
+            "S": "2021-06-06T09:00:40.011Z"
           },
           "date_of_publication": {
             "S": ""
@@ -1027,7 +1045,7 @@
             "S": ""
           },
           "image_large": {
-            "S": ""
+            "S": "files/images/large/1235467890123.jpg"
           },
           "image_original": {
             "S": ""
@@ -1036,7 +1054,10 @@
             "S": ""
           },
           "modified": {
-            "S": "2021-06-24T14:52:31.165359Z"
+            "S": ""
+          },
+          "review": {
+            "S": ""
           },
           "source": {
             "S": "NIELSEN"
@@ -1045,7 +1066,109 @@
             "S": ""
           },
           "title": {
-            "S": "The discovery of the East"
+            "S": "Major Farran's Hat: The Untold Story of the Struggle to Establish the Jewish State"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "isbn": {
+            "S": "9781136485589"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-07T20:39:21.426993Z"
+          },
+          "date_of_publication": {
+            "S": "2012"
+          },
+          "description_long": {
+            "S": "The <i>Routledge Encyclopedia of Second Language Acquisition<i> offers a user-friendly, authoritative survey of terms and constructs that are important to understanding research in second language acquisition (SLA) and its applications. The Encyclopedia is designed for use as a reference tool by students, researchers, teachers and professionals with an interest in SLA. The Encyclopedia has the following features:\n\n\n* 252 alphabetized entries written in an accessible style, including cross references to other related entries in the Encyclopedia and suggestions for further reading   \n\n * Among these, 9 survey entries that cover the foundational areas of SLA in detail: Development in SLA, Discourse and Pragmatics in SLA, Individual Differences in SLA, Instructed SLA, Language and the Lexicon in SLA, Measuring and Researching SLA, Psycholingustics of SLA, Social and Sociocultural Approaches to SLA, Theoretical Constructs in SLA. \n\n* The rest of the entries cover all the major subdisciplines, methodologies and concepts of SLA, from \"Accommodation\" to the \"ZISA project.\" \n\nWritten by an international team of specialists, the Routledge Encyclopedia of Second Language Acquisition is an invaluable resource for students and researchers with an academic interest in SLA.\n</i></i>"
+          },
+          "description_short": {
+            "S": ""
+          },
+          "image_large": {
+            "S": "files/images/large/1235467890123.jpg"
+          },
+          "image_original": {
+            "S": ""
+          },
+          "image_small": {
+            "S": ""
+          },
+          "modified": {
+            "S": "2021-06-03T11:13:58.705071Z"
+          },
+          "review": {
+            "S": ""
+          },
+          "source": {
+            "S": "NIELSEN"
+          },
+          "table_of_contents": {
+            "S": "<b>Editor's Preface  How to use this Encyclopedia  Introduction: Second Language Acquisition (SLA)-The scope and methods of inquiry  Entries A - Z<b></b></b>"
+          },
+          "title": {
+            "S": "The Routledge Encyclopedia of Second Language Acquisition"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "isbn": {
+            "S": "9781783983414"
+          },
+          "audio_file": {
+            "S": ""
+          },
+          "author": {
+            "S": ""
+          },
+          "created": {
+            "S": "2021-05-09T09:47:58.957413Z"
+          },
+          "date_of_publication": {
+            "S": "20141121"
+          },
+          "description_long": {
+            "S": "If you are a web developer who wants to learn more about developing applications in Flask and scale them with industry-standard practices, this is the book for you. This book will also act as a handy tool if you are aware of Flask`s major extensions and want to make the best use of them. It is assumed that you have knowledge of Python and a basic understanding of Flask. If you are completely new to Flask, reading the book from the first chapter and going forward will help in getting acquainted with Flask as you go ahead."
+          },
+          "description_short": {
+            "S": ""
+          },
+          "image_large": {
+            "S": "files/images/large/1235467890123.jpg"
+          },
+          "image_original": {
+            "S": ""
+          },
+          "image_small": {
+            "S": "files/images/small/1235467890123.jpg"
+          },
+          "modified": {
+            "S": "2021-05-16T13:17:52.607096Z"
+          },
+          "review": {
+            "S": ""
+          },
+          "source": {
+            "S": "NIELSEN"
+          },
+          "table_of_contents": {
+            "S": ""
+          },
+          "title": {
+            "S": "Flask Framework Cookbook"
           }
         }
       }
