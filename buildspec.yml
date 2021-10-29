@@ -26,10 +26,10 @@ phases:
     commands:
       - cd karate
       - ./gradlew test --info
-      - cd ../InterLibraryLoan/cypress
+      - cd ../cypress
       - npm install
       - cd ../../
-      - npm test --prefix InterLibraryLoan/cypress
+      - npm test --prefix cypress
 
   post_build:
     commands:
