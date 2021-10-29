@@ -9,9 +9,6 @@ Known issue: does not handle øæå in csv files.
 - python 3.9.7
 #### IAM policy roles needed by AWS:
 - dynamoDB:BatchWriteItem
-- dynamoDB:CreateTable
-- dynamoDB:DeleteTable
-- dynamodb:DescribeTable
 
 ### Format required by AWS
 See documentation https://docs.aws.amazon.com/cli/latest/reference/dynamodb/batch-write-item.html
@@ -29,6 +26,22 @@ See documentation https://docs.aws.amazon.com/cli/latest/reference/dynamodb/batc
   ]
 }
 ```
+
+```json
+{
+   "your_table_name": [
+      {
+         "DeleteRequest": {
+            "Key": {
+               "your_key": {
+                  "S": "your_key_value"
+               }
+            }
+         }
+      }
+   ]
+}
+```
 Note that a single batch job can only handle up to 25 "PutReqest" at a single call
 
 
@@ -40,17 +53,14 @@ Note that a single batch job can only handle up to 25 "PutReqest" at a single ca
 
 ## create database, run tests, and tear down database in buildspec:
 Requires prepared json to be ready.
-1. Create database and prepopulate it with data:
-```shell
-   if [[ $(aws dynamodb create-table --table-name contents --attribute-definitions AttributeName=isbn,AttributeType=S --key-schema AttributeName=isbn,KeyType=HASH --provisioned-throughput ReadCapacityUnits=1,WriteCapacityUnits=1) ]]; then echo "created table contents"; fi
-```
+1. Prepopulate database with data:
 the AWS create-table may fail if the table already exists, hence the command is wrapped inside if-statement in order to ignore if the table already exists.
 ```shell
-   aws dynamodb batch-write-item --request-items file://prepped.json
+   aws dynamodb batch-write-item --request-items file://dynamoDB/prepped.json
    ```
 2. Run tests
-3. Tear down database:
+3. Delete mock data from database:
   ```shell
-  aws dynamodb delete-table --table-name your_table_name
+  aws dynamodb batch-write-item --request-items file://dynamoDB/delete_items.json
   ```
-Note: According to AWS documentation: deleting table takes 2-4 minutes.
+
