@@ -28,8 +28,8 @@ phases:
       - ./gradlew test --info
       - cd ../cypress
       - npm install
-      - cd ../../
       - npm test --prefix cypress
+      - cd ..
 
   post_build:
     commands:
