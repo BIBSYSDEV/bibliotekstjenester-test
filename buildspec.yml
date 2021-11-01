@@ -29,9 +29,9 @@ phases:
       - ./gradlew test --info
       - cd ../cypress
       - npm install
-      - cd ../../
       - npm test --prefix cypress
       - aws dynamodb batch-write-item --request-items file://dynamoDB/delete_items.json
+      - cd ..
 
   post_build:
     commands:
