@@ -1,0 +1,211 @@
+{
+  "contents": [
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9788202614324"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9783531924298"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "0789033437"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "1402010575"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9780471643852"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "1612518044"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "3540786465"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9780849331121"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "1280688777"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "0511708009"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9780199601714"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "0819566888"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9781847315373"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9783110944976"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9780553840742"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "8204086377"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9780415023306"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9780786718993"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9781138789722"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "1776581598"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9780786745814"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9781136485589"
+          }
+        }
+      }
+    },
+    {
+      "DeleteRequest": {
+        "Key": {
+          "isbn": {
+            "S": "9781783983414"
+          }
+        }
+      }
+    }
+  ]
+}
