@@ -1,5 +1,5 @@
 const contentServiceBaseUrl = "https://contents.test.bibs.aws.unit.no/"
-const AudioBookIsbn = '9788202614324'
+const audioBookIsbn = '9788202614324'
 const bookThatDoesNotExist = "177658546"
 const detailedBook = '1402010575'
 
@@ -20,8 +20,7 @@ context('content service', () => {
     });
 
     it('successfully shows an audio book', () => {
-        cy.visit(`${contentServiceBaseUrl}?isbn=${AudioBookIsbn}`);
-
+        cy.visit(`${contentServiceBaseUrl}?isbn=${audioBookIsbn}`);
         cy.get('[data-testid="description-long-box"]').should('exist');
         cy.get('[data-testid="description-long-box"]').should('exist');
         cy.get('[data-testid="description-audio-file-box"]').should('exist');
