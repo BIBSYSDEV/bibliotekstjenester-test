@@ -35,10 +35,10 @@ phases:
   post_build:
     commands:
       - pwd
-      - if [ -d "build/karate-reports" ]; then aws s3 cp build/karate-reports s3://interlibraryloan-test/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
-      - if [ -d "karate/build/karate-reports" ]; then aws s3 cp karate/build/karate-reports s3://interlibraryloan-test/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
-      - if [ -d "InterLibraryLoan/cypress/cypress/screenshots" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/screenshots s3://interlibraryloan-test/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
-      - if [ -d "InterLibraryLoan/cypress/cypress/videos" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/videos s3://interlibraryloan-test/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
+      - if [ -d "build/karate-reports" ]; then aws s3 cp build/karate-reports s3://bibliotekstjenester-test/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
+      - if [ -d "karate/build/karate-reports" ]; then aws s3 cp karate/build/karate-reports s3://bibliotekstjenester-test/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
+      - if [ -d "InterLibraryLoan/cypress/cypress/screenshots" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/screenshots s3://bibliotekstjenester-test/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
+      - if [ -d "InterLibraryLoan/cypress/cypress/videos" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/videos s3://bibliotekstjenester-test/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
       # Tearing down dynamoDB table
 
 artifacts:
