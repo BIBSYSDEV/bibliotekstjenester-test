@@ -24,12 +24,12 @@ phases:
 
   build:
     commands:
-      - aws dynamodb batch-write-item --request-items file://dynamoDB/prepped.json
+      - aws dynamodb batch-write-item --request-items file://dynamoDB/prepped.json      
+      - npm install
+      - npm test --prefix cypress
       - cd karate
       - ./gradlew test --info
       - cd ..
-      - npm install
-      - npm test --prefix cypress
       - aws dynamodb batch-write-item --request-items file://dynamoDB/delete_items.json
 
   post_build:
