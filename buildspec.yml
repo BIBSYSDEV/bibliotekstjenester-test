@@ -26,7 +26,7 @@ phases:
     commands:
       - aws dynamodb batch-write-item --request-items file://dynamoDB/prepped.json
       - pwd
-      - ./karate/gradlew test --info -p /karate/
+      - ./karate/gradlew test --info 
       - npm install
       - npm test --prefix cypress
       - aws dynamodb batch-write-item --request-items file://dynamoDB/delete_items.json
