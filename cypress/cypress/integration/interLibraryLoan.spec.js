@@ -1,4 +1,4 @@
-import mockIds from '../../../../Stubs/resources/mock_ids.json'
+import mockIds from '../../../Stubs/resources/mock_ids.json'
 
 const interLibraryLoanFrontendBaseUrl = "https://ill.test.bibs.aws.unit.no"
 
