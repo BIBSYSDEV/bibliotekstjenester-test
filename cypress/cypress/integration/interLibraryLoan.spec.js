@@ -71,7 +71,7 @@ context('End to end testing, interlibrary loan', () => {
     cy.get(`[data-testid="patron-field"]`).type("userIdentifierForNCIPServerError");
     cy.get(`[data-testid="library-option-${mockIds.libraries.library_that_trigger_failure_response_from_ncip}"]`).click();
     cy.get(`[data-testid="ncip-request-button"]`).click();
-    cy.wait(1000) // waiting is because of slow lambda api, this should be removed once acceptable performance has been achieved
+    cy.wait(3000) // waiting is because of slow lambda api, this should be removed once acceptable performance has been achieved
     cy.get('[data-testid="ncip-error-alert"]').should('exist');
   });
 

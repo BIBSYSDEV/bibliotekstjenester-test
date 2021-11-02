@@ -6,7 +6,7 @@ const detailedBook = '1402010575'
 context('content service', () => {
 
     it('successfully shows a full page', () => {
-        cy.wait(2000);
+        cy.wait(3000);
         cy.visit(`${contentServiceBaseUrl}?isbn=${detailedBook}`);
         cy.get('[data-testid="page-header"]').should('exist');
         cy.get('[data-testid="page-footer"]').should('exist');
