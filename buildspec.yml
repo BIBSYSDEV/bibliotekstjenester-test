@@ -38,9 +38,8 @@ phases:
       - pwd
       - if [ -d "build/karate-reports" ]; then aws s3 cp build/karate-reports s3://bibliotekstjenester-test-reports/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
       - if [ -d "karate/build/karate-reports" ]; then aws s3 cp karate/build/karate-reports s3://bibliotekstjenester-test-reports/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
-      - if [ -d "InterLibraryLoan/cypress/cypress/screenshots" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/screenshots s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
-      - if [ -d "InterLibraryLoan/cypress/cypress/videos" ]; then aws s3 cp InterLibraryLoan/cypress/cypress/videos s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
-      # Tearing down dynamoDB table
+      - if [ -d "cypress/cypress/screenshots" ]; then aws s3 cp cypress/cypress/screenshots s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
+      - if [ -d "cypress/cypress/videos" ]; then aws s3 cp cypress/cypress/videos s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
 
 artifacts:
   files:
