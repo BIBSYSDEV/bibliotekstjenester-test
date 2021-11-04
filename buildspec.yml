@@ -32,6 +32,7 @@ phases:
       - ./gradlew test --info
       - cd ..
       - aws dynamodb batch-write-item --request-items file://dynamoDB/delete_items.json
+      - aws s3 rm s3://contents-backend-s3-storage-test/files/ --recursive
 
   post_build:
     commands:
