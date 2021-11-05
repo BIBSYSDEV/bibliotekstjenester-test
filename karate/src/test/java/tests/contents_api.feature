@@ -33,24 +33,24 @@ Feature: Testing contents api
     And match response.title == 'Bad Request'
     And match response.detail == 'Missing from query parameters: isbn'
 
-  Scenario: Testing a POST endpoint with request body
-    Given url basePath
-    And request createContents
-    When method POST
-    Then status 201
-    And match $ contains {isbn:"#notnull"}
-    And match $ contains {title:"#string"}
-    And match $ contains {imageSmall:"#string"}
-    And match $ contains {imageLarge:"#string"}
-
-  Scenario: Testing a GET postet contents with request body
-    * def isbn = '9788207777777'
-    Given url basePath + '?isbn=' + isbn
-    When method get
-    Then status 200
-    * def createdTimestamp = response.created
-    * set getContentsResponse
-      | path     | value         |
-      | created  | createdTimestamp   |
-    And match $ == getContentsResponse
+#  Scenario: Testing a POST endpoint with request body
+#    Given url basePath
+#    And request createContents
+#    When method POST
+#    Then status 201
+#    And match $ contains {isbn:"#notnull"}
+#    And match $ contains {title:"#string"}
+#    And match $ contains {imageSmall:"#string"}
+#    And match $ contains {imageLarge:"#string"}
+#
+#  Scenario: Testing a GET postet contents with request body
+#    * def isbn = '9788207777777'
+#    Given url basePath + '?isbn=' + isbn
+#    When method get
+#    Then status 200
+#    * def createdTimestamp = response.created
+#    * set getContentsResponse
+#      | path     | value         |
+#      | created  | createdTimestamp   |
+#    And match $ == getContentsResponse
 
