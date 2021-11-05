@@ -21,6 +21,7 @@ phases:
       - env
       - node -v
       - aws --version
+      - aws dynamodb batch-write-item --request-items file://dynamoDB/prepped.json
 
   build:
     commands:
@@ -31,7 +32,6 @@ phases:
       - cd ../karate
       - ./gradlew test --info
       - cd ..
-      - aws dynamodb batch-write-item --request-items file://dynamoDB/delete_items.json
 
   post_build:
     commands:
@@ -40,6 +40,8 @@ phases:
       - if [ -d "karate/build/karate-reports" ]; then aws s3 cp karate/build/karate-reports s3://bibliotekstjenester-test-reports/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
       - if [ -d "cypress/cypress/screenshots" ]; then aws s3 cp cypress/cypress/screenshots s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
       - if [ -d "cypress/cypress/videos" ]; then aws s3 cp cypress/cypress/videos s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
+      - aws dynamodb batch-write-item --request-items file://dynamoDB/delete_items.json
+      - aws s3 rm s3://contents-backend-s3-storage-test/files/ --recursive
 
 artifacts:
   files:
