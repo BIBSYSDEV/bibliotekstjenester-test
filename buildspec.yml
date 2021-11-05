@@ -19,23 +19,22 @@ phases:
       - echo $CODEBUILD_WEBHOOK_BASE_REF
       - echo $CODEBUILD_SRC_DIR
       - env
+      - ifconfig
       - node -v
       - aws --version
       - aws dynamodb batch-write-item --request-items file://dynamoDB/prepped.json
 
   build:
     commands:
-      - aws dynamodb batch-write-item --request-items file://dynamoDB/prepped.json      
       - cd cypress
       - npm install
       - npm test
       - cd ../karate
       - ./gradlew test --info
-      - cd ..
 
   post_build:
     commands:
-      - pwd
+      - cd ..
       - if [ -d "build/karate-reports" ]; then aws s3 cp build/karate-reports s3://bibliotekstjenester-test-reports/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
       - if [ -d "karate/build/karate-reports" ]; then aws s3 cp karate/build/karate-reports s3://bibliotekstjenester-test-reports/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
       - if [ -d "cypress/cypress/screenshots" ]; then aws s3 cp cypress/cypress/screenshots s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
