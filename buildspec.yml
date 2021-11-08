@@ -39,7 +39,7 @@ phases:
       - if [ -d "$CODEBUILD_SRC_DIR/cypress/cypress/screenshots" ]; then aws s3 cp $CODEBUILD_SRC_DIR/cypress/cypress/screenshots s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
       - if [ -d "$CODEBUILD_SRC_DIR/cypress/cypress/videos" ]; then aws s3 cp $CODEBUILD_SRC_DIR/cypress/cypress/videos s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/videos --recursive; fi
 #      - aws s3 rm s3://contents-backend-s3-storage-test/files/ --recursive
-      - aws dynamodb batch-write-item --request-items file:/$CODEBUILD_SRC_DIR/dynamoDB/delete_items.json
+      - aws dynamodb batch-write-item --request-items file://$CODEBUILD_SRC_DIR/dynamoDB/delete_items.json
 
 artifacts:
   files:
