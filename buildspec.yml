@@ -33,6 +33,7 @@ phases:
 
   post_build:
     commands:
+      - ipconfig
       - pwd
       - if [ -d "$CODEBUILD_SRC_DIR/karate/build/karate-reports" ]; then aws s3 cp $CODEBUILD_SRC_DIR/karate/build/karate-reports s3://bibliotekstjenester-test-reports/karate/$CODEBUILD_BUILD_NUMBER --recursive; fi
       - if [ -d "$CODEBUILD_SRC_DIR/cypress/cypress/screenshots" ]; then aws s3 cp $CODEBUILD_SRC_DIR/cypress/cypress/screenshots s3://bibliotekstjenester-test-reports/cypress/$CODEBUILD_BUILD_NUMBER/screenshots --recursive; fi
