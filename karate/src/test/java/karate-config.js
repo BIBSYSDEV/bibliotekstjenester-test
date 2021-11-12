@@ -1,6 +1,8 @@
 function setup() {
-    const apiKey = java.lang.System.getenv("apiKey");
+    const primoApiKey = java.lang.System.getenv("primoApiKey");
+    const almaApiKey = java.lang.System.getenv("almaApiKey");
     return {
-        ALMA_APIKEY: apiKey,
+        PRIMO_APIKEY: primoApiKey,
+        ALMA_APIKEY: almaApiKey,
     };
 }
