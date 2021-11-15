@@ -5,8 +5,10 @@ Alle utgående internett-kall er stubbed for interLibraryLoan-applikasjon.
 Cypress tester for å kjøre end-to-end teste mot InterLibraryLoan.
 Karate tester for å kjøre tester mot interne og eksterne APIer.
 
-pnx-service under karate-testen trenger api-key. Denne må legges inn som systemvariabel ("apiKey") 
+Pnx-service under karate-testen trenger api-key. Denne må legges inn som systemvariabel ("primoApiKey") 
 i codebuild-oppsettet.
+Alma-rest under karate-testen trenger api-key. Denne må legges inn som systemvariabel ("almaApiKey") 
+i codebuild-oppsettet. OBS! Den kjører en post mot Alma, så bruk ALMA-SANDBOX api-key.
 
 Det finnes et eget TEST-miljø i AWS (Bibliotekstjenester TEST). Det er tenkt at testene kjøres her 
 automatisk mot frontend og eksterne og interne api-er. En Scheduler (AWS EventBridge) kjøre disse 
