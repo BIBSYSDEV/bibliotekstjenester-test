@@ -2,7 +2,7 @@ Feature: Testing ALMA-update
 
   Background:
     * def BasePath = 'https://api-eu.hosted.exlibrisgroup.com/almaws/v1/bibs'
-    * def almaApiKey = 'do not commit'
+    * def almaApiKey = ALMA_APIKEY
     * def expectedResponse = read('responses/alma_bibs_record.xml')
 
   Scenario: get by mms_id
@@ -18,6 +18,7 @@ Feature: Testing ALMA-update
     * def getParams = '?mms_id=' + mms_id + '&apikey=' + almaApiKey
     * def putParams = '/' + mms_id + '?apikey=' + almaApiKey
     * def testText = 'Test test test'
+#    * def testText = 'Fulltekst'
     Given url BasePath + getParams
     When method get
     Then status 200
