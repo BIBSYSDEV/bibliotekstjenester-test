@@ -2,7 +2,7 @@ Feature: Testing ALMA-update
 
   Background:
     * def BasePath = 'https://api-eu.hosted.exlibrisgroup.com/almaws/v1/bibs'
-    * def almaApiKey = 'l7xx4467c80f9ec64d40be66b115f5d1c396'
+    * def almaApiKey = 'do not commit'
     * def expectedResponse = read('responses/alma_bibs_record.xml')
 
   Scenario: get by mms_id
