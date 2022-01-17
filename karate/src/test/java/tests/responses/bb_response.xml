@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<BaseBibliotek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nb.no/BaseBibliotek https://www.nb.no/baser/bibliotek/eksport/basebibliotek.xsd" xmlns="http://nb.no/BaseBibliotek">
-<record rid="#notnull" tstamp="#ignore">
-<bibnr>#notnull</bibnr>
-<isil>#notnull</isil>
-<bibkode>#notnull</bibkode>
-<bibltype>#notnull</bibltype>
-<aut encrypted="#notnull">#notnull</aut>
-<lat_lon>#notnull</lat_lon>
-<katsyst>#notnull</katsyst>
-<samkat>#notnull</samkat>
-<kommnr>#notnull</kommnr>
-<inst>#notnull</inst>
-<inst_alt>#notnull</inst_alt>
-<inst_eng>#notnull</inst_eng>
-<inst_kort>#notnull</inst_kort>
-<padr>#notnull</padr>
-<ppostnr>#notnull</ppostnr>
-<ppoststed>#notnull</ppoststed>
-<vadr>#notnull</vadr>
-<vpostnr>#notnull</vpostnr>
-<vpoststed>#notnull</vpoststed>
-<landkode>#notnull</landkode>
-<tlf>#notnull</tlf>
-<tlf_fj>#notnull</tlf_fj>
-<epost_adr>#notnull</epost_adr>
-<epost_best>#notnull</epost_best>
-<url_hjem>#notnull</url_hjem>
-<url_kat>#notnull</url_kat>
-<andre_navn>#notnull</andre_navn>
-<fakt_ref>#notnull</fakt_ref>
-<bibleder>#notnull</bibleder>
-<andre_koder>
-<bibkode_gml>#notnull</bibkode_gml>
-<bibkode_gml>#notnull</bibkode_gml>
-<bibsys_bib>#notnull</bibsys_bib>
-<oclc_kode>#notnull</oclc_kode>
-<bibsys_utl>#notnull</bibsys_utl>
-<bibsys_avd>#ignore</bibsys_avd>
-</andre_koder>
-<eressurser>
-<SRU>#notnull</SRU>
-<nncip_uri>#notnull</nncip_uri>
-<z_target>#notnull</z_target>
-<z_info>#notnull</z_info>
-</eressurser>
-<uregistrerte_filialer>
-<nedlagt>#ignore</nedlagt>
-</uregistrerte_filialer>
-<merknader>
-<adgang lang="no">#notnull</adgang>
-<klassNoter lang="no">#notnull</klassNoter>
-<klass lang="no">#notnull</klass>
-<indSyst lang="no">#notnull</indSyst>
-<adgang lang="en">#notnull</adgang>
-<kopGeb lang="no">#notnull</kopGeb>
-<fjSpes lang="no">#notnull</fjSpes>
-<kopGeb lang="en">#notnull</kopGeb>
-<fjSpes lang="en">#notnull</fjSpes>
-</merknader>
-</record>
+<BaseBibliotek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://nb.no/BaseBibliotek https://www.nb.no/baser/bibliotek/eksport/basebibliotek.xsd"
+               xmlns="http://nb.no/BaseBibliotek">
+    <record rid="#notnull" tstamp="#ignore">
+        <bibnr>#notnull</bibnr>
+        <isil>#notnull</isil>
+        <bibkode>#notnull</bibkode>
+        <bibltype>#notnull</bibltype>
+        <aut encrypted="#notnull">#notnull</aut>
+        <lat_lon>#notnull</lat_lon>
+        <katsyst>#notnull</katsyst>
+        <samkat>#notnull</samkat>
+        <kommnr>#notnull</kommnr>
+        <inst>#notnull</inst>
+        <inst_eng>#notnull</inst_eng>
+        <inst_kort>#notnull</inst_kort>
+        <padr>#notnull</padr>
+        <ppostnr>#notnull</ppostnr>
+        <ppoststed>#notnull</ppoststed>
+        <vadr>#notnull</vadr>
+        <vpostnr>#notnull</vpostnr>
+        <vpoststed>#notnull</vpoststed>
+        <landkode>#notnull</landkode>
+        <tlf>#notnull</tlf>
+        <tlf_fj>#notnull</tlf_fj>
+        <epost_adr>#notnull</epost_adr>
+        <epost_best>#notnull</epost_best>
+        <url_hjem>#notnull</url_hjem>
+        <url_kat>#notnull</url_kat>
+        <andre_navn>#notnull</andre_navn>
+        <orgnr>#notnull</orgnr>
+        <fakt_ref>#notnull</fakt_ref>
+        <bibleder>#notnull</bibleder>
+        <andre_koder>
+            <bibkode_gml>#notnull</bibkode_gml>
+            <bibkode_gml>#notnull</bibkode_gml>
+            <bibsys_bib>#notnull</bibsys_bib>
+            <oclc_kode>#notnull</oclc_kode>
+            <bibsys_utl>#notnull</bibsys_utl>
+            <bibsys_avd>#ignore</bibsys_avd>
+        </andre_koder>
+        <eressurser>
+            <SRU>#notnull</SRU>
+            <nncip_uri>#notnull</nncip_uri>
+            <z_target>#notnull</z_target>
+            <z_info>#notnull</z_info>
+        </eressurser>
+        <uregistrerte_filialer>
+            <nedlagt>#ignore</nedlagt>
+        </uregistrerte_filialer>
+        <merknader>
+            <adgang lang="no">#notnull</adgang>
+            <klassNoter lang="no">#notnull</klassNoter>
+            <klass lang="no">#notnull</klass>
+            <indSyst lang="no">#notnull</indSyst>
+            <adgang lang="en">#notnull</adgang>
+            <kopGeb lang="no">#notnull</kopGeb>
+            <fjSpes lang="no">#notnull</fjSpes>
+            <kopGeb lang="en">#notnull</kopGeb>
+            <fjSpes lang="en">#notnull</fjSpes>
+        </merknader>
+    </record>
 </BaseBibliotek>
