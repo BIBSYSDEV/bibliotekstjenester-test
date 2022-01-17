@@ -51,7 +51,6 @@
         </uregistrerte_filialer>
         <merknader>
             <adgang lang="no">#notnull</adgang>
-            <klassNoter lang="no">#notnull</klassNoter>
             <klass lang="no">#notnull</klass>
             <indSyst lang="no">#notnull</indSyst>
             <adgang lang="en">#notnull</adgang>
