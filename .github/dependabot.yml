@@ -7,13 +7,13 @@ version: 2
 updates:
   # Maintain dependencies for cypress tests
   - package-ecosystem: 'npm' # See documentation for possible values
-    directory: 'cypress/' # Location of package manifests
+    directory: '/cypress' # Location of package manifests
     schedule:
       interval: 'daily'
     target-branch: 'master'
   # Maintain dependencies for karate tests (gradle)
   - package-ecosystem: 'gradle' # See documentation for possible values
-    directory: '/karate/' # Location of package manifests
+    directory: '/karate' # Location of package manifests
     schedule:
       interval: 'daily'
     target-branch: 'master'
