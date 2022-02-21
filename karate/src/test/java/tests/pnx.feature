@@ -16,7 +16,7 @@ Feature: Testing ALMA-primo-search
     And match response.docs[0].pnx.addata.cop[0] == '#string'
     And match response.docs[0].pnx.addata.btitle[0] == '#string'
     #And match response.docs[0].pnx.addata.volume[0] == '#string' #testpost doesn't have volume
-    And match response.docs[0].pnx.addata.pages[0] == '#string'
+#    And match response.docs[0].pnx.addata.pages[0] == '#string' #testpost pages er gone
     And match response.docs[0].pnx.display.creationdate[0] == '#string'
     And match response.docs[0].pnx.display.creator[0] == '#string'
     And match response.docs[0].pnx.display.title[0] == '#string'
