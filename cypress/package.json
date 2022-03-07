@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "private": true,
   "license": "ISC",
   "author": "",
   "main": "index.js",
