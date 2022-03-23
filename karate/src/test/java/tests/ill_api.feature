@@ -4,7 +4,7 @@ Feature: Testing ILL-PROXY
     * def BasePath = 'https://api.bibs.aws.unit.no/ill/'
 
   Scenario: Requesting libcheck for libuser
-    * def libuser = '2012200'
+    * def libuser = '1160105'
     Given url BasePath + 'libcheck?libuser=' + libuser
     When method get
     Then status 200
