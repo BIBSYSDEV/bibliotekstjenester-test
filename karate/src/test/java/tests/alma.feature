@@ -55,9 +55,8 @@ Feature: Testing ALMA-update
     Then status 200
     * json resp = response
     Then print resp
-    And match resp.bib.record.datafield[25]._.subfield[0]._ != testText
-    And match resp.bib.record.datafield[25]._.subfield[0]._ == shouldBeText
-
+    * def subfield = resp.bib.record.datafield[25]._.subfield[0]._
+    * assert (subfield == testText) || (subfield == shouldBeText)
 
 
 
