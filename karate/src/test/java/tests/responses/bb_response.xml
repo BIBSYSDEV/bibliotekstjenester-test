@@ -11,6 +11,8 @@
         <lat_lon>#notnull</lat_lon>
         <katsyst>#notnull</katsyst>
         <samkat>#notnull</samkat>
+        <stengt_fra>#ignored</stengt_fra>
+        <stengt_til>#ignored</stengt_til>
         <kommnr>#notnull</kommnr>
         <inst>#notnull</inst>
         <inst_eng>#notnull</inst_eng>
