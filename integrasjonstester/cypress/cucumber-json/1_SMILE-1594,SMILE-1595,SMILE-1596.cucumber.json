@@ -1,0 +1,150 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Innholdsinformasjon - tester",
+    "line": 1,
+    "id": "innholdsinformasjon---tester",
+    "tags": [],
+    "uri": "1_SMILE-1594,SMILE-1595,SMILE-1596.feature",
+    "elements": [
+      {
+        "id": "innholdsinformasjon---tester;test-av-forsidebilde",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test av forsidebilde",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1594",
+            "line": 3
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user sees the content description",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "ISBN and cover image exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user sees that the page contains cover image",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "innholdsinformasjon---tester;test-av-kort-beskrivelse",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test av kort beskrivelse",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1595",
+            "line": 8
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "user sees the content description",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "ISBN and short description exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user sees that the page contains short description",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "innholdsinformasjon---tester;test-av-lang-beskrivelse",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Test av lang beskrivelse",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1596",
+            "line": 13
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "user sees the content description",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "ISBN and long description exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user sees that the page contains long description",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
