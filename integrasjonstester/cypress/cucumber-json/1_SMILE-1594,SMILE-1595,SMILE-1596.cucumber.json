@@ -20,6 +20,10 @@
           {
             "name": "@TESTSET_SMILE-1623",
             "line": 3
+          },
+          {
+            "name": "@test",
+            "line": 3
           }
         ],
         "type": "scenario",
@@ -30,7 +34,8 @@
             "line": 5,
             "name": "user sees the content description",
             "result": {
-              "status": "skipped"
+              "status": "undefined",
+              "duration": 88000000
             }
           },
           {

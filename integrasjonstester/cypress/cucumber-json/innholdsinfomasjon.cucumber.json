@@ -1,0 +1,331 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Innholdsinformasjon - tester",
+    "line": 1,
+    "id": "innholdsinformasjon---tester",
+    "tags": [],
+    "uri": "innholdsinfomasjon.feature",
+    "elements": [
+      {
+        "id": "innholdsinformasjon---tester;user-wants-to-see-the-cover-image-for-a-document",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User wants to see the cover image for a document",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1594",
+            "line": 4
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 4
+          },
+          {
+            "name": "@test",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user sees the content description",
+            "result": {
+              "status": "undefined",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "ISBN and cover image exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user sees that the page contains cover image",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "innholdsinformasjon---tester;user-wants-to-see-a-short-description-for-a-document",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "User wants to see a short description for a document",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1595",
+            "line": 10
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 10
+          },
+          {
+            "name": "@test",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user sees the content description",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "ISBN and short description exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user sees that the page contains short description",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "innholdsinformasjon---tester;user-wants-to-see-a-long-description-for-a-document",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "User wants to see a long description for a document",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1596",
+            "line": 16
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 16
+          },
+          {
+            "name": "@test",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "user sees the content description",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "ISBN and long description exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user sees that the page contains long description",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "innholdsinformasjon---tester;user-wants-to-see-a-dokument-with-different-forms-of-content-descriptions",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "User wants to see a dokument with different forms of content descriptions",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1647",
+            "line": 22
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 22
+          },
+          {
+            "name": "@test",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "ISBN, cover image, short descruption, long description and table of contents exists",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user sees that the page contains cover image",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "user sees that the page contains short description",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "user sees that the page contains long description",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "user sees that the page contains table of contents",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "innholdsinformasjon---tester;user-wants-to-see-the-table-of-contents-for-a-document",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "User wants to see the table of contents for a document",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1646",
+            "line": 30
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 30
+          },
+          {
+            "name": "@test",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "user sees the content description",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "ISBN and table of contents exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "user sees that the page contains table of contents",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "innholdsinformasjon---tester;user-wants-to-see-if-an-audio-file-exists-for-a-document",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "User wants to see if an audio file exists for a document",
+        "tags": [
+          {
+            "name": "@TEST_SMILE-1645",
+            "line": 36
+          },
+          {
+            "name": "@TESTSET_SMILE-1623",
+            "line": 36
+          },
+          {
+            "name": "@test",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "user sees the content description",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "ISBN and an audio file exists",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "user sees that the page contains audio file",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
