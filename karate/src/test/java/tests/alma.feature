@@ -5,7 +5,6 @@ Feature: Testing ALMA-update
     * def almaApiKey = ALMA_APIKEY
     * def expectedResponse = read('responses/alma_bibs_record.xml')
     * def testText = 'Test test test'
-    * def shouldBeText = 'Fulltekst'
 
   Scenario: get by mms_id
     * def mms_id = '999208985724702201'
@@ -26,7 +25,7 @@ Feature: Testing ALMA-update
     * json record = response
     * def orgText = record.bibs._.bib.record.datafield[25]._.subfield[0]._
     * print orgText
-    * if (orgText == shouldBeText) record.bibs._.bib.record.datafield[25]._.subfield[0]._ = testText
+    * record.bibs._.bib.record.datafield[25]._.subfield[0]._ = testText
     * print record.bibs._.bib.record.datafield[25]._.subfield[0]._
     * def bibRecord = record.bibs._
     * xml xmlRecord = bibRecord
@@ -46,7 +45,7 @@ Feature: Testing ALMA-update
 
     * json orgRecordAsJson = orgRecord
     * def tempText = orgRecordAsJson.bibs._.bib.record.datafield[25]._.subfield[0]._
-    * if (tempText != shouldBeText) orgRecordAsJson.bibs._.bib.record.datafield[25]._.subfield[0]._ = shouldBeText
+    * if (tempText != orgText) orgRecordAsJson.bibs._.bib.record.datafield[25]._.subfield[0]._ = orgText
     * def orgBibRecord = orgRecordAsJson.bibs._
     * xml orgRecord = orgBibRecord
     Given url BasePath + putParams
@@ -56,7 +55,7 @@ Feature: Testing ALMA-update
     * json resp = response
     Then print resp
     * def subfield = resp.bib.record.datafield[25]._.subfield[0]._
-    * assert (subfield == testText) || (subfield == shouldBeText)
+    * assert (subfield == testText) || (subfield == orgText)
 
 
 
