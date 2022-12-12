@@ -15,3 +15,7 @@ updates:
     directory: "/karate" # Location of package manifests
     schedule:
       interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "integrasjonstester"
+    schedule:
+      interval: "daily"

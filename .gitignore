@@ -291,3 +291,4 @@ samconfig.toml.*
 /sam-app/
 /InterLibraryLoan/cypress/node_modules/
 /cypress/node_modules/
+/integrasjonstester/node_modules/
