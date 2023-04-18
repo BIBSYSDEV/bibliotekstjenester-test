@@ -33,6 +33,8 @@
         <andre_navn>#notnull</andre_navn>
         <orgnr>#notnull</orgnr>
         <fakt_ref>#notnull</fakt_ref>
+        <fakt_inst>#ignore</fakt_inst>
+        <fakt_adr>#ignore</fakt_adr>
         <bibleder>#notnull</bibleder>
         <andre_koder>
             <bibkode_gml>#notnull</bibkode_gml>
