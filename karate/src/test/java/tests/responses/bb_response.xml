@@ -35,6 +35,8 @@
         <fakt_ref>#notnull</fakt_ref>
         <fakt_inst>#ignore</fakt_inst>
         <fakt_adr>#ignore</fakt_adr>
+        <fakt_postnr>#ignore</fakt_postnr>
+        <fakt_poststed>#ignore</fakt_poststed>
         <bibleder>#notnull</bibleder>
         <andre_koder>
             <bibkode_gml>#notnull</bibkode_gml>
