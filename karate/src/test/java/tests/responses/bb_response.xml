@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <BaseBibliotek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:schemaLocation="http://nb.no/BaseBibliotek https://www.nb.no/baser/bibliotek/eksport/basebibliotek.xsd"
+               xsi:schemaLocation="http://nb.no/BaseBibliotek https://www.nb.no/basebibliotek/resources/basebibliotek.xsd"
                xmlns="http://nb.no/BaseBibliotek">
     <record rid="#notnull" tstamp="#ignore">
         <bibnr>#notnull</bibnr>
