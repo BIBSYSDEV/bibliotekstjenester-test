@@ -6,7 +6,7 @@ phases:
   install:
     runtime-versions:
       nodejs: 18
-      java: corretto11
+      java: corretto21
     commands:
       - node -v
       - npm -v
