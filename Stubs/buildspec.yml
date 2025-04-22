@@ -47,14 +47,13 @@ phases:
       - ls -a
       - mv * ..
 
-    post_build:
-      commands:
-        - echo Build completed on `date`
-        - echo Files
-        - ls -l
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Files
+      - ls -l
 
 artifacts:
-  type: zip
   files:
     - packaged.yml
     - template-configuration.json

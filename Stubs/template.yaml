@@ -343,7 +343,7 @@ Resources:
         Variables:
           ALLOWED_ORIGIN: '*'
       Handler: "stub_api/sru_handler.sru_handler"
-      Runtime: python3.8
+      Runtime: python3.12
       MemorySize: 1024
       Events:
         PutEvent:
@@ -361,7 +361,7 @@ Resources:
           ALLOWED_ORIGIN: '*'
           STAGE: !Ref Stage
       Handler: "stub_api/ncip_handler.handler_pnx_sender"
-      Runtime: python3.8
+      Runtime: python3.12
       MemorySize: 1024
       Events:
         GetInterLibraryLoanMetadataRecordEvent:
@@ -380,7 +380,7 @@ Resources:
           ALLOWED_ORIGIN: '*'
           STAGE: !Ref Stage
       Handler: "stub_api/pnxHandler.handler_pnx_sender"
-      Runtime: python3.8
+      Runtime: python3.12
       MemorySize: 1024
       Events:
         GetInterLibraryLoanMetadataRecordEvent:
@@ -398,7 +398,7 @@ Resources:
         Variables:
           ALLOWED_ORIGIN:  '*'
       Handler: "stub_api/baseBibliotekHandler.handler_basebibliotek_sender"
-      Runtime: python3.8
+      Runtime: python3.12
       MemorySize: 1024
       Events:
         PutEvent:
@@ -415,7 +415,7 @@ Resources:
         Variables:
           ALLOWED_ORIGIN: '*'
       Handler: "stub_api/authority_handler.handler_authority_sender"
-      Runtime: python3.8
+      Runtime: python3.12
       MemorySize: 1024
       Events:
         PutEvent:

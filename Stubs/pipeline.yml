@@ -34,10 +34,8 @@ Metadata:
       GitBranch:
         default: Git Branch
       StackTemplatePath:
-        description: Path to template
         default: Stubs/template.yaml
       StackTemplateConfigurationPath:
-        description: Stack template configuration path
         default: Stubs/template-configuration.json
       DeployStackName:
         default: Stack name
