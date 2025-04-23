@@ -7,7 +7,7 @@ phases:
 
   install:
     runtime-versions:
-      python: 3.8
+      python: 3.12
       ruby: 2.6
     commands:
       - pip3 install --upgrade cfn-lint
@@ -47,14 +47,13 @@ phases:
       - ls -a
       - mv * ..
 
-    post_build:
-      commands:
-        - echo Build completed on `date`
-        - echo Files
-        - ls -l
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Files
+      - ls -l
 
 artifacts:
-  type: zip
   files:
     - packaged.yml
     - template-configuration.json
