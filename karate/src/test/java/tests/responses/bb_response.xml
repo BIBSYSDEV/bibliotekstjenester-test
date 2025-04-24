@@ -23,6 +23,7 @@
         <vadr>#notnull</vadr>
         <vpostnr>#notnull</vpostnr>
         <vpoststed>#notnull</vpoststed>
+        <besadr>#notnull</besadr>
         <landkode>#notnull</landkode>
         <tlf>#notnull</tlf>
         <tlf_fj>#notnull</tlf_fj>
@@ -32,6 +33,7 @@
         <url_kat>#notnull</url_kat>
         <andre_navn>#notnull</andre_navn>
         <orgnr>#notnull</orgnr>
+        <fakt_orgnr>#notnull</fakt_orgnr>
         <fakt_ref>#notnull</fakt_ref>
         <fakt_inst>#ignore</fakt_inst>
         <fakt_adr>#ignore</fakt_adr>
