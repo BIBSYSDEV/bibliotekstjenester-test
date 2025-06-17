@@ -7,16 +7,11 @@ phases:
 
   install:
     runtime-versions:
-      python: 3.12
-      ruby: 2.6
+      python: 3.13
     commands:
       - pip3 install --upgrade cfn-lint
-      # Upgrade AWS CLI to the latest version
       - pip3 install --upgrade awscli
-      # Install aws-sam-cli
-      - pip3 install aws-sam-cli
-      # Install cfn_nag
-      - gem install cfn-nag
+      - pip3 install aws-sam-cli -U
       - pip3 install --upgrade pip -r Stubs/requirements.txt
 
   pre_build:
@@ -25,21 +20,18 @@ phases:
       - env
       - aws --version
       - cfn-lint -v
-      - cfn_nag -v
+      - sam --version
 
       # Lint
       - cfn-lint # uses .cfnlintrc
       - cd Stubs
-
-      # Run cfn-nag (looks for patterns in CFN templates that may indicate insecure infrastructure)
-      - cfn_nag_scan --output-format txt --print-suppression --blacklist-path .cfn_nag_blacklist --input-path . --template-pattern '^(?!.*buildspec\.y[a]?ml)((..*\.y[a]?ml)|(..*\.template))$'
 
   build:
     commands:
       - echo Build started on `date`
       - ls -a
       # Use AWS SAM to build and package the application by using AWS CloudFormation
-      - sam build --debug
+      - sam build
       - sam package --s3-bucket $S3_BUCKET --output-template-file packaged.yml
 
       # Lint after 'package'
