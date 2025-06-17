@@ -7,7 +7,7 @@ phases:
 
   install:
     runtime-versions:
-      python: 3.13
+      python: 3.12
     commands:
       - pip3 install --upgrade cfn-lint
       - pip3 install --upgrade awscli
