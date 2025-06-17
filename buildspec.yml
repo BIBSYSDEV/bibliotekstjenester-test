@@ -29,7 +29,7 @@ phases:
       - npm install
       - npm test
       - cd ../karate
-      - ./gradlew test
+      - ./gradlew test --info
 
   post_build:
     commands:
