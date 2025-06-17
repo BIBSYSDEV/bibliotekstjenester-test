@@ -1,0 +1,5 @@
+<!-- Avoid filling up logs with unwanted info when running tests -->
+<configuration>
+  <logger name="org.thymeleaf" level="WARN"/>
+  <!-- Andre logger-konfigurasjoner -->
+</configuration>
