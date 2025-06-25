@@ -14,3 +14,11 @@ Det finnes et eget TEST-miljø i AWS (Bibliotekstjenester TEST). Det er tenkt at
 automatisk mot frontend og eksterne og interne api-er. En Scheduler (AWS EventBridge) kjøre disse 
 daglig kl 7:00.
 Med hjelp av AWS chatbot blir failure status fra CodeBuild meldt til slack-kanal "devops-team-smile".
+
+Det kjøres også tester mot sandbox miljøet. På denne måten kan vi fange opp feil tidlig før vi forbereder en release.
+Man har også mulighet til å kjøre tester mot sandbox miljøet manuelt ved å kjøre kommandoene under:
+
+    cd karate
+    ./gradlew sandboxTest --info
+
+Trenger man miljøvariabler må man legge inn dette på forhånd.
