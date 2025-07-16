@@ -11,7 +11,7 @@
     "test": "cypress run"
   },
   "dependencies": {
-    "cypress": "14.4.1"
+    "cypress": "14.5.2"
   },
   "devDependencies": {
     "prettier": "3.5.3"
