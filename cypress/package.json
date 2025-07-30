@@ -8,7 +8,8 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run --spec 'cypress/e2e/**/*.cy.js'",
+    "testSandbox": "cypress run --spec 'cypress/e2e_sandbox/**/*.cy.js'"
   },
   "dependencies": {
     "cypress": "14.4.1"

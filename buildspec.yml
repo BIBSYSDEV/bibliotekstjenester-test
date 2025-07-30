@@ -28,6 +28,7 @@ phases:
       - cd cypress
       - npm install
       - npm test
+      - npm run testSandbox
       - cd ../karate
       - ./gradlew test --info
 

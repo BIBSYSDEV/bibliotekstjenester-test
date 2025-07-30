@@ -8,5 +8,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on, config)
     },
+    specPattern: [
+      'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
+      'cypress/e2e_sandbox/**/*.cy.{js,jsx,ts,tsx}',
+    ],
   },
 })
