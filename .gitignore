@@ -293,3 +293,4 @@ samconfig.toml.*
 /cypress/node_modules/
 /integrasjonstester/node_modules/
 /cypress/cypress/screenshots
+/cypress/cypress/downloads
