@@ -23,4 +23,4 @@ Running frontend tests against test environment (some tests need to be run in pi
 Running frontend tests against sandbox/dev environment (should be able to run this locally without issues): 
 
     cd cypress
-    npm run testSandbox
+    npm run sandboxTest
