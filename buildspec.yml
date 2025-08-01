@@ -30,6 +30,7 @@ phases:
       - npm test
       - cd ../karate
       - ./gradlew test --info
+      - ./gradlew sandboxTest --info
 
   post_build:
     commands:
