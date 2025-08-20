@@ -51,7 +51,7 @@ context('end to end testing, marc sandbox', () => {
 
     cy.readFile(path.join(downloadsFolder, fileNameLineFormat)).should(
       'contain',
-      '*ldr 02701cam a2200541 c 4500'
+      '*ldr 02846cam a2200565 c 4500'
     );
   });
 
