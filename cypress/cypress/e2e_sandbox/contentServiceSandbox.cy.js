@@ -1,4 +1,5 @@
 const contentServiceBaseUrl = "https://contents.sandbox.bibs.aws.unit.no/"
+const audioBookIsbn = '9788202707255'
 const bookThatDoesNotExist = "177658546"
 const detailedBook = '9788205377547'
 
@@ -23,7 +24,15 @@ context('content service sandbox', () => {
     cy.get('[data-testid="cover-image-container"]').should('exist');
   });
 
-  // TODO: Audio Book Test
+  it('successfully shows an audio book', () => {
+    cy.visit(`${contentServiceBaseUrl}?isbn=${audioBookIsbn}`);
+    cy.get('[data-testid="description-long-box"]').should('exist');
+    cy.get('[data-testid="description-long-box-contents"]').should('exist');
+    cy.get('[data-testid="description-audio-file-box"]').should('exist');
+    cy.get('[data-testid="description-audio-file-box"] button').click();
+    cy.get('[data-testid="description-audio-file-box-audio"]').should('exist');
+    cy.get('[data-testid="audio-source"]').should('exist');
+  });
 
   it('shows errormessage when api-call fails', () => {
     cy.visit(`${contentServiceBaseUrl}?isbn=${bookThatDoesNotExist}`);
