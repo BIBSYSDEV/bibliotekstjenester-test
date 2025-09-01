@@ -21,9 +21,12 @@ Feature: Testing alma-sru-proxy in sandbox environment
     And match response[0].publisher == 'Gyldendal'
     And match response[0].xmlPresentation == '#present'
     # Do not verify complete xml, but tests some fields to know there is something here
-    And match response[0].xmlPresentation contains '<leader>02701cam a2200541 c 4500</leader>'
+    And match response[0].xmlPresentation contains '<leader>02846cam a2200565 c 4500</leader>'
     And match response[0].xmlPresentation contains '<controlfield tag="001">990600890834702201</controlfield>'
-    And match response[0].xmlPresentation contains '<controlfield tag="005">20230304142941.0</controlfield>'
+    And match response[0].xmlPresentation contains '<controlfield tag="005">20250707074746.0</controlfield>'
+    And match response[0].linePresentation contains '*ldr 02846cam a2200565 c 4500'
+    And match response[0].linePresentation contains '001 990600890834702201'
+    And match response[0].linePresentation contains '*005 20250707074746.0'
 
   Scenario: GET Henrik Ibsen's "Samlede verker" by isbn
     * def isbn_value = '9788205345362'
@@ -43,6 +46,9 @@ Feature: Testing alma-sru-proxy in sandbox environment
     And match response[0].publisher == 'Gyldendal'
     And match response[0].xmlPresentation == '#present'
     # Do not verify complete xml, but tests some fields to know there is something here
-    And match response[0].xmlPresentation contains '<leader>02701cam a2200541 c 4500</leader>'
+    And match response[0].xmlPresentation contains '<leader>02846cam a2200565 c 4500</leader>'
     And match response[0].xmlPresentation contains '<controlfield tag="001">990600890834702201</controlfield>'
-    And match response[0].xmlPresentation contains '<controlfield tag="005">20230304142941.0</controlfield>'
+    And match response[0].xmlPresentation contains '<controlfield tag="005">20250707074746.0</controlfield>'
+    And match response[0].linePresentation contains '*ldr 02846cam a2200565 c 4500'
+    And match response[0].linePresentation contains '001 990600890834702201'
+    And match response[0].linePresentation contains '*005 20250707074746.0'
