@@ -15,11 +15,27 @@ automatisk mot frontend og eksterne og interne api-er. En Scheduler (AWS EventBr
 daglig kl 7:00.
 Med hjelp av AWS chatbot blir failure status fra CodeBuild meldt til slack-kanal "devops-team-smile".
 
-Det kjøres også tester mot sandbox miljøet. På denne måten kan vi fange opp feil tidlig før vi forbereder en release.
+Det kjøres også tester mot sandbox/dev miljøet. På denne måten kan vi fange opp feil tidlig før vi forbereder en release.
 
-Sandbox testene er satt opp slik at feil ikke stopper kjøringene.
+Sandbox/dev testene er satt opp slik at feil ikke stopper kjøringene.
 
-Man har også mulighet til å kjøre tester mot sandbox miljøet manuelt ved å kjøre kommandoene under:
+For å kjøre frontend tester (noen tester må kjøres i pipeline for å virke):
+
+    cd cypress
+    npm test
+
+For å kjøre frontend tester mot sandbox/dev miljø (skal kunne kjøres lokalt uten problemer):
+
+
+    cd cypress
+    npm run sandboxTest
+
+For å kjøre backend tester (trenger miljøvariabler for å kunne kjøres lokalt):
+
+    cd karate
+    ./gradlew test --info
+
+For å kjøre backend tester mot sandbox/dev miljø (skal kunne kjøres lokalt uten problemer):
 
     cd karate
     ./gradlew sandboxTest --info
