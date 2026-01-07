@@ -16,6 +16,9 @@ daglig kl 7:00.
 Med hjelp av AWS chatbot blir failure status fra CodeBuild meldt til slack-kanal "devops-team-smile".
 
 Det kjøres også tester mot sandbox miljøet. På denne måten kan vi fange opp feil tidlig før vi forbereder en release.
+
+Sandbox testene er satt opp slik at feil ikke stopper kjøringene.
+
 Man har også mulighet til å kjøre tester mot sandbox miljøet manuelt ved å kjøre kommandoene under:
 
     cd karate
