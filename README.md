@@ -24,3 +24,14 @@ Running frontend tests against sandbox/dev environment (should be able to run th
 
     cd cypress
     npm run sandboxTest
+
+Det kjøres også tester mot sandbox miljøet. På denne måten kan vi fange opp feil tidlig før vi forbereder en release.
+
+Sandbox testene er satt opp slik at feil ikke stopper kjøringene.
+
+Man har også mulighet til å kjøre tester mot sandbox miljøet manuelt ved å kjøre kommandoene under:
+
+    cd karate
+    ./gradlew sandboxTest --info
+
+Trenger man miljøvariabler må man legge inn dette på forhånd.

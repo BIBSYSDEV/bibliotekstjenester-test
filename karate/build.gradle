@@ -21,7 +21,9 @@ sourceSets {
 }
 
 test {
-    useJUnitPlatform()
+    useJUnitPlatform {
+        excludeTags('sandbox')
+    }
     systemProperty "karate.options", System.properties.getProperty("karate.options")
     systemProperty "karate.env", System.properties.getProperty("karate.env")
     outputs.upToDateWhen { false }
@@ -29,6 +31,22 @@ test {
     options {
         systemProperties(System.getProperties())
     }
+}
+
+tasks.register('sandboxTest', Test) {
+    useJUnitPlatform {
+        includeTags('sandbox')
+    }
+
+    systemProperty "karate.options", System.properties.getProperty("karate.options")
+    systemProperty "karate.env", System.properties.getProperty("karate.env")
+    outputs.upToDateWhen { false }
+
+    options {
+        systemProperties(System.getProperties())
+    }
+
+    ignoreFailures = true
 }
 
 repositories {
