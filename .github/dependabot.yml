@@ -9,13 +9,13 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/cypress" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
   # Maintain dependencies for karate tests (gradle)
   - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/karate" # Location of package manifests
     schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    directory: "integrasjonstester"
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "/integrasjonstester"
     schedule:
-      interval: "daily"
+      interval: "weekly"
