@@ -8,17 +8,19 @@ Feature: Testing ALMA-update
 
   Scenario: get by mms_id
     * def mms_id = '999208985724702201'
-    * def params = '?mms_id=' + mms_id + '&view=full&expand=None&apikey=' + almaApiKey
+    * def params = '?mms_id=' + mms_id + '&view=full&expand=None'
     Given url BasePath + params
+    And header Authorization = 'apikey ' + almaApiKey
     When method get
     Then status 200
     And match response == expectedResponse
 
   Scenario: get record by mms_id, update 856 and reset record to former state
     * def mms_id = '999208985724702201'
-    * def getParams = '?mms_id=' + mms_id + '&apikey=' + almaApiKey
-    * def putParams = '/' + mms_id + '?apikey=' + almaApiKey
+    * def getParams = '?mms_id=' + mms_id
+    * def putParams = '/' + mms_id
     Given url BasePath + getParams
+    And header Authorization = 'apikey ' + almaApiKey
     When method get
     Then status 200
     * def orgRecord = response
@@ -31,6 +33,7 @@ Feature: Testing ALMA-update
     * xml xmlRecord = bibRecord
 
     Given url BasePath + putParams
+    And header Authorization = 'apikey ' + almaApiKey
     And request xmlRecord
     When method put
     Then status 200
@@ -38,6 +41,7 @@ Feature: Testing ALMA-update
     And match resp.bib.record.datafield[25]._.subfield[0]._ == testText
 
     Given url BasePath + getParams
+    And header Authorization = 'apikey ' + almaApiKey
     When method get
     Then status 200
     * json resp = response
@@ -49,6 +53,7 @@ Feature: Testing ALMA-update
     * def orgBibRecord = orgRecordAsJson.bibs._
     * xml orgRecord = orgBibRecord
     Given url BasePath + putParams
+    And header Authorization = 'apikey ' + almaApiKey
     And request orgRecord
     When method put
     Then status 200
