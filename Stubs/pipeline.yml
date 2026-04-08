@@ -349,8 +349,6 @@ Resources:
         Type: GITHUB
         Location: https://github.com/BIBSYSDEV/bibliotekstjenester-test.git
         BuildSpec: 'Stubs/buildspec.yml'
-      Triggers:
-        Webhook: true
       TimeoutInMinutes: 30
       Cache:
         Type: S3
