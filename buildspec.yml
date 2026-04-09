@@ -18,7 +18,6 @@ phases:
       - echo $CODEBUILD_WEBHOOK_TRIGGER
       - echo $CODEBUILD_WEBHOOK_BASE_REF
       - echo $CODEBUILD_SRC_DIR
-      - env
       - node -v
       - aws --version
       - aws dynamodb batch-write-item --request-items file://dynamoDB/prepped.json

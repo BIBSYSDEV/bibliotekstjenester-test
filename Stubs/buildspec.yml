@@ -12,12 +12,12 @@ phases:
       - pip3 install --upgrade cfn-lint
       - pip3 install --upgrade awscli
       - pip3 install aws-sam-cli -U
-      - pip3 install --upgrade pip -r Stubs/requirements.txt
+      - pip3 install --upgrade pip
+      - pip3 install -r Stubs/requirements.txt
 
   pre_build:
     commands:
       - echo "pre_build steps for revision ${CODEBUILD_RESOLVED_SOURCE_VERSION}..."
-      - env
       - aws --version
       - cfn-lint -v
       - sam --version
