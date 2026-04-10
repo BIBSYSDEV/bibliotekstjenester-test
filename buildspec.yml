@@ -11,6 +11,7 @@ phases:
       - node -v
       - npm -v
       - npm i -g npm
+      - npm -v
   pre_build:
     commands:
       - echo "pre_build steps for revision ${CODEBUILD_RESOLVED_SOURCE_VERSION}..."
