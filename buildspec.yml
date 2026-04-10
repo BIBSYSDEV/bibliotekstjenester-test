@@ -12,6 +12,7 @@ phases:
       - npm -v
       - npm i -g npm
       - npm -v
+      - which npm
   pre_build:
     commands:
       - echo "pre_build steps for revision ${CODEBUILD_RESOLVED_SOURCE_VERSION}..."
@@ -25,6 +26,8 @@ phases:
 
   build:
     commands:
+      - npm -v
+      - which npm
       - cd cypress
       - npm ci
       - npm run sandboxTest || true
