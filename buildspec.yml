@@ -10,7 +10,7 @@ phases:
     commands:
       - node -v
       - npm -v
-      - npm i -g npm
+      - npm i -g npm@12
       - npm -v
   pre_build:
     commands:
@@ -27,6 +27,7 @@ phases:
     commands:
       - cd cypress
       - npm ci
+      - npm run cypress:install
       - npm run sandboxTest || true
       - npm test
       - cd ../karate

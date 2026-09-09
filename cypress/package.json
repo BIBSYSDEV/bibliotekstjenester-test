@@ -8,6 +8,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
+    "cypress:install": "cypress install",
     "test": "cypress run --spec 'cypress/e2e/**/*.cy.js'",
     "sandboxTest": "cypress run --spec 'cypress/e2e_sandbox/**/*.cy.js'"
   },
@@ -16,5 +17,8 @@
   },
   "devDependencies": {
     "prettier": "3.9.6"
+  },
+  "allowScripts": {
+    "cypress@15.20.0": true
   }
 }

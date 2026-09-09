@@ -41,3 +41,5 @@ For å kjøre backend tester mot sandbox/dev miljø (skal kunne kjøres lokalt u
     ./gradlew sandboxTest --info
 
 Trenger man miljøvariabler må man legge inn dette på forhånd.
+
+Ved oppgradering av Cypress: kjør `npm install-scripts approve cypress` i `cypress/` og commit `package.json` — `allowScripts` er låst til versjonsnummeret.
