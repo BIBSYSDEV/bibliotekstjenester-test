@@ -13,7 +13,7 @@
     "sandboxTest": "cypress run --spec 'cypress/e2e_sandbox/**/*.cy.js'"
   },
   "dependencies": {
-    "cypress": "15.20.0"
+    "cypress": "16.0.0"
   },
   "devDependencies": {
     "prettier": "3.9.6"
