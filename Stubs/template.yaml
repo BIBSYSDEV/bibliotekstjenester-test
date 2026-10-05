@@ -53,6 +53,11 @@ Resources:
       StageName: v1
       EndpointConfiguration:
         Type: REGIONAL
+      MethodSettings:
+        - ResourcePath: '/*'
+          HttpMethod: '*'
+          ThrottlingRateLimit: 50
+          ThrottlingBurstLimit: 100
       DefinitionBody:
         openapi: 3.0.3
         info:
