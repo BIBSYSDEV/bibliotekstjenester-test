@@ -1,25 +1,12 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
 version: 2
 updates:
-  # Maintain dependencies for cypress tests
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/cypress" # Location of package manifests
-    schedule:
-      interval: "weekly"
-    cooldown:
-      default-days: 7
-  # Maintain dependencies for karate tests (gradle)
-  - package-ecosystem: "gradle" # See documentation for possible values
-    directory: "/karate" # Location of package manifests
-    schedule:
-      interval: "weekly"
   - package-ecosystem: "npm"
-    directory: "/integrasjonstester"
+    directory: "/cypress"
     schedule:
       interval: "weekly"
     cooldown:
       default-days: 7
+  - package-ecosystem: "gradle"
+    directory: "/karate"
+    schedule:
+      interval: "weekly"
