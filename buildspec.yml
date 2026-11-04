@@ -28,11 +28,11 @@ phases:
       - cd cypress
       - npm ci
       - npm run cypress:install
-      - npm run sandboxTest || true
+      - npm run sandboxTest
       - npm test
       - cd ../karate
-      - ./gradlew sandboxTest --info
       - ./gradlew test --info
+      - ./gradlew sandboxTest --info
 
   post_build:
     commands:
