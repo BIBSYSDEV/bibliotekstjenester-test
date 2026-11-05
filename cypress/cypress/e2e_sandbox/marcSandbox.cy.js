@@ -7,10 +7,6 @@ const fileNameLineFormat = 'marcpresentation.txt';
 
 context('end to end testing, marc sandbox', () => {
 
-  before('Clear downloads folder', () => {
-    cy.exec(`rm ${downloadsFolder}/*`, { log: true, failOnNonZeroExit: false });
-  });
-
   it('successfully shows a full page with data from alma-api', () => {
     cy.visit(`${marPresenteationBaseUrl}?mms_id=990600890834702201`);
     cy.get('[data-testid="page-header"]').should('exist');
