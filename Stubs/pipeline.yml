@@ -63,6 +63,11 @@ Parameters:
     Type: String
     Default: test-stubbing-api
     Description: The name to use for the CloudFormation stack managed by this pipeline.
+  GitHubOAuthToken:
+    Description: OAuth token used by AWS CodePipeline to connect to GitHub
+    NoEcho: true
+    Type: String
+    Default: '{{resolve:secretsmanager:githubtoken:SecretString}}'
   GitHubConnectionArn:
     Description: SSM parameter holding the ARN of the CodeConnections (GitHub App) connection used by CodePipeline to read the repo
     Type: AWS::SSM::Parameter::Value<String>
