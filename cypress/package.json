@@ -16,7 +16,7 @@
     "cypress": "16.2.1"
   },
   "devDependencies": {
-    "prettier": "3.9.10"
+    "prettier": "3.10.1"
   },
   "allowScripts": {
     "cypress@16.2.1": true
